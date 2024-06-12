@@ -8,11 +8,11 @@ This is a port of the EmulationStation-DE theme Canvas-es-de located [here](http
 | System View | Gamelist View |
 | --- | --- |
 |![Main-System](https://github.com/Siddy212/canvas-es/assets/60283021/145a9266-0c50-4f3a-975b-73a5f77afb09)|![Detailed-Dark](https://github.com/Siddy212/canvas-es/assets/60283021/d10fd39a-e451-40f2-b601-ef5bbefd7a4c)|
-
-
+|![SonyIcon](https://github.com/Siddy212/canvas-es/assets/60283021/9bc52c76-36bf-4cd7-86c4-df3fffb536bc)|![Sony-Grid](https://github.com/Siddy212/canvas-es/assets/60283021/a67affbf-b961-4841-8c56-2b6dae782a6b)|
 
 
 # **Configuration Options**
+
 
 - This theme has a simple set of options that can be changed directly from the UI Settings menu of EmulationStation.
    ## **Gamelist Style**
