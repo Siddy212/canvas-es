@@ -14,6 +14,23 @@ Licnese: Creative Commons CC-BY-NC-SA
 	<include>./fonts.xml</include>
 	<include>./file_paths.xml</include>
 	<include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+	
+	<!--
+   ///
+   Aspect Ratios
+   ///
+   -->
+
+	<subset name="aspect-ratio" displayName="Aspect Ratio">
+		<include if="{screen.ratio} == '1/1'" name="1-1-auto" displayName="Automatic" />
+		<include if="{screen.ratio} == '16/9'" name="16-9-auto" displayName="Automatic" />
+		<include if="{screen.ratio} == '16/10'" name="16-10-auto" displayName="Automatic" />
+		<include if="{screen.ratio} == '4/3'" name="4-3-auto" displayName="Automatic" />
+		<include name="16-9" displayName="16:9" />
+		<include name="16-10" displayName="16:10" />
+		<include name="4-3" displayName="4:3" />
+		<include name="1-1" displayName="1:1" />
+	</subset>
 
    <!--
    ///
@@ -70,7 +87,7 @@ Licnese: Creative Commons CC-BY-NC-SA
    ///
    -->
 
-   <subset name="icon-scheme" displayName="Icon Style">
+   <subset name="icon-scheme" displayName="System Icon Style">
       <include name="art" displayName="Art"/>
       <include name="icon" displayName="Icons"/>
       <include name="custom-art" displayName="Custom (Art)" />
@@ -136,17 +153,6 @@ Licnese: Creative Commons CC-BY-NC-SA
    Aspect Ratios
    ///
    -->
-
-	<subset name="aspect-ratio" displayName="Aspect Ratio">
-		<include if="{screen.ratio} == '1/1'" name="1-1-auto" displayName="Automatic" />
-		<include if="{screen.ratio} == '16/9'" name="16-9-auto" displayName="Automatic" />
-		<include if="{screen.ratio} == '16/10'" name="16-10-auto" displayName="Automatic" />
-		<include if="{screen.ratio} == '4/3'" name="4-3-auto" displayName="Automatic" />
-		<include name="16-9" displayName="16:9" />
-		<include name="16-10" displayName="16:10" />
-		<include name="4-3" displayName="4:3" />
-		<include name="1-1" displayName="1:1" />
-	</subset>
 
    <include ifSubset="aspect-ratio:16-9|16-9-auto">./aspect-ratio-16-9.xml</include>
    <include ifSubset="aspect-ratio:16-10|16-10-auto">./aspect-ratio-16-10.xml</include>
