@@ -1,0 +1,87 @@
+<theme>
+   <!-- System Grid 4-5 -->
+   <variables ifSubset="font-size:small">
+      <gridItemSize>0.1417 0.2833</gridItemSize>
+      <gridItemPos>0.5625</gridItemPos>
+      <gridHeight>0.85</gridHeight>
+      <itemcount>3.5</itemcount>
+      <itemsize>0.36 0.45</itemsize>
+      <systemDescriptionFontSize>0.033</systemDescriptionFontSize>
+      <helpFontSize>0.022</helpFontSize>
+      <helpFontSizeSmall>0.018</helpFontSizeSmall>
+      <helpPos>0.04</helpPos>
+      <helpPosSmall>0.03</helpPosSmall>
+      <gamescountpos>0.95</gamescountpos>
+      <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-small.svg</gamelistBackgroundImageCalculated>
+      <gamelistFontSize>0.025</gamelistFontSize>
+      <gamelistSelectorHeight>0.039814814814815</gamelistSelectorHeight>
+      <gamelistLineSpacing>1.851851851851852</gamelistLineSpacing>
+      <gamelistPos>0.547291666666667 0.116666666666667</gamelistPos>
+      <itemsBeforeCenter>3.5</itemsBeforeCenter>
+      <itemsAfterCenter>3.5</itemsAfterCenter>   
+      <itemSizeCarousel>0.24 0.175</itemSizeCarousel>
+   </variables>
+   <variables ifSubset="font-size:medium">
+      <gridItemSize>0.2125 0.4250</gridItemSize>
+      <gridItemPos>0.5625</gridItemPos>
+      <gridHeight>0.85</gridHeight>
+      <itemcount>3.5</itemcount>
+      <itemsize>0.36 0.45</itemsize>
+      <systemDescriptionFontSize>0.038</systemDescriptionFontSize>
+      <helpFontSize>0.030</helpFontSize>
+      <helpFontSizeSmall>0.018</helpFontSizeSmall>
+      <helpPos>0.04</helpPos>
+      <helpPosSmall>0.03</helpPosSmall>
+      <gamescountpos>0.95</gamescountpos>
+      <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-medium.svg</gamelistBackgroundImageCalculated>
+      <gamelistFontSize>0.033333333333333</gamelistFontSize>
+      <gamelistSelectorHeight>0.051388888888889</gamelistSelectorHeight>
+      <gamelistLineSpacing>1.736111111111111</gamelistLineSpacing>
+      <gamelistPos>0.547291666666667 0.133666666666667</gamelistPos>
+      <itemsBeforeCenter>3</itemsBeforeCenter>
+      <itemsAfterCenter>3</itemsAfterCenter>
+      <itemSizeCarousel>0.26 0.2</itemSizeCarousel>
+   </variables>
+   <variables ifSubset="font-size:large">
+      <gridItemSize>0.2125 0.4250</gridItemSize>
+      <gridItemPos>0.5625</gridItemPos>
+      <gridHeight>0.85</gridHeight>
+      <itemcount>3</itemcount>
+      <itemsize>0.4 0.5</itemsize>
+      <systemDescriptionFontSize>0.040</systemDescriptionFontSize>
+      <helpFontSize>0.032</helpFontSize>
+      <helpFontSizeSmall>0.018</helpFontSizeSmall>
+      <helpPos>0.04</helpPos>
+      <helpPosSmall>0.03</helpPosSmall>
+      <gamescountpos>0.95</gamescountpos>
+      <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-large.svg</gamelistBackgroundImageCalculated>
+      <gamelistFontSize>0.039814814814815</gamelistFontSize>
+      <gamelistSelectorHeight>0.062962962962963</gamelistSelectorHeight>
+      <gamelistLineSpacing>1.744186046511628</gamelistLineSpacing>
+      <gamelistPos>0.547291666666667 0.133666666666667</gamelistPos>
+      <itemsBeforeCenter>3</itemsBeforeCenter>
+      <itemsAfterCenter>3</itemsAfterCenter>
+      <itemSizeCarousel>0.26 0.2</itemSizeCarousel>
+   </variables>
+   <variables ifSubset="font-size:x-large" >
+      <gridItemSize>0.2125 0.4250</gridItemSize>
+      <gridItemPos>0.5625</gridItemPos>
+      <gridHeight>0.85</gridHeight>
+      <itemcount>1</itemcount>
+      <itemsize>0.4 0.5</itemsize>
+      <systemDescriptionFontSize>0.043</systemDescriptionFontSize>
+      <helpFontSize>0.033</helpFontSize>
+      <helpFontSizeSmall>0.018</helpFontSizeSmall>
+      <helpPos>0.045</helpPos>
+      <helpPosSmall>0.03</helpPosSmall>
+      <gamescountpos>0.95</gamescountpos>
+      <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-large.svg</gamelistBackgroundImageCalculated>
+      <gamelistFontSize>0.039814814814815</gamelistFontSize>
+      <gamelistSelectorHeight>0.062962962962963</gamelistSelectorHeight>
+      <gamelistLineSpacing>1.744186046511628</gamelistLineSpacing>
+      <gamelistPos>0.547291666666667 0.133666666666667</gamelistPos>
+      <itemsBeforeCenter>3</itemsBeforeCenter>
+      <itemsAfterCenter>3</itemsAfterCenter>
+      <itemSizeCarousel>0.26 0.2</itemSizeCarousel>
+   </variables>
+</theme>

@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>Android Apps</systemName>
+      <systemDescription>View and use your favorite Android Apps.</systemDescription>
+      <systemManufacturer>Various</systemManufacturer>
+      <systemReleaseYear>Various</systemReleaseYear>
+      <systemReleaseDate>Various</systemReleaseDate>
+      <systemReleaseDateFormated>Various</systemReleaseDateFormated>
+      <systemHardwareType>Folder</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemColor>5A9035</systemColor>
+      <systemColorPalette1>4086F4</systemColorPalette1>
+      <systemColorPalette2>EB4132</systemColorPalette2>
+      <systemColorPalette3>FBBD00</systemColorPalette3>
+      <systemColorPalette4>31AA52</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

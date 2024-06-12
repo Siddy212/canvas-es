@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+	   	
+   <!--
+   ///
+   Subset: Auto Grid Options
+   ///
+   -->
+	<subset name="autogridsize" displayName="Automatic Grid Size" appliesTo="grid" >
+		<include name="large" displayName="2 Rows"/>
+		<include name="medium" displayName="3 Rows"/>
+		<include name="small" displayName="4 Rows"/>
+	</subset>
+
+	<!-- Game Grid View -->
+	<!-- ~~~~~~~~~~~ -->
+	<view name="grid">
+		
+		<imagegrid name="gamegrid">
+			<autoLayout ifSubset="autogridsize:large">0 2</autoLayout>
+			<autoLayout ifSubset="autogridsize:medium">0 3</autoLayout>
+			<autoLayout ifSubset="autogridsize:small">0 4</autoLayout>
+			<cellProportion>0.8</cellProportion>
+			<cellProportion if="${systemCoverSize} == '1-1'">1</cellProportion>
+			<cellProportion if="${systemCoverSize} == '1-2'">0.5</cellProportion>
+			<cellProportion if="${systemCoverSize} == '3-4'">0.75</cellProportion>
+			<cellProportion if="${systemCoverSize} == '3-5'">0.6</cellProportion>
+			<cellProportion if="${systemCoverSize} == '4-3'">1.33333333333</cellProportion>
+			<cellProportion if="${systemCoverSize} == '5-7'">0.71428571428</cellProportion>
+			<cellProportion if="${systemCoverSize} == '99-168'">0.58928571428</cellProportion>
+			<cellProportion if="${systemCoverSize} == '105-170'">0.61764705882</cellProportion>
+			<cellProportion if="${systemCoverSize} == '112-67'">1.67164179104</cellProportion>
+			<cellProportion if="${systemCoverSize} == '135-172'">0.78488372093</cellProportion>
+			<cellProportion if="${systemCoverSize} == '143-207'">0.69082125603</cellProportion>
+			<cellProportion if="${systemCoverSize} == '145-205'">0.70048309178</cellProportion>
+			<cellProportion if="${systemCoverSize} == '243-340'">0.71470588235</cellProportion>
+			<cellProportion if="${systemCoverSize} == '257-229'">1.122</cellProportion>
+			<cellProportion if="${systemCoverSize} == '373-436'">0.85550458715</cellProportion>
+			<cellProportion if="${systemCoverSize} == '752-1440'">0.52222222222</cellProportion>
+		</imagegrid>
+		<imagegrid name="gamegrid">
+			<imageSizeMode>minSize</imageSizeMode>
+			<margin>0.015</margin>
+      		<pos>0.0125 0.08</pos>
+      		<size ifSubset="metadata:on">0.975 0.72</size>
+      		<size ifSubset="metadata:off">0.975 0.78</size>
+			<padding>7 7 7 7</padding>			
+			<imageSource>cover</imageSource>
+			<scrollbarColor>${secondaryColor}</scrollbarColor>
+			<scrollbarCorner>0.49</scrollbarCorner>
+			<scrollbarSize>0.005</scrollbarSize>
+			<scrollbarAlignment>right</scrollbarAlignment>
+			<autoLayoutSelectedZoom>1.05</autoLayoutSelectedZoom>
+            <zIndex>20</zIndex>
+		</imagegrid>
+		<gridtile name="default">
+			<backgroundColor>00000007</backgroundColor>
+			<backgroundEdgeColor>00000007</backgroundEdgeColor>
+			<backgroundCornerSize>11 11</backgroundCornerSize>
+			<selectionMode>image</selectionMode>
+			<imageSizeMode>maxSize</imageSizeMode>
+			<padding>3.5 3.5</padding>
+              <path>./_inc/systems/system-grid/square-bg.png</path>
+		</gridtile>
+    	<image name="gridtile.image">
+			<linearSmooth>true</linearSmooth>
+			<roundCorners>${CornersGrid}</roundCorners>
+			<scale>0.99</scale>
+    	</image>  
+    	<ninepatch name="gridtile.background:selected">
+			<color>${systemCarouselSelectorColor}</color>
+			<animateColor>${systemCarouselSelectorColor}00</animateColor>
+			<animateColorTime>800</animateColorTime>
+			<scale>0.9</scale>
+    	</ninepatch>
+		
+	</view>
+</theme>

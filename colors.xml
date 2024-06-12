@@ -1,0 +1,179 @@
+﻿<theme>
+
+
+   <!--   System View: Art Default   -->
+
+
+
+
+   <variables ifSubset="color-scheme:light|custom">
+         <helpTextColor>555555</helpTextColor>
+         <backgroundColor>373737</backgroundColor>
+         <systemInfoColor>555555</systemInfoColor>
+         <systemCarouselTextColor>555555</systemCarouselTextColor>
+         <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
+         <systemCarouselSelectorColor>FFFFFF</systemCarouselSelectorColor>
+         <gamelistLogoColor>555555</gamelistLogoColor>
+         <gamelistBackgroundImage>gamelist-background-light</gamelistBackgroundImage>
+         <gamelistBackgroundOpacity>0.8</gamelistBackgroundOpacity>
+         <gamelistMetadataBackgroundImage>gamelist-metadata-background-light</gamelistMetadataBackgroundImage>
+         <gamelistSelectorColor>404040</gamelistSelectorColor>
+         <gamelistSelectedColor>ffffff</gamelistSelectedColor>
+         <gamelistPrimaryColor>666666</gamelistPrimaryColor>
+         <gamelistSecondaryColor>666666</gamelistSecondaryColor>
+         <gameMetadataColor>666666</gameMetadataColor>
+         <BackdropColor>555555</BackdropColor>
+         <backgroundArtPath ifSubset="color-scheme:light">./wallpapers/light.webp</backgroundArtPath>
+         <backgroundArtPath ifSubset="color-scheme:custom">firstfile("${themeCustomizationsPath} + "wallpaper" + ".webp","${themeCustomizationsPath}" + "wallpaper" + ".jpg")</backgroundArtPath>
+         <backgroundArtOpacity>0.8</backgroundArtOpacity>
+         <menuBackgroundColor>111111</menuBackgroundColor>
+   </variables>
+   <variables ifSubset="color-scheme:dark">
+         <helpTextColor>999999</helpTextColor>
+         <backgroundColor>373737</backgroundColor>
+         <systemInfoColor>cccccc</systemInfoColor>
+         <systemCarouselTextColor>cccccc</systemCarouselTextColor>
+         <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
+         <systemCarouselSelectorColor>ffffff</systemCarouselSelectorColor>
+         <gamelistCarouselBackground>carousel-background-dark</gamelistCarouselBackground>
+         <gamelistLogoColor>cccccc</gamelistLogoColor>
+         <gamelistBackgroundImage>gamelist-background-dark</gamelistBackgroundImage>
+         <gamelistBackgroundOpacity>1</gamelistBackgroundOpacity>
+         <gamelistMetadataBackgroundImage>gamelist-metadata-background-dark</gamelistMetadataBackgroundImage>
+         <gamelistSelectorColor>777777</gamelistSelectorColor>
+         <gamelistSelectedColor>ffffff</gamelistSelectedColor>
+         <gamelistPrimaryColor>777777</gamelistPrimaryColor>
+         <gamelistSecondaryColor>777777</gamelistSecondaryColor>
+         <gameMetadataColor>bbbbbb</gameMetadataColor>
+         <BackdropColor>bbbbbb</BackdropColor>
+         <backgroundArtPath>./wallpapers/dark.webp</backgroundArtPath>
+         <backgroundArtOpacity>1</backgroundArtOpacity>
+         <menuBackgroundColor>373737</menuBackgroundColor>
+   </variables>
+   <variables ifSubset="color-scheme:retro">
+         <helpTextColor>5b5a58</helpTextColor>
+         <backgroundColor>846D21</backgroundColor>
+         <systemInfoColor>5b5a58</systemInfoColor>
+         <systemCarouselTextColor>5b5a58</systemCarouselTextColor>
+         <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
+         <systemCarouselSelectorColor>93cbb7</systemCarouselSelectorColor>
+         <gamelistLogoColor>5b5a58</gamelistLogoColor>
+         <gamelistBackgroundImage>gamelist-background-light</gamelistBackgroundImage>
+         <gamelistBackgroundOpacity>1</gamelistBackgroundOpacity>
+         <gamelistMetadataBackgroundImage>gamelist-metadata-background-light</gamelistMetadataBackgroundImage>
+         <gamelistSelectorColor>488788</gamelistSelectorColor>
+         <gamelistSelectedColor>ffffff</gamelistSelectedColor>
+         <gamelistPrimaryColor>777777</gamelistPrimaryColor>
+         <gamelistSecondaryColor>777777</gamelistSecondaryColor>
+         <gameMetadataColor>777777</gameMetadataColor>
+         <BackdropColor>dedede</BackdropColor>
+         <backgroundArtPath>./wallpapers/retro.webp</backgroundArtPath>
+         <backgroundArtOpacity>0.9</backgroundArtOpacity>
+         <menuBackgroundColor>fbf6de</menuBackgroundColor>
+   </variables>
+   <variables ifSubset="color-scheme:neon">
+         <helpTextColor>FFFFFF</helpTextColor>
+         <backgroundColor>74006c</backgroundColor>
+         <systemInfoColor>FFFFFF</systemInfoColor>
+         <systemCarouselTextColor>FFFFFF</systemCarouselTextColor>
+         <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
+         <systemCarouselSelectorColor>74006c</systemCarouselSelectorColor>
+         <gamelistLogoColor>FFFFFF</gamelistLogoColor>
+         <gamelistBackgroundImage>gamelist-background-dark</gamelistBackgroundImage>
+         <gamelistBackgroundOpacity>1</gamelistBackgroundOpacity>
+         <gamelistMetadataBackgroundImage>gamelist-metadata-background-dark</gamelistMetadataBackgroundImage>
+         <gamelistSelectorColor>b304c5</gamelistSelectorColor>
+         <gamelistSelectedColor>ffffff</gamelistSelectedColor>
+         <gamelistPrimaryColor>FFFFFF</gamelistPrimaryColor>
+         <gamelistSecondaryColor>FFFFFF</gamelistSecondaryColor>
+         <gameMetadataColor>FFFFFF</gameMetadataColor>
+         <BackdropColor>111111</BackdropColor>
+         <backgroundArtPath>./wallpapers/neon.webp</backgroundArtPath>
+         <backgroundArtOpacity>0.75</backgroundArtOpacity>
+         <menuBackgroundColor>111111</menuBackgroundColor>
+   </variables>
+   <variables ifSubset="color-scheme:pastel">
+         <helpTextColor>777777</helpTextColor>
+         <backgroundColor>bbbbbb</backgroundColor>
+         <systemInfoColor>777777</systemInfoColor>
+         <systemCarouselTextColor>777777</systemCarouselTextColor>
+         <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
+         <systemCarouselSelectorColor>A7C7E7</systemCarouselSelectorColor>
+         <gamelistLogoColor>777777</gamelistLogoColor>
+         <gamelistBackgroundImage>gamelist-background-light</gamelistBackgroundImage>
+         <gamelistBackgroundOpacity>0.6</gamelistBackgroundOpacity>
+         <gamelistMetadataBackgroundImage>gamelist-metadata-background-light</gamelistMetadataBackgroundImage>
+         <gamelistSelectorColor>A7C7E7</gamelistSelectorColor>
+         <gamelistSelectedColor>ffffff</gamelistSelectedColor>
+         <gamelistPrimaryColor>777777</gamelistPrimaryColor>
+         <gamelistSecondaryColor>777777</gamelistSecondaryColor>
+         <gameMetadataColor>777777</gameMetadataColor>
+         <BackdropColor>dedede</BackdropColor>
+         <backgroundArtPath>./wallpapers/pastel.webp</backgroundArtPath>
+         <backgroundArtOpacity>0.75</backgroundArtOpacity>
+         <menuBackgroundColor>f2e9e7</menuBackgroundColor>
+   </variables>
+  <variables ifSubset="color-scheme:famicom">
+         <helpTextColor>e4e5ca</helpTextColor>
+         <backgroundColor>846D21</backgroundColor>
+         <systemInfoColor>e4e5ca</systemInfoColor>
+         <systemCarouselTextColor>3b3b3b</systemCarouselTextColor>
+         <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
+         <systemCarouselSelectorColor>846D21</systemCarouselSelectorColor>
+         <gamelistLogoColor>e4e5ca</gamelistLogoColor>
+         <gamelistBackgroundImage>gamelist-background-beige</gamelistBackgroundImage>
+         <gamelistBackgroundOpacity>0.8</gamelistBackgroundOpacity>
+         <gamelistMetadataBackgroundImage>gamelist-metadata-background-beige</gamelistMetadataBackgroundImage>
+         <gamelistSelectorColor>846D21</gamelistSelectorColor>
+         <gamelistSelectedColor>ffffff</gamelistSelectedColor>
+         <gamelistPrimaryColor>3b3b3b</gamelistPrimaryColor>
+         <gamelistSecondaryColor>3b3b3b</gamelistSecondaryColor>
+         <gameMetadataColor>3b3b3b</gameMetadataColor>
+         <BackdropColor>fbf6de</BackdropColor>
+         <backgroundArtPath>./wallpapers/famicom.webp</backgroundArtPath>
+         <backgroundArtOpacity>0.9</backgroundArtOpacity>
+         <menuBackgroundColor>771f26</menuBackgroundColor>
+   </variables>
+  <variables ifSubset="color-scheme:snes">
+         <helpTextColor>3c3b3b</helpTextColor>
+         <backgroundColor>bdbcc1</backgroundColor>
+         <systemInfoColor>3c3b3b</systemInfoColor>
+         <systemCarouselTextColor>3b3b3b</systemCarouselTextColor>
+         <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
+         <systemCarouselSelectorColor>4a3580</systemCarouselSelectorColor>
+         <gamelistLogoColor>3c3b3b</gamelistLogoColor>
+         <gamelistBackgroundImage>gamelist-background-retro</gamelistBackgroundImage>
+         <gamelistBackgroundOpacity>1</gamelistBackgroundOpacity>
+         <gamelistMetadataBackgroundImage>gamelist-metadata-background-retro</gamelistMetadataBackgroundImage>
+         <gamelistSelectorColor>4a3580</gamelistSelectorColor>
+         <gamelistSelectedColor>ffffff</gamelistSelectedColor>
+         <gamelistPrimaryColor>3c3b3b</gamelistPrimaryColor>
+         <gamelistSecondaryColor>3c3b3b</gamelistSecondaryColor>
+         <gameMetadataColor>3c3b3b</gameMetadataColor>
+         <BackdropColor>dedede</BackdropColor>
+         <backgroundArtPath>./wallpapers/snes.webp</backgroundArtPath>
+         <backgroundArtOpacity>0.9</backgroundArtOpacity>
+         <menuBackgroundColor>bdbcc1</menuBackgroundColor>
+   </variables>
+  <variables ifSubset="color-scheme:sony">
+         <helpTextColor>ffffff</helpTextColor>
+         <backgroundColor>ffffff</backgroundColor>
+         <systemInfoColor>ffffff</systemInfoColor>
+         <systemCarouselTextColor>ffffff</systemCarouselTextColor>
+         <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
+         <systemCarouselSelectorColor>ffffff</systemCarouselSelectorColor>
+         <gamelistLogoColor>ffffff</gamelistLogoColor>
+         <gamelistBackgroundImage>gamelist-background-clear</gamelistBackgroundImage>
+         <gamelistBackgroundOpacity>.6</gamelistBackgroundOpacity>
+         <gamelistMetadataBackgroundImage>gamelist-metadata-background-clear</gamelistMetadataBackgroundImage>
+         <gamelistSelectorColor>253f81</gamelistSelectorColor>
+         <gamelistSelectedColor>ffffff</gamelistSelectedColor>
+         <gamelistPrimaryColor>ffffff</gamelistPrimaryColor>
+         <gamelistSecondaryColor>ffffff</gamelistSecondaryColor>
+         <gameMetadataColor>ffffff</gameMetadataColor>
+         <BackdropColor>ffffff</BackdropColor>
+         <backgroundArtPath>./wallpapers/sony.webp</backgroundArtPath>
+         <backgroundArtOpacity>0.75</backgroundArtOpacity>
+         <menuBackgroundColor>207cc575</menuBackgroundColor>
+   </variables>
+</theme>

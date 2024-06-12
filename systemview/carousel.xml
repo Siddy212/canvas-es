@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme defaultTransition="instant">
+	<formatVersion>7</formatVersion>
+	
+
+    <!-- System View: Carousel-->
+	<!-- ~~~~~~~~~~~ -->
+	<view name="system" ifSubset="system-view:carousel">
+		<carousel name="systemcarousel">
+			<type>horizontal</type>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.48</pos>
+			<size>1 1</size>
+			<logoSize>${itemsize}</logoSize>
+			<maxLogoCount>${itemcount}</maxLogoCount>
+			<color>ffffff00</color>
+			<logoScale>1.3</logoScale>
+			<scaledLogoSpacing>${logospacing}</scaledLogoSpacing>
+			<minLogoOpacity>0.9</minLogoOpacity>
+			<logoAlignment>center</logoAlignment>
+            <defaultTransition>instant</defaultTransition>
+			<systemInfoDelay>0.05</systemInfoDelay>
+			<linearSmooth>true</linearSmooth>
+			<!-- System View: Carousel (Art)-->
+			<!-- ~~~~~~~~~~~ -->
+			<itemTemplate ifSubset="icon-scheme:art,custom-art">
+				<storyboard event="activate">
+					<animation property="scale" to="1.05" duration="150" mode="easeOut"/>
+				</storyboard>
+				<storyboard event="deactivate">
+					<animation property="scale" to="1" duration="250" mode="easeOut"/>
+				</storyboard> 
+				<image name="shade" extra="true">
+					<path>./_inc/systems/system-grid/square-bg.png</path>
+					<pos>0.5 0.82</pos>
+					<origin>0.5 1</origin>
+					<maxSize>0.84 0.84</maxSize>
+					<roundCorners ifSubset="font-size:medium|large">${CornersLarge}</roundCorners>
+					<roundCorners ifSubset="font-size:small">${CornersMedium}</roundCorners>
+            		<zIndex>2</zIndex>
+            	</image>
+          		<image name="systemBack" extra="true">
+					<path ifSubset="icon-scheme:art">${themePath}/_inc/systems/carousel-icons-art/{system:theme}.webp</path>
+					<path ifSubset="icon-scheme:custom-art">${themeCustomizationsPath}/art/{system:theme}.webp</path>
+					<path ifSubset="icon-scheme:custom-art">${themeCustomizationsPath}/art/{system:theme}.png</path>
+					<path ifSubset="icon-scheme:custom-art">${themeCustomizationsPath}/art/{system:theme}.jpg</path>
+					<pos>0.5 0.78</pos>
+					<origin>0.5 1</origin>
+					<maxSize>0.75 0.75</maxSize>
+					<scale>1</scale>
+					<roundCorners ifSubset="font-size:medium|large">${CornersLarge}</roundCorners>
+					<roundCorners ifSubset="font-size:small">${CornersMedium}</roundCorners>
+					<opacity>.90</opacity>
+					<linearSmooth>true</linearSmooth>
+					<zIndex>3</zIndex>
+          		</image>
+				<text name="systemyear" alignment="center" multiLine="true">
+					<origin>0.5 0</origin>
+					<pos>0.5 0.9</pos>
+					<size>0.5 0.2</size>
+					<forceUppercase>true</forceUppercase>
+					<text>{system:releaseYear}</text>
+						<fontSize>${systemYearFontSize}</fontSize>
+						<fontPath>${fontBold}</fontPath>
+					<color>${systemInfoColor}</color>
+					<scale>1</scale>
+					<zIndex>10</zIndex>
+				</text>
+				<text name="fallbackText" alignment="center" multiLine="true">
+					<origin>0 0.5</origin>
+					<pos>0 1.15</pos>
+					<size>1 1</size>
+					<forceUppercase>true</forceUppercase>
+					<visible>false</visible>
+					<visible ifSubset="icon-scheme:art">!exists("${themePath}/_inc/systems/carousel-icons-art/" + {system:theme} + ".webp")</visible>
+					<text>{system:fullName}</text>
+						<fontSize>${systemDescriptionFontSize}</fontSize>
+						<fontPath>${fontBold}</fontPath>
+              		<color>${systemInfoColor}</color>
+					<scale>1.5</scale>
+					<zIndex>10</zIndex>
+				</text>
+		        <image name="theLogoImage" pos="0.5 0.92" origin="0.5 0.75" maxSize="0.6 0.16" linearSmooth="true">
+              		<path>${themePath}/_inc/systems/system/{system:theme}.svg</path>
+					<zIndex>6</zIndex>
+					<color>${systemInfoColor}</color>
+            	</image>
+			</itemTemplate>
+			
+			<!-- System View: Carousel (Icon)-->
+			<!-- ~~~~~~~~~~~ -->
+			<itemTemplate ifSubset="icon-scheme:icon">
+				<storyboard event="activate">
+					<animation property="scale" to="1.05" duration="150" mode="easeOut"/>
+				</storyboard>
+				<storyboard event="deactivate">
+					<animation property="scale" to="1" duration="250" mode="easeOut"/>
+				</storyboard> 
+				<image name="backdrop" extra="true">
+					<path>./_inc/systems/system-grid/icon.png</path>
+					<pos>0.5 0.5</pos>
+					<origin>0.5</origin>
+					<maxSize>0.8 0.9</maxSize>
+					<roundCorners ifSubset="font-size:medium|large">${CornersMedium}</roundCorners>
+					<roundCorners ifSubset="font-size:small">${CornersSmall}</roundCorners>
+					<opacity>0.6</opacity>
+					<zIndex>4</zIndex>
+					<color>${BackdropColor}</color>
+					</image>
+				<image name="shade" extra="true">
+					<path>${themePath}/_inc/systems/system-grid/4-5-bg.png</path>
+					<pos>0.5 0.5</pos>
+					<origin>0.5</origin>
+					<maxSize>0.935 0.988</maxSize>
+					<roundCorners ifSubset="font-size:medium|large">${CornersMedium}</roundCorners>
+					<roundCorners ifSubset="font-size:small">${CornersSmall}</roundCorners>
+					<opacity>0.6</opacity>
+					<zIndex>2</zIndex>
+				</image>
+				<image name="systemBack" extra="true">
+					<path>${themePath}/_inc/systems/carousel-icons-icons/{system:theme}.webp</path>
+					<path ifSubset="icon-scheme:icon">${themePath}/_inc/systems/carousel-icons-icons/{system:theme}.webp</path>
+					<path ifSubset="icon-scheme:custom-icon">${themeCustomizationsPath}/icons/{system:theme}.webp</path>
+					<path ifSubset="icon-scheme:custom-icon">${themeCustomizationsPath}/icons/{system:theme}.png</path>
+					<pos>0.5 0.45</pos>
+					<origin>0.5</origin>
+					<maxSize>0.75 0.8</maxSize>
+					<scale>1</scale>
+					<opacity>.90</opacity>
+					<linearSmooth>true</linearSmooth>
+					<zIndex>5</zIndex>
+				</image>
+				<image name="systemBack" extra="true">
+					<storyboard event="activate">
+					<animation property="opacity" to="1.00" duration="250" mode="easeOut"/>
+					</storyboard>
+					<storyboard event="deactivate">
+					<animation property="opacity" to=".90" duration="250" mode="easeOut"/>
+					</storyboard>
+				</image>
+				<text name="systemyear" alignment="center" multiLine="true">
+					<origin>0.5 0</origin>
+					<pos>0.5 0.75</pos>
+					<size>0.5 0.2</size>
+					<forceUppercase>true</forceUppercase>
+					<text>{system:releaseYear}</text>
+						<fontSize>${systemDescriptionFontSize}</fontSize>
+						<fontPath>${fontBold}</fontPath>
+					<color>${systemInfoColor}</color>
+					<scale>1</scale>
+					<zIndex>10</zIndex>
+				</text>
+				<text name="fallbackText" alignment="center" multiLine="true">
+					<origin>0 0.5</origin>
+					<pos>0 1</pos>
+					<size>1 1</size>
+					<forceUppercase>true</forceUppercase>
+					<visible>false</visible>
+					<visible ifSubset="icon-scheme:icon">!exists("${themePath}/_inc/systems/carousel-icons-art/" + {system:theme} + ".webp")</visible>
+					<text>{system:fullName}</text>
+					<fontSize>${systemDescriptionFontSize}</fontSize>
+					<fontPath>${fontBold}</fontPath>
+              		<color>${systemInfoColor}</color>
+					<scale>1.5</scale>
+					<zIndex>10</zIndex>
+				</text>
+				<image name="theLogoImage" pos="0.5 0.8" origin="0.5 1" maxSize="0.45 0.25" linearSmooth="true">
+					<path>${themePath}/_inc/systems/system/{system:theme}.svg</path>
+					<zIndex>6</zIndex>
+					<color>${systemInfoColor}</color>
+					</image>
+			</itemTemplate>
+		</carousel>
+		<text name="systemInfoGrid" extra="true">
+            <visible>false</visible>
+		</text>
+	</view>
+	
+
+ 
+</theme>
