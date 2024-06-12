@@ -1,89 +1,94 @@
 # Canvas (ES Version)
 Canvas is a theme for Emulation Station (Batocera/Knulli) that aims to provide a modern and easy to use interface with a variety of color schemes. It also provides easy customization for users to swap out wallpapers/art to their own liking.
 
+This is a port of the EmulationStation-DE theme Canvas-es-de located [here](https://github.com/Siddy212/canvas-es-de).
+
 ## **Preview**
 
 | System View | Gamelist View |
 | --- | --- |
-|![MainPastel](https://github.com/Siddy212/canvas-es-de/assets/60283021/ddeab158-b583-4fdc-82a6-b67a70f43a69)|![GamePastel](https://github.com/Siddy212/canvas-es-de/assets/60283021/b810a52b-ea17-4c7e-8b7b-d7cc040a760e)|
+|![Main-System](https://github.com/Siddy212/canvas-es/assets/60283021/145a9266-0c50-4f3a-975b-73a5f77afb09)|![Detailed-Dark](https://github.com/Siddy212/canvas-es/assets/60283021/d10fd39a-e451-40f2-b601-ef5bbefd7a4c)|
+
 
 
 
 # **Configuration Options**
 
 - This theme has a simple set of options that can be changed directly from the UI Settings menu of EmulationStation.
-   ## **Theme Options**
+   ## **Gamelist Style**
    - `Gamelist View Style` - sets the style of the gamelist View.
       - `Detailed` - A simple text list of games and metadata on the left.
       - `GameCarousel` - A carousel of game marquees and metadata on the left.
       - `Grid` - A grid of boxart and minimal metadata below for games. No metadata images.
       - `Grid-Detailed` - A grid of boxart and detailed metadata on the left for games.
-
+     
+   - `Default Grid Style` - Sets the rows/columns of the grid views. The theme will scale optimally based on the `Automatic Grid Rows/Columns` below if left as `Automatic`.
+     
     ## **Theme Options**
-- `Theme Aspect Ratio` - sets the aspect ratio the theme will render at. If needed, this can be changed to match the aspect ratio of your screen (though it should happen automatically).
-   - `16:9`
-   - `4:3`
-   - `16:10` (In Process)
-   - `1:1` (In Process)
- 
- - `Distribution` - sets the file path for customization files to be accessed.
-   - `Retrobat`
-   - `Batocera/Knulli`
-
-- `System View` - sets the style of the System View.
-   - `Grid` - A system grid with either System Icons or Game Artwork.
-   - `Carousel` - A system carousel with either System Icons or Game Artwork.
-
-- `System Grid Size` - sets the size of the `Grid` within the System View.
-   - `Automatic` - Recommended sizing based on your aspect ratio.
-   - `3x1, 3x2, 3x3, 4x2, 4x3, 4x4, 5x4` - Other available sizes.
+   - `Theme Aspect Ratio` - sets the aspect ratio the theme will render at. If needed, this can be changed to match the aspect ratio of your screen (though it should happen automatically).
+      - `16:9`
+      - `4:3`
+      - `16:10` (In Process)
+      - `1:1` (In Process)
+    
+    - `Distribution` - sets the file path for customization files to be accessed.
+      - `Retrobat`
+      - `Batocera/Knulli`
    
-- `System Icon Style` - sets the style of the icons in the System View
-   - `Art` - Box of iconic art for each system with Logo beneath.
-   - `Icons` - Controller and Logo for each system.
+   - `System View` - sets the style of the System View.
+      - `Grid` - A system grid with either System Icons or Game Artwork.
+      - `Carousel` - A system carousel with either System Icons or Game Artwork.
+   
+   - `System Grid Size` - sets the size of the `Grid` within the System View.
+      - `Automatic` - Recommended sizing based on your aspect ratio.
+      - `3x1, 3x2, 3x3, 4x2, 4x3, 4x4, 5x4` - Other available sizes.
+      
+   - `System Icon Style` - sets the style of the icons in the System View
+      - `Art` - Box of iconic art for each system with Logo beneath.
+      - `Icons` - Controller and Logo for each system.
      
 
-- `Theme Color Scheme` - There are 8 color schemes to choose from that each change the color palette and wallpaper of the theme across all views. Each wallpaper can easily be swapped out by the user for further customization. Alternate options are included within the theme as examples:
-  
-   - `Light` - A light grayscale color scheme.
-   - `Dark` - A dark grayscale color scheme.
-   - `Neon` - A retro neon color scheme.
-   - `Pastel` - A light and bright color scheme.
-   - `Sony` - A blue/white style using PSP colors.
-   - `SNES` - A gray/purple style using Super Nintendo colors.
-   - `Famicom` - A red/gold style using Nintendo Famicom colors.
-   - `Retro` - A striped vintage color scheme.
-   - `Custom` - Directs to the theme-customizations folder for your `Distribution`. Custom `colors.xml`, `Art` folders, `Icon` folders, and a `wallpaper` can be set.
- 
-- `Theme Font Size` - enables you to change the size of the fonts displayed in the theme. It will also scale the size of the system carousel.
-   - `Small` - good for display on tvs and  large handheld screens at 6 inches or larger.
-   - `Medium` - good for display on handheld screens at 3.5 inches or larger.
-   - `Large` - good for display on small handheld screens at 3.5 inches or smaller.
-
+   - `Theme Color Scheme` - There are 8 color schemes to choose from that each change the color palette and wallpaper of the theme across all views. Each wallpaper can easily be swapped out by the user for further customization. Alternate options are included within the theme as examples:
      
-- `Metadata` - enables you to disable the game details and only display the image.
-   - `On`
-   - `Off`
+      - `Light` - A light grayscale color scheme.
+      - `Dark` - A dark grayscale color scheme.
+      - `Neon` - A retro neon color scheme.
+      - `Pastel` - A light and bright color scheme.
+      - `Sony` - A blue/white style using PSP colors.
+      - `SNES` - A gray/purple style using Super Nintendo colors.
+      - `Famicom` - A red/gold style using Nintendo Famicom colors.
+      - `Retro` - A striped vintage color scheme.
+      - `Custom` - Directs to the theme-customizations folder for your `Distribution`. Custom `colors.xml`, `Art` folders, `Icon` folders, and a `wallpaper` can be set.
+    
+   - `Theme Font Size` - enables you to change the size of the fonts displayed in the theme. It will also scale the size of the system carousel.
+      - `Small` - good for display on tvs and  large handheld screens at 6 inches or larger.
+      - `Medium` - good for display on handheld screens at 3.5 inches or larger.
+      - `Large` - good for display on small handheld screens at 3.5 inches or smaller.
+   
         
-- `Metadata` - enables you to disable the game details and only display the image.
-   - `On`
-   - `Off`
+   - `Metadata` - enables you to disable the game details and only display the image.
+      - `On`
+      - `Off`
+           
+   - `Metadata` - enables you to disable the game details and only display the image.
+      - `On`
+      - `Off`
      
    ## **Gamelist Theme Options**
      
-- `Metadata Image Type` - enables you to change the image above the metadata.
-   - `Image` - Show only the scraped game image.
-   - `Miximage` - Compile a Miximage with boxart, marquee, and screenshot.
-        
-- `Automatic Grid Size` - enables you to change the number of rows for the `Grid` view when `Default Grid Size` is set to `Automatic`. It will scale correctly to optimize screen space per system.
-   - `2 Rows`
-   - `3 Rows`
-   - `4 Rows`
-   - 
-  - `Automatic Grid-Detailed Size` - enables you to change the number of columns for the `Grid-Detailed` view when `Default Grid Size` is set to `Automatic`. It will scale correctly to optimize screen space per system.
-   - `2 Rows`
-   - `3 Rows`
-   - `4 Rows`
+   - `Metadata Image Type` - enables you to change the image above the metadata.
+      - `Image` - Show only the scraped game image.
+      - `Miximage` - Compile a Miximage with boxart, marquee, and screenshot.
+           
+   - `Automatic Grid Size` - enables you to change the number of rows for the `Grid` view when `Default Grid Size` is set to `Automatic`. It will scale correctly to optimize screen space per system.
+      - `2 Rows`
+      - `3 Rows`
+      - `4 Rows`
+      - 
+     - `Automatic Grid-Detailed Size` - enables you to change the number of columns for the `Grid-Detailed` view when `Default Grid Size` is set to `Automatic`. It will scale correctly to optimize screen space per system.
+      - `2 Rows`
+      - `3 Rows`
+      - `4 Rows`
      
 ### **Preview of Variants and Color Schemes**
 
@@ -97,15 +102,14 @@ Canvas is a theme for Emulation Station (Batocera/Knulli) that aims to provide a
 | Small | Medium |
 | :---: | :---: |
 |![Small](https://github.com/Siddy212/canvas-es-de/assets/60283021/8a78e2d6-99de-4cf9-a088-2791c065b07d)|![Medium](https://github.com/Siddy212/canvas-es-de/assets/60283021/7354e1a5-cc59-481a-a01a-0b626699a63a)|
-| **Large** | **X-Large** |
-|![Large](https://github.com/Siddy212/canvas-es-de/assets/60283021/35dd298c-f44b-4c93-950d-7ccf61de281c)|![X-Large](https://github.com/Siddy212/canvas-es-de/assets/60283021/ee05468e-6737-4e18-8f0f-7fedfab785a7)|
+| **Large** |
 
 ## **Theme Customizations**
 
 This theme allows customizations to artwork without the need to edit the source XML. 
 
 ### Wallpapers
-- Use the folder called `wallpapers` in ES-DE's theme directory at: `ES-DE/themes/canvas-es-de`
+- Use the folder called `wallpapers` in ES-DE's theme directory at: `share/themes/canvas-es`
 - Inside are .webp images named after the color schemes.
 - Save over any of these with your new wallpaper to change that color scheme look.
 - Alternate wallpapers are also stored in the "Alternate" folder as an example.
