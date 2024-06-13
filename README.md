@@ -94,14 +94,14 @@ This is a port of the EmulationStation-DE theme Canvas-es-de located [here](http
 
 | Color | Variant | SystemView | GamelistView |
 | :---: | :---: | :---: | :---: |
-|Retro|[Grid] Grid: Simple|![MainRetro](https://github.com/Siddy212/canvas-es-de/assets/60283021/ffa38fa6-6aba-4563-a007-65621c5585a6)|![GameRetroLarge](https://github.com/Siddy212/canvas-es-de/assets/60283021/efd77be4-7e98-4e46-a4e8-8ad694df7f8f)|
-|[Icon] Dark| [Carousel] Textlist|![MainDarkIcon](https://github.com/Siddy212/canvas-es-de/assets/60283021/1a0442fc-dccc-4113-a394-5a70b58925d0)|![GameDark](https://github.com/Siddy212/canvas-es-de/assets/60283021/128df83f-62c2-4a00-be07-bcd1d125d219)|
+|Retro|[Grid] Grid: Simple|||
+|[Icon] Dark| [Carousel] Textlist|||
 
 ### Preview of Font Sizes 
 
 | Small | Medium |
 | :---: | :---: |
-|![Small](https://github.com/Siddy212/canvas-es-de/assets/60283021/8a78e2d6-99de-4cf9-a088-2791c065b07d)|![Medium](https://github.com/Siddy212/canvas-es-de/assets/60283021/7354e1a5-cc59-481a-a01a-0b626699a63a)|
+|||
 | **Large** |
 
 ## **Theme Customizations**
