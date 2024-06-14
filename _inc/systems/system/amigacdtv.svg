@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   id="Layer_1"
+   viewBox="0 0 3839 1750.3"
+   sodipodi:docname="cdtv.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.082671269"
+     inkscape:cx="-4578.3742"
+     inkscape:cy="-2993.7849"
+     inkscape:window-width="3840"
+     inkscape:window-height="2126"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <path
+     class="st0"
+     d="M 2378.3,436.9 C 2024.9,18.6 1506.1,-124.2 1219.7,117.8 933.3,359.8 987.6,895.1 1341,1313.4 c 353.4,418.3 872.2,561.1 1158.6,319.1 C 2786,1390.4 2731.7,855.2 2378.3,436.9 Z m 114,1139.7 c -264.1,223.2 -752.5,79.6 -1090.8,-320.7 -338.3,-400.3 -398.4,-905.8 -134.2,-1129 264.2,-223.2 752.5,-79.6 1090.8,320.7 338.3,400.4 398.4,905.8 134.2,1129 z"
+     style="fill:#ffffff;stroke-width:1.23457"
+     id="path1"
+     transform="matrix(0.81,0,0,0.81,362.88302,266.1154)" />
+  <polygon
+     class="st0"
+     points="2788.4,514.5 2788.4,1200.3 3019.8,1200.3 3019.8,514.5 3180.6,514.5 3180.6,283.1 3019.8,283.1 2788.4,283.1 2627.7,283.1 2627.7,514.5 "
+     style="fill:#ffffff;stroke-width:1.23457"
+     id="polygon1"
+     transform="matrix(0.81,0,0,0.81,362.88302,266.1154)" />
+  <path
+     class="st0"
+     d="m 2401.2,283.1 h -350.7 v 917.2 h 350.7 c 111.7,0 202.2,-90.5 202.2,-202.2 V 485.3 c 0,-111.7 -90.5,-202.2 -202.2,-202.2 z M 2372,968.9 h -90 V 514.6 h 90 z"
+     style="fill:#ffffff;stroke-width:1.23457"
+     id="path2"
+     transform="matrix(0.81,0,0,0.81,362.88302,266.1154)" />
+  <path
+     class="st0"
+     d="m 1804.3,283.1 h -249 c -83.9,0 -152,68.1 -152,152 v 613.3 c 0,83.9 68,152 152,152 h 249 c 83.9,0 152,-68 152,-152 v -191 h -231.4 v 111.4 h -90 V 514.6 h 90 V 626 h 231.4 V 435.1 c 0,-83.9 -68,-152 -152,-152 z"
+     style="fill:#ffffff;stroke-width:1.23457"
+     id="path3"
+     transform="matrix(0.81,0,0,0.81,362.88302,266.1154)" />
+  <polygon
+     class="st0"
+     points="3677.3,1200.3 3839,283.1 3604,283.1 3529.3,920.2 3454.7,283.1 3219.7,283.1 3381.4,1200.3 "
+     style="fill:#ffffff;stroke-width:1.23457"
+     id="polygon3"
+     transform="matrix(0.81,0,0,0.81,362.88302,266.1154)" />
+  <path
+     class="st0"
+     d="m 215.5,741.7 c 0,-134.1 109.1,-243.1 243.1,-243.1 43,0 83.5,11.3 118.6,31 V 298.7 C 539.4,288.6 499.6,283.1 458.6,283.1 205.3,283.1 0,488.5 0,741.7 c 0,253.2 205.3,458.6 458.6,458.6 41,0 80.7,-5.5 118.6,-15.6 V 953.9 c -35.1,19.7 -75.5,31 -118.6,31 -134.1,0 -243.1,-109.1 -243.1,-243.2 z"
+     style="fill:#ffffff;stroke-width:1.23457"
+     id="path4"
+     transform="matrix(0.81,0,0,0.81,362.88302,266.1154)" />
+  <polygon
+     class="st0"
+     points="793.4,725 976.8,541.6 577.2,541.6 577.2,725 "
+     style="fill:#ffffff;stroke-width:1.23457"
+     id="polygon4"
+     transform="matrix(0.81,0,0,0.81,362.88302,266.1154)" />
+  <polygon
+     class="st0"
+     points="577.2,941.9 976.8,941.9 793.4,758.4 577.2,758.4 "
+     style="fill:#ffffff;stroke-width:1.23457"
+     id="polygon5"
+     transform="matrix(0.81,0,0,0.81,362.88302,266.1154)" />
+</svg>

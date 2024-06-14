@@ -147,18 +147,33 @@ Licnese: Creative Commons CC-BY-NC-SA
       <include name="miximage" displayName="Miximage" />
    </subset>
 
-	
-	<!--
+   <!--
    ///
-   Aspect Ratios
+   Subset: Game Metadata Option
    ///
    -->
 
-   <include ifSubset="aspect-ratio:16-9|16-9-auto">./aspect-ratio-16-9.xml</include>
-   <include ifSubset="aspect-ratio:16-10|16-10-auto">./aspect-ratio-16-10.xml</include>
-   <include ifSubset="aspect-ratio:4-3|4-3-auto">./aspect-ratio-4-3.xml</include>
-   <include ifSubset="aspect-ratio:1-1|1-1-auto">./aspect-ratio-1-1.xml</include>
+   <subset name="metadata-option" displayName="Metadata Rating/Playtime">
+      <include name="rating" displayName="Rating" />
+      <include name="playtime" displayName="Playtime" />
+   </subset>
+	<!--
+   ///
+   Aspect Ratios Variables
+   /// 
+   -->
 
+   <include ifSubset="aspect-ratio:16-9|16-9-auto">./_inc/variables/aspect-ratio-16-9-variables.xml</include>
+   <include ifSubset="aspect-ratio:16-10|16-10-auto">./_inc/variables/aspect-ratio-16-10-variables.xml</include>
+   <include ifSubset="aspect-ratio:4-3|4-3-auto">./_inc/variables/aspect-ratio-4-3-variables.xml</include>
+   <include ifSubset="aspect-ratio:1-1|1-1-auto">./_inc/variables/aspect-ratio-1-1-variables.xml</include>
+ 
+
+	<!-- SystemView Include -->
+	<!-- ~~~~~~~~~~~~~ -->
+		
+	<include ifSubset="system-view:grid">./systemview/grid.xml</include>
+	<include ifSubset="system-view:carousel">./systemview/carousel.xml</include>
 
 	<!-- Screen View -->
 	<!-- ~~~~~~~~~~~ -->
@@ -344,11 +359,6 @@ Licnese: Creative Commons CC-BY-NC-SA
 		</text>
 	</view>
 	
-	<!-- SystemView Include -->
-	<!-- ~~~~~~~~~~~~~ -->
-		
-	<include ifSubset="system-view:grid">./systemview/grid.xml</include>
-	<include ifSubset="system-view:carousel">./systemview/carousel.xml</include>
 
 	<!-- Gamelist: Full Metadata Call-->
 	<!-- ~~~~~~~~~~~~~ -->
@@ -362,6 +372,14 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<zIndex>60</zIndex>
 			<color>${systemInfoColor}</color>
 			<opacity>0.8</opacity>
+		</image>	
+		<image name="playtime-logo" origin="0.5 0.5" linearSmooth="true" extra="true">
+			<path>${themePath}/_inc/images/playtime-icon.svg</path>
+			<zIndex>60</zIndex>
+			<color>${gameMetadataColor}</color>
+			<opacity>0.8</opacity>
+			<visible ifSubset="metadata-option:rating">false</visible>
+			<visible ifSubset="metadata-option:playtime">true</visible>
 		</image>
 		<image name="md_marquee">
 			<origin>0.5 0.5</origin>
@@ -375,7 +393,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 		<image name="md_thumbnail">
 			<origin>0 0.5</origin>
 			<zIndex>61</zIndex>
-		</image>
+		</image>	
 		<video name="md_video">
 			<origin>0.5 0.5</origin>
 			<delay>6</delay>
@@ -389,7 +407,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<color>${gameMetadataColor}</color>
 			<lineSpacing>1</lineSpacing>
 		</datetime>
-		<text name="md_name,md_players,md_genre,md_developer,md_publisher,md_playcount">
+		<text name="md_name,md_players,md_genre,md_developer,md_publisher,md_playcount,md_gametime">
 			<origin>0 0.5</origin>
 			<fontPath>${fontBold}</fontPath>
 			<color>${gameMetadataColor}</color>
@@ -408,7 +426,15 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<filledPath>./_inc/images/icon-star-filled.svg</filledPath>
 			<unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
 			<color>${gameMetadataColor}</color>
+			<visible ifSubset="metadata-option:rating">true</visible>
+			<visible ifSubset="metadata-option:playtime">false</visible>
 		</rating>
+		<text name="md_gametime">
+			<visible ifSubset="metadata-option:rating">false</visible>
+			<visible ifSubset="metadata-option:playtime">true</visible>
+			<format>%H</format>
+			<value>Never</value>
+		</text>
 		<text name="md_genre">
 			<forceUppercase>false</forceUppercase>
 			<autoScroll>horizontal</autoScroll>
@@ -496,6 +522,11 @@ Licnese: Creative Commons CC-BY-NC-SA
 	</view>
 	
 
+	<!-- Game Grid View -->
+	<!-- ~~~~~~~~~~~ -->
+
+	<include name="grid">./grid.xml</include>
+
 	<!-- Off Metadata Toggle -->
 	<!-- ~~~~~~~~~~~~~ -->
 	<view name="detailed, gamecarousel, grid, grid-detailed" ifSubset="metadata:off">
@@ -508,7 +539,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 		<datetime name="md_releasedate,md_lastplayed">
 			<visible>false</visible>
 		</datetime>
-		<text name="md_name,md_players,md_genre,md_developer,md_publisher,md_playcount">
+		<text name="md_name,md_players,md_genre,md_developer,md_publisher,md_playcount,md_gametime">
 			<visible>false</visible>
 		</text>
 		<text name="md_description">
@@ -517,14 +548,29 @@ Licnese: Creative Commons CC-BY-NC-SA
 		<rating name="md_rating">
 			<visible>false</visible>
 		</rating>
+		<image name="playtime-logo">
+			<visible>false</visible>
+		</image>
 	</view>	
 
-	<!-- Game Grid View -->
+
+	<!-- Carousel Detailed View -->
 	<!-- ~~~~~~~~~~~ -->
-
-	<include name="grid">./grid.xml</include>
-
-	<!-- Detailed Game Grid View -->
+	<view name="gamecarousel">
+		<gamecarousel name="gamecarousel">
+			<zIndex>43</zIndex>	      
+			<type>vertical_wheel</type>
+			<size>1 1</size>
+			<logoScale>1.2</logoScale>
+			<color>00000000</color>
+			<logoRotation>-7</logoRotation>
+			<logoRotationOrigin>5 0.5</logoRotationOrigin>
+			<logoAlignment>center</logoAlignment>   
+			<imageSource>marquee</imageSource>
+            <lineSpacing>1.2</lineSpacing>
+		</gamecarousel> 
+	</view>
+   		<!-- Detailed Game Grid View -->
 	<!-- ~~~~~~~~~~~ -->
 	
 	<subset name="autogriddetailedsize" displayName="Automatic Grid-Detailed Size" appliesTo="grid-detailed" >
@@ -543,30 +589,10 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<autoLayout ifSubset="autogriddetailedsize:small">4 0</autoLayout>
 			</imagegrid>
 	</customView>
-
 	
-
-	<!-- Carousel Detailed View -->
-	<!-- ~~~~~~~~~~~ -->
-	<view name="gamecarousel">
-		<gamecarousel name="gamecarousel">
-			<zIndex>43</zIndex>	      
-			<type>vertical_wheel</type>
-			<size>1 1</size>
-			<logoScale>1.2</logoScale>
-			<color>00000000</color>
-			<logoRotation>-7</logoRotation>
-			<logoRotationOrigin>5 0.5</logoRotationOrigin>
-			<logoAlignment>center</logoAlignment>   
-			<imageSource>marquee</imageSource>
-            <lineSpacing>1.2</lineSpacing>
-		</gamecarousel> 
-	</view>
-
-   	
 	<!--
    ///
-   Aspect Ratios Recall
+   Aspect Ratios
    /// 
    -->
 
@@ -575,4 +601,5 @@ Licnese: Creative Commons CC-BY-NC-SA
    <include ifSubset="aspect-ratio:4-3|4-3-auto">./aspect-ratio-4-3.xml</include>
    <include ifSubset="aspect-ratio:1-1|1-1-auto">./aspect-ratio-1-1.xml</include>
  
+
 </theme>

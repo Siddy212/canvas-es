@@ -6,15 +6,14 @@
 based on 640x480
 -->
 
-	<!-- System View -->
+	<!-- Metadata Image variations -->
 	<!-- ~~~~~~~~~~~ -->
-      
-	<view name="screen">
-		<stackpanel name="system-indicators" extra="true">
-		<w>0.96875</w><!-- 620 -->
-		<separator>10</separator>
-		</stackpanel>
-    </view>
+   	<variables ifSubset="media-type:image">
+		<visiblemix>false</visiblemix>
+	</variables>
+   	<variables ifSubset="media-type:miximage">
+		<visiblemix>true</visiblemix>
+	</variables>
 
 	<!-- System View Grid -->
 	<!-- ~~~~~~~~~~~ -->
@@ -50,6 +49,16 @@ based on 640x480
 			</text>
 	</view>
 
+
+	<!-- System View -->
+	<!-- ~~~~~~~~~~~ -->
+      
+	<view name="screen">
+		<stackpanel name="system-indicators" extra="true">
+		<w>0.96875</w><!-- 620 -->
+		<separator>10</separator>
+		</stackpanel>
+    </view>
 
 
 
@@ -183,9 +192,18 @@ based on 640x480
             <size>0.099 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</text>
+		<text name="md_gametime">
+			 <pos>0.464 0.919</pos>
+            <size>0.07 ${metaDatafontSize}</size>
+			<fontSize>${metaDatafontSize}</fontSize>
+		</text>		
+		<image name="playtime-logo">
+			<pos>0.452 0.9185</pos>
+	        <size>0 0.025</size>
+		</image>
 	</view>
 
-	<!-- Medium/Large Gamelist View Detailed-->
+	<!-- Medium/Large Grid View-->
 	<!-- ~~~~~~~~~~~~~ -->
 	<view name="grid" ifSubset="font-size:medium|large,metadata:on" >
 	
@@ -229,6 +247,15 @@ based on 640x480
             <size>0.252 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</text>
+		<text name="md_gametime">
+			 <pos>0.470 0.918</pos>
+            <size>0.07 ${metaDatafontSize}</size>
+			<fontSize>${metaDatafontSize}</fontSize>
+		</text>		
+		<image name="playtime-logo">
+			<pos>0.452 0.9185</pos>
+	        <size>0 0.030</size>
+		</image>
 	</view>
 
 	
@@ -356,6 +383,15 @@ based on 640x480
 			<lineSpacing>${descriptionLineSpacing}</lineSpacing>
 			<visible>true</visible>
 		</text>
+		<text name="md_gametime">
+			 <pos>0.050 0.5745</pos>
+            <size>0.07 ${metaDatafontSize}</size>
+			<fontSize>${metaDatafontSize}</fontSize>
+		</text>		
+		<image name="playtime-logo">
+			<pos>0.036 0.5745</pos>
+	        <size>0 0.021</size>
+		</image>
 	</view>
 
 
@@ -396,7 +432,7 @@ based on 640x480
             <path>./_inc/images/detailed/${gamelistMetadataBackgroundImage}-base.webp</path>
 		</image>
 		<rating name="md_rating">
-			<pos>0.075 0.61</pos>
+			<pos>0.078 0.61</pos>
                   <size>0 0.027</size>
 		</rating>
             <datetime name="md_releasedate">
@@ -422,6 +458,15 @@ based on 640x480
 			<lineSpacing>${descriptionLineSpacing}</lineSpacing>
 			<visible>true</visible>
 		</text>
+		<text name="md_gametime">
+			 <pos>0.0625 0.608</pos>
+            <size>0.07 ${metaDatafontSize}</size>
+			<fontSize>${metaDatafontSize}</fontSize>
+		</text>		
+		<image name="playtime-logo">
+			<pos>0.045 0.608</pos>
+	        <size>0 0.030</size>
+		</image>
 	</view>
 	
 	<!-- Detailed - Metadata Off -->
@@ -549,6 +594,15 @@ based on 640x480
 			<lineSpacing>${descriptionLineSpacing}</lineSpacing>
 			<visible>true</visible>
 		</text>
+		<text name="md_gametime">
+			 <pos>0.464 0.919</pos>
+            <size>0.07 ${metaDatafontSize}</size>
+			<fontSize>${metaDatafontSize}</fontSize>
+		</text>		
+		<image name="playtime-logo">
+			<pos>0.452 0.9185</pos>
+	        <size>0 0.025</size>
+		</image>
 	</customView>
 
 
@@ -590,27 +644,23 @@ based on 640x480
 			<path>./_inc/images/detailed/${gamelistMetadataBackgroundImage}-base.webp</path>
 		</image>
 		<rating name="md_rating">
-			<pos>0.075 0.61</pos>
+			<pos>0.078 0.61</pos>
             <size>0 0.027</size>
-			<visible>true</visible>
 		</rating>
             <datetime name="md_releasedate">
             <pos>0.182 0.608</pos>
             <size>0.08 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
-			<visible>true</visible>
 		</datetime>
 		<text name="md_name">
             <pos>0.0625 0.54</pos>
             <size>.4225 0.05</size>
 			<fontSize>${metaDatafontSize}</fontSize>
-			<visible>true</visible>
 		</text>
 		<text name="md_genre">
 			<pos>0.32 0.608</pos>
              <size>0.165 0.05</size>
 			<fontSize>${metaDatafontSize}</fontSize>
-			<visible>true</visible>
 		</text>
 		<!-- End: Base Metadata -->
 		<text name="md_description">
@@ -620,7 +670,25 @@ based on 640x480
 			<lineSpacing>${descriptionLineSpacing}</lineSpacing>
 			<visible>true</visible>
 		</text>
+		<text name="md_gametime">
+			 <pos>0.0625 0.608</pos>
+            <size>0.07 ${metaDatafontSize}</size>
+			<fontSize>${metaDatafontSize}</fontSize>
+		</text>		
+		<image name="playtime-logo">
+			<pos>0.045 0.608</pos>
+	        <size>0 0.030</size>
+		</image>
 	</customView>
+
+	<view name="grid" ifSubset="metadata:off" >
+			<video name="md_video,">
+				<visible>false</visible>
+			</video>
+			<image name="md_marquee,md_image,md_thumbnail">
+				<visible>false</visible>
+			</image>
+	</view>
 	
 	<!-- Detailed Grid - Metadata Off -->
 
@@ -649,99 +717,4 @@ based on 640x480
 	</customView>
 
 
-
-	<!-- Font Options -->
-	<!-- ~~~~~~~~~~~ -->
-	<variables ifSubset="font-size:small">
-            <systemDescriptionFontSize>0.015</systemDescriptionFontSize>
-            <systemYearFontSize>0.020</systemYearFontSize>         
-            <systemInfoFontSize>0.04</systemInfoFontSize>   
-            <indicatorFontSize>0.04</indicatorFontSize>
-			<itemcount>3.5</itemcount>
-            <itemsize>0.293 0.36</itemsize>
-			<logospacing>1.2</logospacing>
-            <helpFontSize>0.022</helpFontSize>
-            <helpFontSizeSmall>0.015</helpFontSizeSmall>
-            <helpPos>0.97</helpPos>
-            <helpPosSmall>0.03</helpPosSmall>
-            <gamelistBackgroundImageCalculated>./_inc/images/gamelist/${gamelistBackgroundImage}-small.webp</gamelistBackgroundImageCalculated>
-            <gamelistFontSize>0.022</gamelistFontSize>
-            <gamelistSelectorHeight>0.039814814814815</gamelistSelectorHeight>
-            <gamelistPos>0.557291666666667 0.117666666666667</gamelistPos>
-            <gamelistSize>0.38375 0.786</gamelistSize>
-            <itemSizeCarousel>0.20 0.25</itemSizeCarousel>
-            <metaDatafontSize>0.019</metaDatafontSize>
-            <descriptionPos>0.69</descriptionPos>
-            <descriptionHeight>0.135</descriptionHeight>
-            <descriptionFontSize>0.022</descriptionFontSize>
-            <descriptionLineSpacing>1.35</descriptionLineSpacing>
-            <linecount>17</linecount>
-   </variables>
-   <variables ifSubset="font-size:medium">
-            <systemDescriptionFontSize>0.020</systemDescriptionFontSize>
-            <systemYearFontSize>0.025</systemYearFontSize>         
-            <systemInfoFontSize>0.04</systemInfoFontSize>      
-            <indicatorFontSize>0.04</indicatorFontSize> 
-			<itemcount>3</itemcount>
-            <itemsize>0.34 0.46</itemsize>
-			<logospacing>0.2</logospacing>
-            <helpFontSize>0.026</helpFontSize>
-            <helpFontSizeSmall>0.015</helpFontSizeSmall>
-            <helpPos>0.97</helpPos>
-            <helpPosSmall>0.03</helpPosSmall>
-            <gamelistBackgroundImageCalculated>./_inc/images/gamelist/${gamelistBackgroundImage}-medium.webp</gamelistBackgroundImageCalculated>
-            <gamelistFontSize>0.030333333333333</gamelistFontSize>
-            <gamelistSelectorHeight>0.051388888888889</gamelistSelectorHeight>
-            <gamelistPos>0.559591666666667 0.133666666666667</gamelistPos>
-            <gamelistSize>0.38275 0.7515</gamelistSize>
-            <itemSizeCarousel>0.20 0.25</itemSizeCarousel>
-            <metaDatafontSize>0.027</metaDatafontSize>
-            <descriptionPos>0.656</descriptionPos>
-            <descriptionHeight>0.15</descriptionHeight>
-            <descriptionFontSize>0.027</descriptionFontSize>
-            <descriptionLineSpacing>1.5</descriptionLineSpacing>
-            <linecount>13</linecount>
-   </variables>
-   <variables ifSubset="font-size:large">
-            <systemDescriptionFontSize>0.02</systemDescriptionFontSize>
-            <systemYearFontSize>0.038</systemYearFontSize>         
-            <systemInfoFontSize>0.04</systemInfoFontSize>   
-            <indicatorFontSize>0.04</indicatorFontSize>
-            <itemcount>1.5</itemcount>
-            <itemsize>0.44 0.54</itemsize>
-			<logospacing>-0.75</logospacing>
-            <helpFontSize>0.026</helpFontSize>
-            <helpFontSizeSmall>0.015</helpFontSizeSmall>
-            <helpPos>0.97</helpPos>
-            <helpPosSmall>0.03</helpPosSmall>
-            <gamelistBackgroundImageCalculated>./_inc/images/gamelist/${gamelistBackgroundImage}-large.webp</gamelistBackgroundImageCalculated>
-            <gamelistFontSize>0.036333333333333</gamelistFontSize>
-            <gamelistSelectorHeight>0.06388888888889</gamelistSelectorHeight>
-            <gamelistPos>0.559591666666667 0.129166666666667</gamelistPos>
-            <gamelistSize>0.38275 0.763</gamelistSize>
-            <itemSizeCarousel>0.20 0.25</itemSizeCarousel>
-            <metaDatafontSize>0.032</metaDatafontSize>
-            <descriptionPos>0.656</descriptionPos>
-            <descriptionHeight>0.15</descriptionHeight>
-            <descriptionFontSize>0.032</descriptionFontSize>
-            <descriptionLineSpacing>1.6</descriptionLineSpacing>
-            <linecount>11</linecount>
-   </variables>
-   
-	<variables>
-		<CornersGrid>5</CornersGrid>
-		<CornersSmall>10</CornersSmall>
-		<CornersMedium>20</CornersMedium>
-		<CornersLarge>30</CornersLarge>
-	</variables>
-
-
-	<!-- Metadata Image variations -->
-	<!-- ~~~~~~~~~~~ -->
-   	<variables ifSubset="media-type:image">
-		<visiblemix>false</visiblemix>
-	</variables>
-   	<variables ifSubset="media-type:miximage">
-		<visiblemix>true</visiblemix>
-	</variables>
 </theme>
