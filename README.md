@@ -84,8 +84,8 @@ This is a port of the EmulationStation-DE theme Canvas-es-de located [here](http
       - `2 Rows`
       - `3 Rows`
       - `4 Rows`
-      - 
-     - `Automatic Grid-Detailed Size` - enables you to change the number of columns for the `Grid-Detailed` view when `Default Grid Size` is set to `Automatic`. It will scale correctly to optimize screen space per system.
+        
+   - `Automatic Grid-Detailed Size` - enables you to change the number of columns for the `Grid-Detailed` view when `Default Grid Size` is set to `Automatic`. It will scale correctly to optimize screen space per system.
       - `2 Rows`
       - `3 Rows`
       - `4 Rows`
