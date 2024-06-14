@@ -407,7 +407,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<color>${gameMetadataColor}</color>
 			<lineSpacing>1</lineSpacing>
 		</datetime>
-		<text name="md_name,md_players,md_genre,md_developer,md_publisher,md_playcount,md_gametime">
+		<text name="md_name,md_players,md_genre,md_developer,md_publisher,md_playcount,md_gametime_custom">
 			<origin>0 0.5</origin>
 			<fontPath>${fontBold}</fontPath>
 			<color>${gameMetadataColor}</color>
@@ -429,11 +429,11 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<visible ifSubset="metadata-option:rating">true</visible>
 			<visible ifSubset="metadata-option:playtime">false</visible>
 		</rating>
-		<text name="md_gametime">
+		<text name="md_gametime_custom"  extra="true">
 			<visible ifSubset="metadata-option:rating">false</visible>
 			<visible ifSubset="metadata-option:playtime">true</visible>
-			<format>%H</format>
-			<value>Never</value>
+			<text>{game:gametime} > 0 ? formatseconds({game:gametime}) : "Never"</text>
+			<zindex>60</zindex>
 		</text>
 		<text name="md_genre">
 			<forceUppercase>false</forceUppercase>
@@ -539,7 +539,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 		<datetime name="md_releasedate,md_lastplayed">
 			<visible>false</visible>
 		</datetime>
-		<text name="md_name,md_players,md_genre,md_developer,md_publisher,md_playcount,md_gametime">
+		<text name="md_name,md_players,md_genre,md_developer,md_publisher,md_playcount,md_gametime_custom">
 			<visible>false</visible>
 		</text>
 		<text name="md_description">

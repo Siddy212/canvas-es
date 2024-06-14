@@ -192,7 +192,7 @@ based on 1920 x 1080
             <size>0.084 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</text>
-		<text name="md_gametime">
+		<text name="md_gametime_custom">
 			 <pos>0.529 0.912</pos>
             <size>0.045 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
@@ -247,7 +247,7 @@ based on 1920 x 1080
             <size>0.215 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</text>
-		<text name="md_gametime">
+		<text name="md_gametime_custom">
 			 <pos>0.524 0.918</pos>
             <size>0.07 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
@@ -383,7 +383,7 @@ based on 1920 x 1080
 			<lineSpacing>${descriptionLineSpacing}</lineSpacing>
 			<visible>true</visible>
 		</text>
-		<text name="md_gametime">
+		<text name="md_gametime_custom">
 			 <pos>0.0771875 0.562</pos>
             <size>0.07 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
@@ -458,7 +458,7 @@ based on 1920 x 1080
 			<lineSpacing>${descriptionLineSpacing}</lineSpacing>
 			<visible>true</visible>
 		</text>
-		<text name="md_gametime">
+		<text name="md_gametime_custom">
 			 <pos>0.0625 0.608</pos>
             <size>0.07 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
@@ -593,7 +593,7 @@ based on 1920 x 1080
 			<lineSpacing>${descriptionLineSpacing}</lineSpacing>
 			<visible>true</visible>
 		</text>
-		<text name="md_gametime">
+		<text name="md_gametime_custom">
 			 <pos>0.0771875 0.562</pos>
             <size>0.07 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
@@ -672,7 +672,7 @@ based on 1920 x 1080
 			<lineSpacing>${descriptionLineSpacing}</lineSpacing>
 			<visible>true</visible>
 		</text>
-		<text name="md_gametime">
+		<text name="md_gametime_custom">
 			 <pos>0.0625 0.608</pos>
             <size>0.07 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
