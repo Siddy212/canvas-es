@@ -70,9 +70,9 @@ This is a port of the EmulationStation-DE theme Canvas-es-de located [here](http
       - `On`
       - `Off`
            
-   - `Metadata` - enables you to disable the game details and only display the image.
-      - `On`
-      - `Off`
+   - `Metadata Rating/Playtime` - A toggle to either display the game's metacritic rating or your playtime.
+      - `Rating`
+      - `Playtime`
      
    ## **Gamelist Theme Options**
      
