@@ -153,12 +153,12 @@ based on 640x480
 			<path>./_inc/images/simple/${gamelistMetadataBackgroundImage}-extended.webp</path>
 		</image>
 		<rating name="md_rating">
-			 <pos>0.476 0.919</pos>
+			 <pos>0.57 0.919</pos>
             <size>0 0.019</size>
 		</rating>
 		<datetime name="md_releasedate">
-			<pos>0.552 0.919</pos>
-            <size>0.065 ${metaDatafontSize}</size>
+			<pos>0.464 0.919</pos>
+            <size>0.05 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</datetime>
 		<text name="md_name">
@@ -193,12 +193,12 @@ based on 640x480
 			<fontSize>${metaDatafontSize}</fontSize>
 		</text>
 		<text name="md_gametime_custom" extra="true">
-			 <pos>0.464 0.919</pos>
-            <size>0.07 ${metaDatafontSize}</size>
+			 <pos>0.55 0.919</pos>
+            <size>0.065 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</text>		
 		<image name="playtime-logo">
-			<pos>0.452 0.9185</pos>
+			<pos>0.542 0.9185</pos>
 	        <size>0 0.025</size>
 		</image>
 	</view>
@@ -229,12 +229,12 @@ based on 640x480
             <path>./_inc/images/simple/${gamelistMetadataBackgroundImage}-base.webp</path>
 		</image>
 		<rating name="md_rating">
-            <pos>0.487 0.918</pos>
+            <pos>0.615 0.918</pos>
             <size>0 0.027</size>
 		</rating>
             <datetime name="md_releasedate">
-            <pos>0.587 0.9185</pos>
-            <size>0.086 ${metaDatafontSize}</size>
+            <pos>0.470 0.918</pos>
+            <size>0.07 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</datetime>
 		<text name="md_name">
@@ -248,12 +248,12 @@ based on 640x480
 			<fontSize>${metaDatafontSize}</fontSize>
 		</text>
 		<text name="md_gametime_custom" extra="true">
-			 <pos>0.470 0.918</pos>
-            <size>0.07 ${metaDatafontSize}</size>
+			 <pos>0.583 0.9185</pos>
+            <size>0.090 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</text>		
 		<image name="playtime-logo">
-			<pos>0.452 0.9185</pos>
+			<pos>0.57 0.9185</pos>
 	        <size>0 0.030</size>
 		</image>
 	</view>
@@ -385,7 +385,7 @@ based on 640x480
 		</text>
 		<text name="md_gametime_custom" extra="true">
 			 <pos>0.050 0.5745</pos>
-            <size>0.07 ${metaDatafontSize}</size>
+            <size>0.086 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</text>		
 		<image name="playtime-logo">
@@ -432,12 +432,12 @@ based on 640x480
             <path>./_inc/images/detailed/${gamelistMetadataBackgroundImage}-base.webp</path>
 		</image>
 		<rating name="md_rating">
-			<pos>0.078 0.61</pos>
+			<pos>0.208 0.61</pos>
                   <size>0 0.027</size>
 		</rating>
             <datetime name="md_releasedate">
-            <pos>0.182 0.608</pos>
-            <size>0.08 ${metaDatafontSize}</size>
+			 <pos>0.0625 0.608</pos>
+            <size>0.07 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</datetime>
 		<text name="md_name">
@@ -459,12 +459,12 @@ based on 640x480
 			<visible>true</visible>
 		</text>
 		<text name="md_gametime_custom" extra="true">
-			 <pos>0.0625 0.608</pos>
-            <size>0.07 ${metaDatafontSize}</size>
+            <pos>0.182 0.608</pos>
+            <size>0.09 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</text>		
 		<image name="playtime-logo">
-			<pos>0.045 0.608</pos>
+			<pos>0.165 0.608</pos>
 	        <size>0 0.030</size>
 		</image>
 	</view>
@@ -535,7 +535,6 @@ based on 640x480
 		<rating name="md_rating">
 			<pos>0.0825 0.575</pos>
 			<size>0 0.025</size>
-			<visible>true</visible>
 		</rating>
 		<datetime name="md_releasedate">
 			<pos>0.050 0.618</pos>
@@ -595,13 +594,13 @@ based on 640x480
 			<visible>true</visible>
 		</text>
 		<text name="md_gametime_custom" extra="true">
-			 <pos>0.464 0.919</pos>
-            <size>0.07 ${metaDatafontSize}</size>
+			 <pos>0.050 0.5745</pos>
+            <size>0.086 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</text>		
 		<image name="playtime-logo">
-			<pos>0.452 0.9185</pos>
-	        <size>0 0.025</size>
+			<pos>0.036 0.5745</pos>
+	        <size>0 0.021</size>
 		</image>
 	</customView>
 
@@ -644,12 +643,12 @@ based on 640x480
 			<path>./_inc/images/detailed/${gamelistMetadataBackgroundImage}-base.webp</path>
 		</image>
 		<rating name="md_rating">
-			<pos>0.078 0.61</pos>
+			<pos>0.208 0.61</pos>
             <size>0 0.027</size>
 		</rating>
             <datetime name="md_releasedate">
-            <pos>0.182 0.608</pos>
-            <size>0.08 ${metaDatafontSize}</size>
+			 <pos>0.0625 0.608</pos>
+            <size>0.07 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</datetime>
 		<text name="md_name">
@@ -671,12 +670,12 @@ based on 640x480
 			<visible>true</visible>
 		</text>
 		<text name="md_gametime_custom" extra="true">
-			 <pos>0.0625 0.608</pos>
-            <size>0.07 ${metaDatafontSize}</size>
+            <pos>0.182 0.608</pos>
+            <size>0.09 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</text>		
 		<image name="playtime-logo">
-			<pos>0.045 0.608</pos>
+			<pos>0.165 0.608</pos>
 	        <size>0 0.030</size>
 		</image>
 	</customView>

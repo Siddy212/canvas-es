@@ -432,7 +432,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 		<text name="md_gametime_custom"  extra="true">
 			<visible ifSubset="metadata-option:rating">false</visible>
 			<visible ifSubset="metadata-option:playtime">true</visible>
-			<text>{game:gametime} > 0 ? formatseconds({game:gametime}) : "Never"</text>
+			<text>{game:gametime} > 0 ? expandseconds({game:gametime}) : "Never"</text>
 			<color>${gameMetadataColor}</color>
 			<zIndex>61</zIndex>
 		</text>
