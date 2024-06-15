@@ -192,7 +192,7 @@ based on 640x480
             <size>0.099 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</text>
-		<text name="md_gametime_custom">
+		<text name="md_gametime_custom" extra="true">
 			 <pos>0.464 0.919</pos>
             <size>0.07 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
@@ -247,7 +247,7 @@ based on 640x480
             <size>0.252 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</text>
-		<text name="md_gametime_custom">
+		<text name="md_gametime_custom" extra="true">
 			 <pos>0.470 0.918</pos>
             <size>0.07 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
@@ -383,7 +383,7 @@ based on 640x480
 			<lineSpacing>${descriptionLineSpacing}</lineSpacing>
 			<visible>true</visible>
 		</text>
-		<text name="md_gametime_custom">
+		<text name="md_gametime_custom" extra="true">
 			 <pos>0.050 0.5745</pos>
             <size>0.07 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
@@ -458,7 +458,7 @@ based on 640x480
 			<lineSpacing>${descriptionLineSpacing}</lineSpacing>
 			<visible>true</visible>
 		</text>
-		<text name="md_gametime_custom">
+		<text name="md_gametime_custom" extra="true">
 			 <pos>0.0625 0.608</pos>
             <size>0.07 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
@@ -594,7 +594,7 @@ based on 640x480
 			<lineSpacing>${descriptionLineSpacing}</lineSpacing>
 			<visible>true</visible>
 		</text>
-		<text name="md_gametime_custom">
+		<text name="md_gametime_custom" extra="true">
 			 <pos>0.464 0.919</pos>
             <size>0.07 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
@@ -670,7 +670,7 @@ based on 640x480
 			<lineSpacing>${descriptionLineSpacing}</lineSpacing>
 			<visible>true</visible>
 		</text>
-		<text name="md_gametime_custom">
+		<text name="md_gametime_custom" extra="true">
 			 <pos>0.0625 0.608</pos>
             <size>0.07 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>

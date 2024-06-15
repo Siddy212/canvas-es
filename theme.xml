@@ -377,7 +377,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<path>${themePath}/_inc/images/playtime-icon.svg</path>
 			<zIndex>60</zIndex>
 			<color>${gameMetadataColor}</color>
-			<opacity>0.8</opacity>
+			<opacity>0.7</opacity>
 			<visible ifSubset="metadata-option:rating">false</visible>
 			<visible ifSubset="metadata-option:playtime">true</visible>
 		</image>
@@ -419,7 +419,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<format>%Y</format>
 		</datetime>
 		<datetime name="md_lastplayed">
-			<value>Never</value>
+			<value>Unknown</value>
 		</datetime>
 		<rating name="md_rating">
 			<origin>0.5 0.5</origin>
@@ -433,7 +433,8 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<visible ifSubset="metadata-option:rating">false</visible>
 			<visible ifSubset="metadata-option:playtime">true</visible>
 			<text>{game:gametime} > 0 ? formatseconds({game:gametime}) : "Never"</text>
-			<zindex>60</zindex>
+			<color>${gameMetadataColor}</color>
+			<zIndex>61</zIndex>
 		</text>
 		<text name="md_genre">
 			<forceUppercase>false</forceUppercase>
