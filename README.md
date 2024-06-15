@@ -70,9 +70,9 @@ This is a port of the EmulationStation-DE theme Canvas-es-de located [here](http
       - `On`
       - `Off`
            
-   - `Metadata` - enables you to disable the game details and only display the image.
-      - `On`
-      - `Off`
+   - `Metadata Rating/Playtime` - A toggle to either display the game's metacritic rating or your playtime.
+      - `Rating`
+      - `Playtime`
      
    ## **Gamelist Theme Options**
      
@@ -84,8 +84,8 @@ This is a port of the EmulationStation-DE theme Canvas-es-de located [here](http
       - `2 Rows`
       - `3 Rows`
       - `4 Rows`
-      - 
-     - `Automatic Grid-Detailed Size` - enables you to change the number of columns for the `Grid-Detailed` view when `Default Grid Size` is set to `Automatic`. It will scale correctly to optimize screen space per system.
+        
+   - `Automatic Grid-Detailed Size` - enables you to change the number of columns for the `Grid-Detailed` view when `Default Grid Size` is set to `Automatic`. It will scale correctly to optimize screen space per system.
       - `2 Rows`
       - `3 Rows`
       - `4 Rows`
