@@ -1,0 +1,12 @@
+<theme>
+   <variables>
+      <systemName>Music Player</systemName>
+      <systemDescription>Listen to the music in your collection.</systemDescription>
+      <systemManufacturer>Various</systemManufacturer>
+      <systemReleaseYear>Various</systemReleaseYear>
+      <systemReleaseDate>Various</systemReleaseDate>
+      <systemReleaseDateFormated>Various</systemReleaseDateFormated>
+      <systemHardwareType>Folder</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

@@ -1,0 +1,12 @@
+<theme>
+   <variables>
+      <systemName>VC 4000</systemName>
+      <systemDescription>The VC 4000 (short for Video Computer 4000) is an early second generation 8-bit cartridge-based home video game console released in Germany in 1978 by Interton. The console is quite obscure outside Germany, but many software-compatible systems can be found in many European countries.</systemDescription>
+      <systemManufacturer>Interton</systemManufacturer>
+      <systemReleaseYear>1978</systemReleaseYear>
+      <systemReleaseDate>1978-01-01</systemReleaseDate>
+      <systemReleaseDateFormated>January 1, 1978</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemCoverSize>3-4</systemCoverSize>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

@@ -1,0 +1,13 @@
+<theme>
+   <variables>
+      <systemName>GamePark GP32</systemName>
+      <systemDescription>The GP32 (GamePark 32) is a handheld game console developed by the Korean company Game Park. It was released on November 23, 2001, in South Korea only.</systemDescription>
+      <systemManufacturer>Game Park</systemManufacturer>
+      <systemReleaseYear>2001</systemReleaseYear>
+      <systemReleaseDate>2001-11-23</systemReleaseDate>
+      <systemReleaseDateFormated>November 23, 2001</systemReleaseDateFormated>
+      <systemHardwareType>Handheld</systemHardwareType>
+      <systemCoverSize>4-3</systemCoverSize>
+      <systemColor>0C7BCB</systemColor>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

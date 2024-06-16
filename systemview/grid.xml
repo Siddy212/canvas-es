@@ -4,13 +4,6 @@
 	<formatVersion>7</formatVersion>
 	
 	
-   <!--
-   ///
-   Subset: System Grid Sizes
-   ///
-   -->
-
-		
 	<!-- System View: Grid-->
 	<!-- ~~~~~~~~~~~ -->
 	<view name="system">

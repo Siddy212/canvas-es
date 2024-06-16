@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>Sony PSP Minis</systemName>
+      <systemDescription>PlayStation minis launched on October 1, 2009 for the PSP and the PSPGo in all regions. Under 100MB these games are smaller, cheaper, and download only. In December of 2009, an update was released on the PlayStation 3 (3.15) which enables most Minis to be played on the home console.</systemDescription>
+      <systemManufacturer>Sony</systemManufacturer>
+      <systemReleaseYear>2009</systemReleaseYear>
+      <systemReleaseDate>2009-10-01</systemReleaseDate>
+      <systemReleaseDateFormated>October 1, 2009</systemReleaseDateFormated>
+      <systemHardwareType>Digital</systemHardwareType>
+      <systemCoverSize>99-168</systemCoverSize>
+      <systemColor>366DA7</systemColor>
+      <systemColorPalette1>313131</systemColorPalette1>
+      <systemColorPalette2>0F1012</systemColorPalette2>
+      <systemColorPalette3>97A9BA</systemColorPalette3>
+      <systemColorPalette4>F9F7F7</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

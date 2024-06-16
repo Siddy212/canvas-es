@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>VTech Socrates</systemName>
+      <systemDescription>The VTech Socrates, usually just referred to as Socrates, is a third generation (1983-2003) video game console developed and distributed by VTech. It was released in July 1988 in North America at a retail price of $129.99. The console was also released in Germany (1988) as the Prof. Weiss-Alle and France (1988) as the Professeur Saitout. The Socrates was an educational machine that featured standard wireless controllers which communicated via infrared reception. The console was discontinued quietly in the early 1990's..</systemDescription>
+      <systemManufacturer>VTech</systemManufacturer>
+      <systemReleaseYear>1988</systemReleaseYear>
+      <systemReleaseDate>1988-06-11</systemReleaseDate>
+      <systemReleaseDateFormated>July 11, 1988</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemCoverSize>3-4</systemCoverSize>
+      <systemColor>4A529D</systemColor>
+      <systemColorPalette1>034693</systemColorPalette1>
+      <systemColorPalette2>F7ED18</systemColorPalette2>
+      <systemColorPalette3>F4133D</systemColorPalette3>
+      <systemColorPalette4>199A40</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

@@ -1,0 +1,16 @@
+<theme>
+   <variables>
+      <systemName>Wheel</systemName>
+      <systemDescription>View and play the wheel games across your entire library.</systemDescription>
+      <systemManufacturer>Various</systemManufacturer>
+      <systemReleaseYear>Various</systemReleaseYear>
+      <systemReleaseDate>Various</systemReleaseDate>
+      <systemReleaseDateFormated>Various</systemReleaseDateFormated>
+      <systemHardwareType>Wheel</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemCartSize>1-1</systemCartSize>
+   </variables>
+
+   
+
+</theme>
