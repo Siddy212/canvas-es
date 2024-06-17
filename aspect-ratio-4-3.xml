@@ -268,7 +268,7 @@ based on 640x480
 			<pos>0.75 0.50648148147</pos>
             <zIndex>12</zIndex>
 			<linearSmooth>true</linearSmooth>
-            <path>./_inc/images/gamelist/gamelist-background-shadow.png</path>
+            <path>./_inc/images/gamelist/gamelist-background-shadow.webp</path>
 			<size>0.48984375 0.8972222528</size>
 			<visible>true</visible>
 		</image>

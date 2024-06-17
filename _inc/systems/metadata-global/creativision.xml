@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>VTech CreatiVision</systemName>
+      <systemDescription>The VTech CreatiVision is a hybrid computer and home video game console introduced by VTech in 1981 and released in 1982 during the second generation of video game consoles. It cost $295 Australian Dollars in Australia.[1] The hybrid unit was similar in concept to computers such as the APF Imagination Machine,[2] the older VideoBrain Family Computer, and to a lesser extent the Intellivision game console and Coleco Adam computer, all of which anticipated the trend of video game consoles becoming more like low-end computers. It was discontinued in 1986.</systemDescription>
+      <systemManufacturer>VTech</systemManufacturer>
+      <systemReleaseYear>1982</systemReleaseYear>
+      <systemReleaseDate>1982-01-01</systemReleaseDate>
+      <systemReleaseDateFormated>January 1, 1982</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemColor>2F7BC7</systemColor>
+      <systemColorPalette1>E1D095</systemColorPalette1>
+      <systemColorPalette2>ADC7EF</systemColorPalette2>
+      <systemColorPalette3>8F8F91</systemColorPalette3>
+      <systemColorPalette4>B9A9CE</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

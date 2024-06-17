@@ -1,0 +1,18 @@
+<theme>
+   <variables>
+      <systemName>Camputers Lynx</systemName>
+      <systemDescription>The Lynx was an 8-bit British home computer that was first released in early 1983 as a 48 kB model. Several models were available with 48 kB, 96 kB or 128 kB RAM. It was possible to reach 192 kB with RAM expansions on board. John Shireff designed the hardware and Davis Jansons the firmware. <br />The machine was based around a Z80A CPU clocked at 4 MHz, (6 MHz for the 128/192 kB models) and featured a Motorola 6845 as video controller. It was possible to run CP/M with the optional 5.25" floppy disk-drive on the 96 kB and 128 kB models <br />Compared to, for example, the Commodore 64, the BASIC was more extensive and faster and resolution of graphics was better; but computer games on the other hand suffered from the special implementation and lack of hardware for sound and sprites. Thus, it was better for exploring programming or working with maths.</systemDescription>
+      <systemManufacturer>Camputers</systemManufacturer>
+      <systemReleaseYear>1983</systemReleaseYear>
+      <systemReleaseDate>1983-01-01</systemReleaseDate>
+      <systemReleaseDateFormated>January 1, 1983</systemReleaseDateFormated>
+      <systemHardwareType>Computer</systemHardwareType>
+      <systemCoverSize>3-4</systemCoverSize>
+      <systemColor>B92E34</systemColor>
+      <systemColorPalette1>EF5857</systemColorPalette1>
+      <systemColorPalette2>403E4B</systemColorPalette2>
+      <systemColorPalette3>D2CECD</systemColorPalette3>
+      <systemColorPalette4>191222</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>
+   </variables>
+</theme>

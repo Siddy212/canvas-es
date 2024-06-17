@@ -1,0 +1,16 @@
+<theme>
+   <variables>
+      <systemName>Plug and Play TV Games</systemName>
+      <systemDescription>View and play your plug and play TV games.</systemDescription>
+      <systemManufacturer>Various</systemManufacturer>
+      <systemReleaseYear>Various</systemReleaseYear>
+      <systemReleaseDate>Various</systemReleaseDate>
+      <systemReleaseDateFormated>Various</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemCartSize>1-1</systemCartSize>
+   </variables>
+
+   
+
+</theme>

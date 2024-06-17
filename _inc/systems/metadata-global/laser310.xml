@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>VTech Laser 310</systemName>
+      <systemDescription>The VTech Laser 310 is a home computer developed by Video Technology. It was released in 1984. A version of this system was also released as the Dick Smith Electronics VZ-300</systemDescription>
+      <systemManufacturer>VTech</systemManufacturer>
+      <systemReleaseYear>1984</systemReleaseYear>
+      <systemReleaseDate>1984-01-01</systemReleaseDate>
+      <systemReleaseDateFormated>January 1, 1984</systemReleaseDateFormated>
+      <systemHardwareType>Computer</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemColor>2F7BC7</systemColor>
+      <systemColorPalette1>E1D095</systemColorPalette1>
+      <systemColorPalette2>ADC7EF</systemColorPalette2>
+      <systemColorPalette3>8F8F91</systemColorPalette3>
+      <systemColorPalette4>B9A9CE</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

@@ -269,7 +269,7 @@ based on 1920 x 1080
             <size>0.4453125 0.8972222528</size>
             <zIndex>12</zIndex>
 			<linearSmooth>true</linearSmooth>
-            <path>./_inc/images/gamelist/gamelist-background-shadow.png</path>
+            <path>./_inc/images/gamelist/gamelist-background-shadow.webp</path>
 			<visible>true</visible>
 		</image>
 		<image name="game-list-background" extra="true">

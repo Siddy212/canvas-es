@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>Commodore Pet</systemName>
+      <systemDescription>The Commodore PET (Personal Electronic Transactor) is a line of home/personal computers produced starting in 1977 by Commodore International. A top-seller in the Canadian and United States educational markets, it was Commodore's first full-featured computer, and formed the basis for their entire 8-bit product line, including the Commodore 64. The first model, which was named the PET 2001, was the first personal computer ever made available to retail consumers.</systemDescription>
+      <systemManufacturer>Commodore</systemManufacturer>
+      <systemReleaseYear>1977</systemReleaseYear>
+      <systemReleaseDate>1977-10-01</systemReleaseDate>
+      <systemReleaseDateFormated>October 1, 1977</systemReleaseDateFormated>
+      <systemHardwareType>Computer</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemColor>2F7BC7</systemColor>
+      <systemColorPalette1>E1D095</systemColorPalette1>
+      <systemColorPalette2>ADC7EF</systemColorPalette2>
+      <systemColorPalette3>8F8F91</systemColorPalette3>
+      <systemColorPalette4>B9A9CE</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>
