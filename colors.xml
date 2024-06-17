@@ -22,11 +22,11 @@
          <gamelistPrimaryColor>666666</gamelistPrimaryColor>
          <gamelistSecondaryColor>666666</gamelistSecondaryColor>
          <gameMetadataColor>666666</gameMetadataColor>
-         <BackdropColor>555555</BackdropColor>
+         <BackdropColor>ffffff</BackdropColor>
          <backgroundArtPath ifSubset="color-scheme:light">./wallpapers/light.webp</backgroundArtPath>
          <backgroundArtPath ifSubset="color-scheme:custom">firstfile("${themeCustomizationsPath} + "wallpaper" + ".webp","${themeCustomizationsPath}" + "wallpaper" + ".jpg")</backgroundArtPath>
          <backgroundArtOpacity>0.8</backgroundArtOpacity>
-         <menuBackgroundColor>111111</menuBackgroundColor>
+         <menuBackgroundColor>ffffff</menuBackgroundColor>
    </variables>
    <variables ifSubset="color-scheme:dark">
          <helpTextColor>999999</helpTextColor>
@@ -45,7 +45,7 @@
          <gamelistPrimaryColor>777777</gamelistPrimaryColor>
          <gamelistSecondaryColor>777777</gamelistSecondaryColor>
          <gameMetadataColor>bbbbbb</gameMetadataColor>
-         <BackdropColor>bbbbbb</BackdropColor>
+         <BackdropColor>000000</BackdropColor>
          <backgroundArtPath>./wallpapers/dark.webp</backgroundArtPath>
          <backgroundArtOpacity>1</backgroundArtOpacity>
          <menuBackgroundColor>373737</menuBackgroundColor>
@@ -66,7 +66,7 @@
          <gamelistPrimaryColor>777777</gamelistPrimaryColor>
          <gamelistSecondaryColor>777777</gamelistSecondaryColor>
          <gameMetadataColor>777777</gameMetadataColor>
-         <BackdropColor>dedede</BackdropColor>
+         <BackdropColor>000000</BackdropColor>
          <backgroundArtPath>./wallpapers/retro.webp</backgroundArtPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
          <menuBackgroundColor>fbf6de</menuBackgroundColor>
@@ -108,10 +108,10 @@
          <gamelistPrimaryColor>777777</gamelistPrimaryColor>
          <gamelistSecondaryColor>777777</gamelistSecondaryColor>
          <gameMetadataColor>777777</gameMetadataColor>
-         <BackdropColor>dedede</BackdropColor>
+         <BackdropColor>ffffff</BackdropColor>
          <backgroundArtPath>./wallpapers/pastel.webp</backgroundArtPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
-         <menuBackgroundColor>f2e9e7</menuBackgroundColor>
+         <menuBackgroundColor>ffffff</menuBackgroundColor>
    </variables>
   <variables ifSubset="color-scheme:famicom">
          <helpTextColor>e4e5ca</helpTextColor>
