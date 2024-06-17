@@ -61,25 +61,6 @@ based on 640x480
     </view>
 
 
-
-	<!-- Help System -->
-	<!-- ~~~~~~~~~~~ -->
-		
-	<view name="system, detailed, gamecarousel, grid">
-		<helpsystem name="help">
-			<origin>0.5 0.5</origin>
-			<pos>0.5 ${helpPos}</pos>
-			<fontSize>${helpFontSize}</fontSize>
-			<fontPath>${fontBold}</fontPath>
-			<textColor>${helpTextColor}</textColor>
-			<iconColor>${helpTextColor}</iconColor>
-			<iconA>./_inc/images/help-button-east.svg</iconA>
-			<iconB>./_inc/images/help-button-south.svg</iconB>
-			<iconX>./_inc/images/help-button-north.svg</iconX>
-			<iconY>./_inc/images/help-button-west.svg</iconY>
-		</helpsystem>
-	</view>
-
 	<!-- Logo Variations -->
 	<!-- ~~~~~~~~~~~~~ -->
 	
@@ -436,8 +417,8 @@ based on 640x480
                   <size>0 0.027</size>
 		</rating>
             <datetime name="md_releasedate">
-			 <pos>0.0625 0.608</pos>
-            <size>0.07 ${metaDatafontSize}</size>
+			 <pos>0.061 0.608</pos>
+            <size>0.075 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</datetime>
 		<text name="md_name">
@@ -647,8 +628,8 @@ based on 640x480
             <size>0 0.027</size>
 		</rating>
             <datetime name="md_releasedate">
-			 <pos>0.0625 0.608</pos>
-            <size>0.07 ${metaDatafontSize}</size>
+			 <pos>0.061 0.608</pos>
+            <size>0.075 ${metaDatafontSize}</size>
 			<fontSize>${metaDatafontSize}</fontSize>
 		</datetime>
 		<text name="md_name">

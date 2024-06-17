@@ -61,24 +61,6 @@ based on 1920 x 1080
     </view>
 
 
-	<!-- Help System -->
-	<!-- ~~~~~~~~~~~ -->
-		
-	<view name="system, detailed, gamecarousel, grid">
-		<helpsystem name="help">
-			<origin>0.5 0.5</origin>
-			<pos>0.5 ${helpPos}</pos>
-			<fontSize>${helpFontSize}</fontSize>
-			<fontPath>${fontBold}</fontPath>
-			<textColor>${helpTextColor}</textColor>
-			<iconColor>${helpTextColor}</iconColor>
-			<iconA>./_inc/images/help-button-east.svg</iconA>
-			<iconB>./_inc/images/help-button-south.svg</iconB>
-			<iconX>./_inc/images/help-button-north.svg</iconX>
-			<iconY>./_inc/images/help-button-west.svg</iconY>
-		</helpsystem>
-	</view>
-
 	<!-- Logo Variations -->
 	<!-- ~~~~~~~~~~~~~ -->
 	

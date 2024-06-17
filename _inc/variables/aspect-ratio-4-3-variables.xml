@@ -13,7 +13,7 @@ based on 640x480
             <systemDescriptionFontSize>0.015</systemDescriptionFontSize>
             <systemYearFontSize>0.020</systemYearFontSize>         
             <systemInfoFontSize>0.04</systemInfoFontSize>   
-            <indicatorFontSize>0.04</indicatorFontSize>
+            <indicatorFontSize>0.035</indicatorFontSize>
 			<itemcount>3.5</itemcount>
             <itemsize>0.293 0.36</itemsize>
 			<logospacing>1.2</logospacing>
@@ -38,11 +38,11 @@ based on 640x480
             <systemDescriptionFontSize>0.020</systemDescriptionFontSize>
             <systemYearFontSize>0.025</systemYearFontSize>         
             <systemInfoFontSize>0.04</systemInfoFontSize>      
-            <indicatorFontSize>0.04</indicatorFontSize> 
+            <indicatorFontSize>0.035</indicatorFontSize> 
 			<itemcount>3</itemcount>
             <itemsize>0.34 0.46</itemsize>
 			<logospacing>0.2</logospacing>
-            <helpFontSize>0.026</helpFontSize>
+            <helpFontSize>0.024</helpFontSize>
             <helpFontSizeSmall>0.015</helpFontSizeSmall>
             <helpPos>0.97</helpPos>
             <helpPosSmall>0.03</helpPosSmall>
@@ -63,11 +63,11 @@ based on 640x480
             <systemDescriptionFontSize>0.02</systemDescriptionFontSize>
             <systemYearFontSize>0.038</systemYearFontSize>         
             <systemInfoFontSize>0.04</systemInfoFontSize>   
-            <indicatorFontSize>0.04</indicatorFontSize>
+            <indicatorFontSize>0.035</indicatorFontSize>
             <itemcount>1.5</itemcount>
             <itemsize>0.44 0.54</itemsize>
 			<logospacing>-0.75</logospacing>
-            <helpFontSize>0.026</helpFontSize>
+            <helpFontSize>0.024</helpFontSize>
             <helpFontSizeSmall>0.015</helpFontSizeSmall>
             <helpPos>0.97</helpPos>
             <helpPosSmall>0.03</helpPosSmall>
