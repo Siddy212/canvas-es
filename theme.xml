@@ -101,8 +101,8 @@ Licnese: Creative Commons CC-BY-NC-SA
    -->
 
    <subset name="color-scheme" displayName="Color Scheme">
-      <include name="light" displayName="Light" />
       <include name="dark" displayName="Dark" />
+      <include name="light" displayName="Light" />
       <include name="retro" displayName="Retro" />
       <include name="neon" displayName="Neon" />
       <include name="pastel" displayName="Pastel" />
