@@ -42,7 +42,7 @@ based on 640x480
 			<itemcount>3</itemcount>
             <itemsize>0.34 0.46</itemsize>
 			<logospacing>0.2</logospacing>
-            <helpFontSize>0.024</helpFontSize>
+            <helpFontSize>0.026</helpFontSize>
             <helpFontSizeSmall>0.015</helpFontSizeSmall>
             <helpPos>0.97</helpPos>
             <helpPosSmall>0.03</helpPosSmall>
@@ -67,7 +67,7 @@ based on 640x480
             <itemcount>1.5</itemcount>
             <itemsize>0.44 0.54</itemsize>
 			<logospacing>-0.75</logospacing>
-            <helpFontSize>0.024</helpFontSize>
+            <helpFontSize>0.026</helpFontSize>
             <helpFontSizeSmall>0.015</helpFontSizeSmall>
             <helpPos>0.97</helpPos>
             <helpPosSmall>0.03</helpPosSmall>

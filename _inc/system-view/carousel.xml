@@ -32,7 +32,7 @@
 					<animation property="scale" to="1" duration="250" mode="easeOut"/>
 				</storyboard> 
 				<image name="shade" extra="true">
-					<path>./_inc/systems/system-grid/square-bg.png</path>
+					<path>./_inc/system-view/square-bg.png</path>
 					<pos>0.5 0.82</pos>
 					<origin>0.5 1</origin>
 					<maxSize>0.84 0.84</maxSize>
@@ -51,7 +51,7 @@
 					<scale>1</scale>
 					<roundCorners ifSubset="font-size:medium|large">${CornersLarge}</roundCorners>
 					<roundCorners ifSubset="font-size:small">${CornersMedium}</roundCorners>
-					<opacity>.90</opacity>
+					<opacity>1</opacity>
 					<linearSmooth>true</linearSmooth>
 					<zIndex>3</zIndex>
           		</image>
@@ -65,7 +65,7 @@
 						<fontPath>${fontBold}</fontPath>
 					<color>${systemInfoColor}</color>
 					<scale>1</scale>
-					<zIndex>10</zIndex>
+					<zIndex>5</zIndex>
 				</text>
 				<text name="fallbackText" alignment="center" multiLine="true">
 					<origin>0 0.5</origin>
@@ -79,18 +79,18 @@
 						<fontPath>${fontBold}</fontPath>
               		<color>${systemInfoColor}</color>
 					<scale>1.5</scale>
-					<zIndex>10</zIndex>
+					<zIndex>5</zIndex>
 				</text>
 		        <image name="theLogoImage" pos="0.5 0.92" origin="0.5 0.75" maxSize="0.6 0.16" linearSmooth="true">
-              		<path>${themePath}/_inc/systems/system/{system:theme}.svg</path>
-					<zIndex>6</zIndex>
+              		<path>${themePath}/_inc/systems/logos/{system:theme}.svg</path>
+					<zIndex>4</zIndex>
 					<color>${systemInfoColor}</color>
             	</image>
 			</itemTemplate>
 			
 			<!-- System View: Carousel (Icon)-->
 			<!-- ~~~~~~~~~~~ -->
-			<itemTemplate ifSubset="icon-scheme:icon">
+			<itemTemplate ifSubset="icon-scheme:icon,custom-icon">
 				<storyboard event="activate">
 					<animation property="scale" to="1.05" duration="150" mode="easeOut"/>
 				</storyboard>
@@ -98,7 +98,7 @@
 					<animation property="scale" to="1" duration="250" mode="easeOut"/>
 				</storyboard> 
 				<image name="backdrop" extra="true">
-					<path>./_inc/systems/system-grid/icon.png</path>
+					<path>./_inc/system-view/icon.png</path>
 					<pos>0.5 0.5</pos>
 					<origin>0.5</origin>
 					<maxSize>0.8 0.9</maxSize>
@@ -109,10 +109,10 @@
 					<color>${BackdropColor}</color>
 					</image>
 				<image name="shade" extra="true">
-					<path>${themePath}/_inc/systems/system-grid/4-5-bg.png</path>
+					<path>${themePath}/_inc/system-view/4-5-bg.png</path>
 					<pos>0.5 0.5</pos>
 					<origin>0.5</origin>
-					<maxSize>0.935 0.988</maxSize>
+					<maxSize>0.99 0.998</maxSize>
 					<roundCorners ifSubset="font-size:medium|large">${CornersMedium}</roundCorners>
 					<roundCorners ifSubset="font-size:small">${CornersSmall}</roundCorners>
 					<opacity>0.6</opacity>
@@ -149,7 +149,7 @@
 						<fontPath>${fontBold}</fontPath>
 					<color>${systemInfoColor}</color>
 					<scale>1</scale>
-					<zIndex>10</zIndex>
+					<zIndex>6</zIndex>
 				</text>
 				<text name="fallbackText" alignment="center" multiLine="true">
 					<origin>0 0.5</origin>
@@ -163,10 +163,10 @@
 					<fontPath>${fontBold}</fontPath>
               		<color>${systemInfoColor}</color>
 					<scale>1.5</scale>
-					<zIndex>10</zIndex>
+					<zIndex>6</zIndex>
 				</text>
-				<image name="theLogoImage" pos="0.5 0.8" origin="0.5 1" maxSize="0.45 0.25" linearSmooth="true">
-					<path>${themePath}/_inc/systems/system/{system:theme}.svg</path>
+				<image name="theLogoImage" pos="0.5 0.8" origin="0.5 1" maxSize="0.45 0.20" linearSmooth="true">
+					<path>${themePath}/_inc/systems/logos/{system:theme}.svg</path>
 					<zIndex>6</zIndex>
 					<color>${systemInfoColor}</color>
 					</image>

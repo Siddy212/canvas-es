@@ -73,35 +73,38 @@ based on 1920 x 1080
 			<maxLogoCount>5</maxLogoCount>
 			<scaledLogoSpacing>${logospacing}</scaledLogoSpacing>
 		</gamecarousel> 
-		<image name="system-logo" extra="true">
+		<image name="logo">
 			<pos>0.255 0.88</pos>
 			<maxSize>0.25 .08</maxSize>
 		</image>
 	</view>
-
+	<view name="basic">
+		<image name="logo">
+			<pos>0.255 0.5</pos>
+			<maxSize>0.35 .35</maxSize>
+		</image>
+	</view>     
 	<view name="detailed">
-		<image name="system-logo" extra="true">
+		<image name="logo">
 			<pos>0.255 0.88</pos>
 			<maxSize>0.25 .08</maxSize>
 		</image>
 	</view>      
-
 	<view name="grid" ifSubset="metadata:on">
-		<image name="system-logo" extra="true">
+		<image name="logo">
 			<pos>0.255 0.88</pos>
 			<maxSize>0.25 .08</maxSize>
 		</image>
 	</view>
-
 	<view name="grid" ifSubset="metadata:off">
-		<image name="system-logo" extra="true">
+		<image name="logo">
 			<pos>0.5 0.91</pos>
 			<maxSize>0.23 .07</maxSize>
 		</image>
 	</view>
 
 	<customView name="grid-detailed">
-		<image name="system-logo" extra="true">
+		<image name="logo">
 			<pos>0.255 0.88</pos>
 			<maxSize>0.25 .08</maxSize>
 		</image>
@@ -239,17 +242,16 @@ based on 1920 x 1080
 	        <size>0 0.030</size>
 		</image>
 	</view>
-
 	
 	<!-- Detailed - Textlist Background  -->
 	<!-- ~~~~~~~~~~~~~ -->
 	
-	<view name="detailed">
+	<view name="detailed, basic">
 		<image name="game-list-background-shadow" extra="true">
             <origin>0.5 0.5</origin>
             <pos>0.75 0.50648148147</pos>
             <size>0.4453125 0.8972222528</size>
-            <zIndex>12</zIndex>
+            <zIndex>2</zIndex>
 			<linearSmooth>true</linearSmooth>
             <path>./_inc/images/gamelist/gamelist-background-shadow.webp</path>
 			<visible>true</visible>
@@ -258,7 +260,7 @@ based on 1920 x 1080
             <origin>0.5 0.5</origin>
             <pos>0.75 0.50648148147</pos>
             <size>0.4140625 0.84166666666</size>
-            <zIndex>13</zIndex>
+            <zIndex>3</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<path>${gamelistBackgroundImageCalculated}</path>
 			<visible>true</visible>
@@ -270,12 +272,13 @@ based on 1920 x 1080
 			<primaryColor>${gamelistPrimaryColor}</primaryColor>
 			<secondaryColor>${gamelistSecondaryColor}</secondaryColor>
 			<horizontalMargin>0.008333333333333</horizontalMargin>
-			<zIndex>15</zIndex>
+			<zIndex>4</zIndex>
 			<pos>${gamelistPos}</pos>
 			<size>${gamelistSize}</size>
 			<fontSize>${gamelistFontSize}</fontSize>
 			<selectorHeight>${gamelistSelectorHeight}</selectorHeight>
 			<lines>${linecount}</lines>
+			<alignment>left</alignment>
 		</textlist>
 	</view>
 

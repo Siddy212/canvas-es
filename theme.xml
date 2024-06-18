@@ -13,7 +13,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 	<!-- ~~~~~~~~ -->
 	<include>./fonts.xml</include>
 	<include>./file_paths.xml</include>
-	<include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+	<include>./_inc/systems/metadata/${system.theme}.xml</include>
 	
 	<!--
    ///
@@ -172,8 +172,8 @@ Licnese: Creative Commons CC-BY-NC-SA
 	<!-- SystemView Include -->
 	<!-- ~~~~~~~~~~~~~ -->
 		
-	<include ifSubset="system-view:grid">./systemview/grid.xml</include>
-	<include ifSubset="system-view:carousel">./systemview/carousel.xml</include>
+	<include ifSubset="system-view:grid">./_inc/system-view/grid.xml</include>
+	<include ifSubset="system-view:carousel">./_inc/system-view/carousel.xml</include>
 
 	<!-- Screen View -->
 	<!-- ~~~~~~~~~~~ -->
@@ -294,7 +294,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 	<!-- All Views -->
 	<!-- ~~~~~~~~~~ -->
 
-	<view name="system, detailed, gamecarousel, grid">
+	<view name="system, basic, detailed, gamecarousel, grid">
 
 		<!-- Help System -->
 		<helpsystem name="help">
@@ -320,7 +320,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<maxSize ifSubset="aspect-ratio:4-3|4-3-auto">1.333333 1</maxSize>
 			<maxSize ifSubset="aspect-ratio:1-1|1-1-auto">1.7777 1</maxSize>
 			<linearSmooth>true</linearSmooth>
-			<zindex>1</zindex>
+			<zIndex>0</zIndex>
 		</image>
 	</view>
 
@@ -334,12 +334,12 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<opacity>1</opacity>
 			<color>${systemInfoColor}</color>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>20</zIndex>
+			<zIndex>3</zIndex>
 		</image>
 		<text name="systemInfo">
 			<fontPath>${fontBold}</fontPath>
 			<origin>0 0.5</origin>
-			<zIndex>20</zIndex>
+			<zIndex>3</zIndex>
 			<color>${systemInfoColor}</color>
 			<alignment>left</alignment>
 			<lineSpacing>1</lineSpacing>
@@ -350,7 +350,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<text>{system:total}</text>
 			<fontPath>${fontBold}</fontPath>
 			<origin>0 0.5</origin>
-			<zIndex>20</zIndex>
+			<zIndex>3</zIndex>
 			<color>${systemInfoColor}</color>
 			<alignment>left</alignment>
 			<lineSpacing>1</lineSpacing>
@@ -358,24 +358,24 @@ Licnese: Creative Commons CC-BY-NC-SA
             <fontSize>${systemDescriptionFontSize}</fontSize>
 		</text>
 	</view>
-	
 
+	<!-- Gamelist: System Logo -->
+	<!-- ~~~~~~~~~~~~~ -->
+	<view name="basic, detailed, gamecarousel, grid" >
+		<image name="logo" origin="0.5 0.5" linearSmooth="true">
+			<path>./_inc/systems/logos/${system.theme}.svg</path>
+			<zIndex>2</zIndex>
+			<color>${systemInfoColor}</color>
+			<visible>true</visible>
+			<opacity>0.8</opacity>
+		</image>	
+	</view>
 	<!-- Gamelist: Full Metadata Call-->
 	<!-- ~~~~~~~~~~~~~ -->
 	<view name="detailed, gamecarousel, grid" >
-		<image name="background-art" extra="true">
-			<opacity>1</opacity>
-			<saturation>1</saturation>
-		</image>
-		<image name="system-logo" origin="0.5 0.5" linearSmooth="true" extra="true">
-			<path>${themePath}/_inc/systems/system/{system:theme}.svg</path>
-			<zIndex>60</zIndex>
-			<color>${systemInfoColor}</color>
-			<opacity>0.8</opacity>
-		</image>	
 		<image name="playtime-logo" origin="0.5 0.5" linearSmooth="true" extra="true">
-			<path>${themePath}/_inc/images/playtime-icon.svg</path>
-			<zIndex>60</zIndex>
+			<path>./_inc/images/playtime-icon.svg</path>
+			<zIndex>4</zIndex>
 			<color>${gameMetadataColor}</color>
 			<opacity>0.7</opacity>
 			<visible ifSubset="metadata-option:rating">false</visible>
@@ -383,23 +383,23 @@ Licnese: Creative Commons CC-BY-NC-SA
 		</image>
 		<image name="md_marquee">
 			<origin>0.5 0.5</origin>
-			<zIndex>61</zIndex>
+			<zIndex>6</zIndex>
 			<visible>${visiblemix}</visible>
 		</image>
 		<image name="md_image">
 			<origin>0.5 0.5</origin>
-			<zIndex>59</zIndex>
+			<zIndex>5</zIndex>
 		</image>
 		<image name="md_thumbnail">
 			<origin>0 0.5</origin>
-			<zIndex>61</zIndex>
+			<zIndex>6</zIndex>
 		</image>	
 		<video name="md_video">
 			<origin>0.5 0.5</origin>
 			<delay>6</delay>
 			<roundCorners>0.005</roundCorners>
 			<showSnapshotNoVideo>false</showSnapshotNoVideo>
-			<zIndex>60</zIndex>
+			<zIndex>4</zIndex>
 		</video>
 		<datetime name="md_releasedate,md_lastplayed">
 			<origin>0 0.5</origin>
@@ -434,7 +434,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<visible ifSubset="metadata-option:playtime">true</visible>
 			<text>{game:gametime} > 0 ? expandseconds({game:gametime}) : "Never"</text>
 			<color>${gameMetadataColor}</color>
-			<zIndex>61</zIndex>
+			<zIndex>4</zIndex>
 		</text>
 		<text name="md_genre">
 			<forceUppercase>false</forceUppercase>
@@ -476,12 +476,12 @@ Licnese: Creative Commons CC-BY-NC-SA
 		<!-- Start: Extended Metadata -->
 		<image name="game-metadata-background-shadow-extended" extra="true">
 			<origin>0.5 0.5</origin>
-			<zIndex>12</zIndex>
+			<zIndex>2</zIndex>
 			<linearSmooth>true</linearSmooth>
 		</image>
 		<image name="game-metadata-background-image-extended" extra="true">
 			<origin>0.5 0.5</origin>
-			<zIndex>13</zIndex>
+			<zIndex>3</zIndex>
 			<linearSmooth>true</linearSmooth>
 		</image>
 	</view>
@@ -492,12 +492,12 @@ Licnese: Creative Commons CC-BY-NC-SA
 	<view name="detailed, gamecarousel, grid" ifSubset="font-size:medium|large,metadata:on">
 		<image name="game-metadata-background-shadow-base" extra="true">
 			<origin>0.5 0.5</origin>
-			<zIndex>12</zIndex>
+			<zIndex>2</zIndex>
 			<linearSmooth>true</linearSmooth>
 		</image>
 		<image name="game-metadata-background-image-base" extra="true">
 			<origin>0.5 0.5</origin>
-			<zIndex>13</zIndex>
+			<zIndex>3</zIndex>
 			<linearSmooth>true</linearSmooth>
 		</image>
 	</view>
@@ -559,7 +559,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 	<!-- ~~~~~~~~~~~ -->
 	<view name="gamecarousel">
 		<gamecarousel name="gamecarousel">
-			<zIndex>43</zIndex>	      
+			<zIndex>3</zIndex>	      
 			<type>vertical_wheel</type>
 			<size>1 1</size>
 			<logoScale>1.2</logoScale>

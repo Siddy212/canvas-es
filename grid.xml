@@ -53,7 +53,7 @@
 			<scrollbarSize>0.005</scrollbarSize>
 			<scrollbarAlignment>right</scrollbarAlignment>
 			<autoLayoutSelectedZoom>1.05</autoLayoutSelectedZoom>
-            <zIndex>20</zIndex>
+            <zIndex>3</zIndex>
 		</imagegrid>
 		<gridtile name="default">
 			<backgroundColor>00000007</backgroundColor>
@@ -62,7 +62,7 @@
 			<selectionMode>image</selectionMode>
 			<imageSizeMode>maxSize</imageSizeMode>
 			<padding>3.5 3.5</padding>
-              <path>./_inc/systems/system-grid/square-bg.png</path>
+              <path>./_inc/system-view/square-bg.png</path>
 		</gridtile>
     	<image name="gridtile.image">
 			<linearSmooth>true</linearSmooth>

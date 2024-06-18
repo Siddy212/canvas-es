@@ -45,7 +45,7 @@
           </storyboard>
 		  <!-- Selector -->
             <image name="selector" extra="true">
-		        <path>{themePath}/_inc/systems/system-grid/square.png</path>
+		        <path>{themePath}/_inc/system-view/square.png</path>
             <!-- Redeclare the line to make the image dynamic with binding -->
             <pos>0.5 0.74</pos>
             <origin>0.5 1</origin>
@@ -54,17 +54,17 @@
             <zIndex>30</zIndex>
 			<color>00000000</color>
               <storyboard event="activate" repeat="forever">
-                <animation property="path" to="${themePath}/_inc/systems/system-grid/square.png"/>
+                <animation property="path" to="${themePath}/_inc/system-view/square.png"/>
                 <animation property="color" from="${systemCarouselSelectorColor}00" to="${systemCarouselSelectorColor}" duration="1000" mode="easeOut"/>
                 <animation property="color" from="${systemCarouselSelectorColor}" to="${systemCarouselSelectorColor}00" begin="1500" duration="1000" mode="easeOut"/>
               </storyboard>
               <storyboard event="deactivate">
-                <animation property="path" to="${themePath}/_inc/systems/system-grid/square.png"/>
+                <animation property="path" to="${themePath}/_inc/system-view/square.png"/>
                 <animation property="color" to="00000000"/>
               </storyboard>
           </image>
 		  <image name="shade" extra="true">
-              <path>./_inc/systems/system-grid/square-bg.png</path>
+              <path>./_inc/system-view/square-bg.png</path>
               <pos>0.5 0.77</pos>
               <origin>0.5 1</origin>
               <maxSize>0.84 0.74</maxSize>
@@ -107,7 +107,7 @@
 					<zIndex>10</zIndex>
         	</text>
             <image name="theLogoImage" pos="0.5 0.755" origin="0.5 0" maxSize="0.6 0.18" linearSmooth="true">
-              <path>${themePath}/_inc/systems/system/{system:theme}.svg</path>
+              <path>${themePath}/_inc/systems/logos/{system:theme}.svg</path>
               <zIndex>6</zIndex>
               <color>${systemInfoColor}</color>
             </image>
@@ -136,35 +136,35 @@
           </storyboard>
 		  <!-- Selector -->
           <image name="selector" extra="true">
-            <path>${themePath}/_inc/systems/system-grid/4-5.png</path>
+            <path>${themePath}/_inc/system-view/4-5.png</path>
             <pos>0.5 0.5</pos>
             <origin>0.5</origin>
             <maxSize>.92 0.98</maxSize>
             <linearSmooth>true</linearSmooth>
-            <zIndex>30</zIndex>
+            <zIndex>6</zIndex>
 			<color>00000000</color>
               <storyboard event="activate" repeat="forever">
-                <animation property="path" to="${themePath}/_inc/systems/system-grid/4-5.png"/>
+                <animation property="path" to="${themePath}/_inc/system-view/4-5.png"/>
                 <animation property="color" from="${systemCarouselSelectorColor}00" to="${systemCarouselSelectorColor}" duration="1000" mode="easeOut"/>
                 <animation property="color" from="${systemCarouselSelectorColor}" to="${systemCarouselSelectorColor}00" begin="1500" duration="1000" mode="easeOut"/>
               </storyboard>
               <storyboard event="deactivate">
-                <animation property="path" to="${themePath}/_inc/systems/system-grid/4-5.png"/>
+                <animation property="path" to="${themePath}/_inc/system-view/4-5.png"/>
                 <animation property="color" to="00000000"/>
               </storyboard>
           </image>
 		  <image name="backdrop" extra="true">
-              <path>./_inc/systems/system-grid/icon.png</path>
+              <path>./_inc/system-view/icon.png</path>
               <pos>0.5 0.5</pos>
               <origin>0.5</origin>
               <maxSize>0.845 0.895</maxSize>
 			  <roundCorners>${CornersSmall}</roundCorners>
 			   <opacity>0.6</opacity>
 			<color>${BackdropColor}</color>
-            <zIndex>4</zIndex>
+            <zIndex>3</zIndex>
             </image>
 		  <image name="shade" extra="true">
-              <path>./_inc/systems/system-grid/4-5-bg.png</path>
+              <path>./_inc/system-view/4-5-bg.png</path>
               <pos>0.5 0.5</pos>
               <origin>0.5</origin>
               <maxSize>0.95 0.98</maxSize>
@@ -185,7 +185,7 @@
 		  <image name="systemBack" extra="true">
             <opacity>.90</opacity>
             <linearSmooth>true</linearSmooth>
-            <zIndex>3</zIndex>
+            <zIndex>4</zIndex>
             <storyboard event="activate">
               <animation property="opacity" to="1.00" duration="250" mode="easeOut"/>
             </storyboard>
@@ -194,8 +194,8 @@
             </storyboard>
           </image>
 		   <image name="theLogoImage" pos="0.5 0.65" origin="0.5 0" maxSize="0.45 0.25" linearSmooth="true" extra="true">
-              <path>${themePath}/_inc/systems/system/{system:theme}.svg</path>
-              <zIndex>6</zIndex>
+              <path>${themePath}/_inc/systems/logos/{system:theme}.svg</path>
+              <zIndex>5</zIndex>
               <color>${systemInfoColor}</color>
             </image>
           <container padding="0">
@@ -211,7 +211,7 @@
 						<fontPath>${fontBold}</fontPath>
               		<color>${systemInfoColor}</color>
 					<scale>1</scale>
-					<zIndex>10</zIndex>
+					<zIndex>5</zIndex>
 				</text>
             <opacity>0.9</opacity>
             <storyboard event="activate">
