@@ -22,8 +22,8 @@ based on 1920 x 1080
             <gamelistBackgroundImageCalculated>./_inc/images/gamelist/${gamelistBackgroundImage}-small.webp</gamelistBackgroundImageCalculated>
             <gamelistFontSize>0.025</gamelistFontSize>
             <gamelistSelectorHeight>0.039814814814815</gamelistSelectorHeight>
-            <gamelistPos>0.57491666666667 0.117666666666667</gamelistPos>
-            <gamelistSize>0.348958333333333 0.785</gamelistSize>
+            <gamelistPos>0.57491666666667 0.115466666666667</gamelistPos>
+            <gamelistSize>0.348958333333333 0.7883</gamelistSize>
             <itemSizeCarousel>0.23 0.175</itemSizeCarousel>
             <metaDatafontSize>0.025</metaDatafontSize>
             <descriptionPos>0.685</descriptionPos>
@@ -45,8 +45,8 @@ based on 1920 x 1080
             <gamelistBackgroundImageCalculated>./_inc/images/gamelist/${gamelistBackgroundImage}-medium.webp</gamelistBackgroundImageCalculated>
             <gamelistFontSize>0.030333333333333</gamelistFontSize>
             <gamelistSelectorHeight>0.051388888888889</gamelistSelectorHeight>
-            <gamelistPos>0.57491666666667 0.133666666666667</gamelistPos>
-            <gamelistSize>0.348958333333333 0.7515</gamelistSize>
+            <gamelistPos>0.57491666666667 0.134666666666667</gamelistPos>
+            <gamelistSize>0.348958333333333 0.7519</gamelistSize>
             <itemSizeCarousel>0.26 0.2</itemSizeCarousel>
             <metaDatafontSize>0.031</metaDatafontSize>
             <descriptionPos>0.656</descriptionPos>
@@ -63,13 +63,13 @@ based on 1920 x 1080
             <itemcount>1.5</itemcount>
             <itemsize>0.44 0.54</itemsize>
 			<logospacing>-0.75</logospacing>
-            <helpFontSize>0.033</helpFontSize>
+            <helpFontSize>0.028</helpFontSize>
             <helpPos>0.97</helpPos>
             <gamelistBackgroundImageCalculated>./_inc/images/gamelist/${gamelistBackgroundImage}-large.webp</gamelistBackgroundImageCalculated>
             <gamelistFontSize>0.036333333333333</gamelistFontSize>
             <gamelistSelectorHeight>0.06388888888889</gamelistSelectorHeight>
             <gamelistPos>0.57491666666667 0.129166666666667</gamelistPos>
-            <gamelistSize>0.348958333333333 0.785</gamelistSize>
+            <gamelistSize>0.348958333333333 0.763</gamelistSize>
             <itemSizeCarousel>0.26 0.2</itemSizeCarousel>
             <metaDatafontSize>0.040</metaDatafontSize>
             <descriptionPos>0.656</descriptionPos>
