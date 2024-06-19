@@ -98,23 +98,19 @@
 					<animation property="scale" to="1" duration="250" mode="easeOut"/>
 				</storyboard> 
 				<image name="backdrop" extra="true">
-					<path>./_inc/system-view/icon.png</path>
+					<path>./_inc/system-view/icon.webp</path>
 					<pos>0.5 0.5</pos>
 					<origin>0.5</origin>
-					<maxSize>0.8 0.9</maxSize>
-					<roundCorners ifSubset="font-size:medium|large">${CornersMedium}</roundCorners>
-					<roundCorners ifSubset="font-size:small">${CornersSmall}</roundCorners>
+					<maxSize>1 1</maxSize>
 					<opacity>0.6</opacity>
 					<zIndex>4</zIndex>
 					<color>${BackdropColor}</color>
 					</image>
 				<image name="shade" extra="true">
-					<path>${themePath}/_inc/system-view/4-5-bg.png</path>
+					<path>./_inc/system-view/4-5-bg.webp</path>
 					<pos>0.5 0.5</pos>
 					<origin>0.5</origin>
-					<maxSize>0.99 0.998</maxSize>
-					<roundCorners ifSubset="font-size:medium|large">${CornersMedium}</roundCorners>
-					<roundCorners ifSubset="font-size:small">${CornersSmall}</roundCorners>
+					<maxSize>1 1</maxSize>
 					<opacity>0.6</opacity>
 					<zIndex>2</zIndex>
 				</image>

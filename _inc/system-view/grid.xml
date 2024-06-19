@@ -139,36 +139,34 @@
             <path>${themePath}/_inc/system-view/4-5.png</path>
             <pos>0.5 0.5</pos>
             <origin>0.5</origin>
-            <maxSize>.92 0.98</maxSize>
+              <maxSize>1 1</maxSize>
             <linearSmooth>true</linearSmooth>
             <zIndex>6</zIndex>
 			<color>00000000</color>
               <storyboard event="activate" repeat="forever">
-                <animation property="path" to="${themePath}/_inc/system-view/4-5.png"/>
+                <animation property="path" to="${themePath}/_inc/system-view/4-5.webp"/>
                 <animation property="color" from="${systemCarouselSelectorColor}00" to="${systemCarouselSelectorColor}" duration="1000" mode="easeOut"/>
                 <animation property="color" from="${systemCarouselSelectorColor}" to="${systemCarouselSelectorColor}00" begin="1500" duration="1000" mode="easeOut"/>
               </storyboard>
               <storyboard event="deactivate">
-                <animation property="path" to="${themePath}/_inc/system-view/4-5.png"/>
+                <animation property="path" to="${themePath}/_inc/system-view/4-5.webp"/>
                 <animation property="color" to="00000000"/>
               </storyboard>
           </image>
 		  <image name="backdrop" extra="true">
-              <path>./_inc/system-view/icon.png</path>
+              <path>./_inc/system-view/icon.webp</path>
               <pos>0.5 0.5</pos>
               <origin>0.5</origin>
-              <maxSize>0.845 0.895</maxSize>
-			  <roundCorners>${CornersSmall}</roundCorners>
-			   <opacity>0.6</opacity>
-			<color>${BackdropColor}</color>
+                <maxSize>1 1</maxSize>
+          <opacity>0.6</opacity>
+        <color>${BackdropColor}</color>
             <zIndex>3</zIndex>
             </image>
 		  <image name="shade" extra="true">
-              <path>./_inc/system-view/4-5-bg.png</path>
+              <path>./_inc/system-view/4-5-bg.webp</path>
               <pos>0.5 0.5</pos>
               <origin>0.5</origin>
-              <maxSize>0.95 0.98</maxSize>
-			  <roundCorners>${CornersSmall}</roundCorners>
+              <maxSize>1 1</maxSize>
 			   <opacity>0.6</opacity>
             <zIndex>2</zIndex>
             </image>

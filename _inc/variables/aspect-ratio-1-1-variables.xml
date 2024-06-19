@@ -3,7 +3,7 @@
 
 <!-- 
 16-9 aspect ratio
-based on 1920 x 1080
+based on 1080 x 1080
 -->
 
 	<!-- Variables -->
@@ -83,7 +83,7 @@ based on 1920 x 1080
 	<variables>
 		<CornersGrid>10</CornersGrid>
 		<CornersSmall>20</CornersSmall>
-		<CornersMedium>30</CornersMedium>
+		<CornersMedium>40</CornersMedium>
 		<CornersLarge>60</CornersLarge>
 	</variables>
 
