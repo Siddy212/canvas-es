@@ -50,7 +50,7 @@ Licnese: Creative Commons CC-BY-NC-SA
    <variables>
       <distributionPath ifSubset="distribution:retrobat">~/.emulationstation/</distributionPath><!-- RetroBat\emulationstation\.emulationstation\ -->
       <distributionPath ifSubset="distribution:batocera">/userdata/</distributionPath><!-- /userdata -->
-      <themeCustomizationsPath>${distributionPath}theme-customizations/canvas-es/</themeCustomizationsPath>
+      <themeCustomizationsPath>${distributionPath}theme-customizations/canvas/</themeCustomizationsPath>
    </variables>
 
    <!--
@@ -310,10 +310,10 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<iconX>./_inc/images/help-button-north.svg</iconX>
 			<iconY>./_inc/images/help-button-west.svg</iconY>
 		</helpsystem>
-
 		<!-- System Backgrounds -->
 		<image name="background-art" extra="true">
-			<path>${backgroundArtPath}</path>
+			<path>${backgroundArtPath}.webp</path>
+			<path>${backgroundArtPath}.jpg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
 			<size>1 1</size>

@@ -23,7 +23,7 @@
          <gamelistSecondaryColor>666666</gamelistSecondaryColor>
          <gameMetadataColor>666666</gameMetadataColor>
          <BackdropColor>ffffff</BackdropColor>
-         <backgroundArtPath ifSubset="color-scheme:light">./wallpapers/light.webp</backgroundArtPath>
+         <backgroundArtPath ifSubset="color-scheme:light">./wallpapers/light</backgroundArtPath>
          <backgroundArtPath ifSubset="color-scheme:custom">firstfile("${themeCustomizationsPath} + "wallpaper" + ".webp","${themeCustomizationsPath}" + "wallpaper" + ".jpg")</backgroundArtPath>
          <backgroundArtOpacity>0.8</backgroundArtOpacity>
          <menuBackgroundColor>ffffff</menuBackgroundColor>
@@ -46,7 +46,7 @@
          <gamelistSecondaryColor>777777</gamelistSecondaryColor>
          <gameMetadataColor>bbbbbb</gameMetadataColor>
          <BackdropColor>000000</BackdropColor>
-         <backgroundArtPath>./wallpapers/dark.webp</backgroundArtPath>
+         <backgroundArtPath>./wallpapers/dark</backgroundArtPath>
          <backgroundArtOpacity>1</backgroundArtOpacity>
          <menuBackgroundColor>373737</menuBackgroundColor>
    </variables>
@@ -67,7 +67,7 @@
          <gamelistSecondaryColor>777777</gamelistSecondaryColor>
          <gameMetadataColor>777777</gameMetadataColor>
          <BackdropColor>000000</BackdropColor>
-         <backgroundArtPath>./wallpapers/retro.webp</backgroundArtPath>
+         <backgroundArtPath>./wallpapers/retro</backgroundArtPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
          <menuBackgroundColor>fbf6de</menuBackgroundColor>
    </variables>
@@ -88,7 +88,7 @@
          <gamelistSecondaryColor>FFFFFF</gamelistSecondaryColor>
          <gameMetadataColor>FFFFFF</gameMetadataColor>
          <BackdropColor>111111</BackdropColor>
-         <backgroundArtPath>./wallpapers/neon.webp</backgroundArtPath>
+         <backgroundArtPath>./wallpapers/neon</backgroundArtPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
          <menuBackgroundColor>111111</menuBackgroundColor>
    </variables>
@@ -109,7 +109,7 @@
          <gamelistSecondaryColor>777777</gamelistSecondaryColor>
          <gameMetadataColor>777777</gameMetadataColor>
          <BackdropColor>ffffff</BackdropColor>
-         <backgroundArtPath>./wallpapers/pastel.webp</backgroundArtPath>
+         <backgroundArtPath>./wallpapers/pastel</backgroundArtPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
          <menuBackgroundColor>ffffff</menuBackgroundColor>
    </variables>
@@ -130,7 +130,7 @@
          <gamelistSecondaryColor>3b3b3b</gamelistSecondaryColor>
          <gameMetadataColor>3b3b3b</gameMetadataColor>
          <BackdropColor>fbf6de</BackdropColor>
-         <backgroundArtPath>./wallpapers/famicom.webp</backgroundArtPath>
+         <backgroundArtPath>./wallpapers/famicom</backgroundArtPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
          <menuBackgroundColor>771f26</menuBackgroundColor>
    </variables>
@@ -151,7 +151,7 @@
          <gamelistSecondaryColor>3c3b3b</gamelistSecondaryColor>
          <gameMetadataColor>3c3b3b</gameMetadataColor>
          <BackdropColor>dedede</BackdropColor>
-         <backgroundArtPath>./wallpapers/snes.webp</backgroundArtPath>
+         <backgroundArtPath>./wallpapers/snes</backgroundArtPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
          <menuBackgroundColor>bdbcc1</menuBackgroundColor>
    </variables>
@@ -172,7 +172,7 @@
          <gamelistSecondaryColor>ffffff</gamelistSecondaryColor>
          <gameMetadataColor>ffffff</gameMetadataColor>
          <BackdropColor>ffffff</BackdropColor>
-         <backgroundArtPath>./wallpapers/sony.webp</backgroundArtPath>
+         <backgroundArtPath>./wallpapers/sony</backgroundArtPath>
          <backgroundArtOpacity>0.75</backgroundArtOpacity>
          <menuBackgroundColor>207cc575</menuBackgroundColor>
    </variables>

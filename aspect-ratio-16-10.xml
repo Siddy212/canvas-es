@@ -399,7 +399,7 @@ based on 1920 x 1200
 			<visible>true</visible>
 		</image>
 		<image name="md_thumbnail">
-			<pos>0.10 0.38</pos>
+			<pos>0.06 0.38</pos>
 			<maxSize>0.14 0.16</maxSize>
 			<visible>${visiblemix}</visible>
 		</image>
@@ -416,7 +416,7 @@ based on 1920 x 1200
 		</image>
 		<rating name="md_rating">
 			<pos>0.2075 0.603</pos>
-            <size>0 ${metaDatafontSize}</size>
+            <size>0 0.035</size>
 		</rating>
             <datetime name="md_releasedate">
             <pos>0.0625 0.603</pos>
@@ -602,7 +602,7 @@ based on 1920 x 1200
 			<visible>true</visible>
 		</image>
 		<image name="md_thumbnail">
-			<pos>0.10 0.38</pos>
+			<pos>0.06 0.38</pos>
 			<maxSize>0.14 0.16</maxSize>
 			<visible>${visiblemix}</visible>
 		</image>
@@ -619,7 +619,7 @@ based on 1920 x 1200
 		</image>
 		<rating name="md_rating">
 			<pos>0.2075 0.603</pos>
-            <size>0 ${metaDatafontSize}</size>
+            <size>0 0.035</size>
 		</rating>
             <datetime name="md_releasedate">
             <pos>0.0625 0.603</pos>

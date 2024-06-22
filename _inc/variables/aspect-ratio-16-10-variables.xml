@@ -40,7 +40,7 @@ based on 1920 x 1080
 			<itemcount>3</itemcount>
             <itemsize>0.34 0.46</itemsize>
 			<logospacing>0.2</logospacing>
-            <helpFontSize>0.024</helpFontSize>
+            <helpFontSize>0.023</helpFontSize>
             <helpPos>0.97</helpPos>
             <gamelistBackgroundImageCalculated>./_inc/images/gamelist/${gamelistBackgroundImage}-medium.webp</gamelistBackgroundImageCalculated>
             <gamelistFontSize>0.030333333333333</gamelistFontSize>
@@ -63,7 +63,7 @@ based on 1920 x 1080
             <itemcount>1.5</itemcount>
             <itemsize>0.44 0.54</itemsize>
 			<logospacing>-0.75</logospacing>
-            <helpFontSize>0.025</helpFontSize>
+            <helpFontSize>0.024</helpFontSize>
             <helpPos>0.97</helpPos>
             <gamelistBackgroundImageCalculated>./_inc/images/gamelist/${gamelistBackgroundImage}-large.webp</gamelistBackgroundImageCalculated>
             <gamelistFontSize>0.036333333333333</gamelistFontSize>
