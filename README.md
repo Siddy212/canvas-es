@@ -134,6 +134,7 @@ Create the folders that match your distribution and then move on to the options 
 - Alternate wallpapers are also stored in the "Alternate" folder as an example.
 
 - Alternatively, use the color scheme `Custom` to point to a .jpg or .webp file named `wallpaper` within `theme-customizations\canvas\` as determined by the distribution choice above.
+- Choosing `Custom` also allows a new color scheme to be created within `themes/canvas-es/colors.xml`.
 
 
 ## **Acknowledgments**
