@@ -127,14 +127,14 @@ Create the folders that match your distribution and then move on to the options 
 - The theme will look them them up in that order. If a given image is not found in your folder then the the images from the theme will be used as a fallback. This allows you to customize only the images you want and still have images displayed for all systems.
 - ${system.theme}.webp should be named for the system you are looking to override. For example if you wanted to override the icons for snes you would create an image called snes.webp in the icons folder. Once your images are in place you turn on custom images by changing the System Icon Style setting to Custom (Icons).
 
-### Wallpapers
+### Wallpapers and Color Schemes
 - Locate the folder `wallpapers` within Emulation Stations' theme directory at: `share/themes/canvas-es/wallpapers`
 - Inside are .webp images named after the color schemes.
 - Save over any of these with your new wallpaper (or a new jpg image) to change that color scheme look.
 - Alternate wallpapers are also stored in the "Alternate" folder as an example.
 
 - Alternatively, use the color scheme `Custom` to point to a .jpg or .webp file named `custom` within `theme-customizations\canvas\wallpapers` as determined by the distribution choice above. The theme will default to `themes\canvas-es\wallpapers\custom` if no wallpaper is found.
-- Choosing `Custom` also allows a new color scheme to be created within  `theme-customizations\canvas\colors.xml`. If no file is made, it will default to the custom color scheme within `themes\canvas-es\colors.xml` however this will be overriden if the theme is updated. 
+- Choosing `Custom` also allows a new color scheme to be created within  `theme-customizations\canvas\colors.xml`. If no file is present, it will default to the custom color scheme within `themes\canvas-es\colors.xml` however this will be overriden if the theme is updated. 
 
 
 ## **Acknowledgments**
