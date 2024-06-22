@@ -24,7 +24,7 @@
 			<linearSmooth>true</linearSmooth>
 			<!-- System View: Carousel (Art)-->
 			<!-- ~~~~~~~~~~~ -->
-			<itemTemplate ifSubset="icon-scheme:art,custom-art">
+			<itemTemplate ifSubset="icon-scheme:art|custom-art">
 				<storyboard event="activate">
 					<animation property="scale" to="1.05" duration="150" mode="easeOut"/>
 				</storyboard>
@@ -91,7 +91,7 @@
 			
 			<!-- System View: Carousel (Icon)-->
 			<!-- ~~~~~~~~~~~ -->
-			<itemTemplate ifSubset="icon-scheme:icon,custom-icon">
+			<itemTemplate ifSubset="icon-scheme:icon|custom-icon">
 				<storyboard event="activate">
 					<animation property="scale" to="1.05" duration="150" mode="easeOut"/>
 				</storyboard>
