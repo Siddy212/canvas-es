@@ -28,7 +28,7 @@ This is a port of the EmulationStation-DE theme Canvas-es-de located [here](http
    - `Theme Aspect Ratio` - sets the aspect ratio the theme will render at. If needed, this can be changed to match the aspect ratio of your screen (though it should happen automatically).
       - `16:9`
       - `4:3`
-      - `16:10` (In Process)
+      - `16:10`
       - `1:1` (In Process)
     
     - `Distribution` - sets the file path for customization files to be accessed.
@@ -81,43 +81,77 @@ This is a port of the EmulationStation-DE theme Canvas-es-de located [here](http
       - `Miximage` - Compile a Miximage with boxart, marquee, and screenshot.
            
    - `Automatic Grid Size` - enables you to change the number of rows for the `Grid` view when `Default Grid Size` is set to `Automatic`. It will scale correctly to optimize screen space per system.
+      - `Automatic` - Will select an optimized row choice for your aspect ratio.
       - `2 Rows`
       - `3 Rows`
       - `4 Rows`
         
    - `Automatic Grid-Detailed Size` - enables you to change the number of columns for the `Grid-Detailed` view when `Default Grid Size` is set to `Automatic`. It will scale correctly to optimize screen space per system.
-      - `2 Rows`
-      - `3 Rows`
-      - `4 Rows`
+      - `Automatic` - Will select an optimized column choice for your aspect ratio.
+      - `2 Columns`
+      - `3 Columns`
+      - `4 Columns`
      
-### **Preview of Variants and Color Schemes**
+### **Preview of Variants, Font Sizes, and Color Schemes**
 
 | Color | Variant | SystemView | GamelistView |
 | :---: | :---: | :---: | :---: |
-|Retro|[Grid] Grid: Simple|||
-|[Icon] Dark| [Carousel] Textlist|||
+|Retro| System Grid & Grid|![VirtualBox_Batocera_v39_22_06_2024_10_51_59](https://github.com/Siddy212/canvas-es/assets/60283021/4c845459-2a4d-44fa-aa74-ca5d1b5f97b6)|![VirtualBox_Batocera_v39_22_06_2024_10_52_33](https://github.com/Siddy212/canvas-es/assets/60283021/3fb78fba-dc39-4c79-9865-b9f26263e0ca)|
+|Pastel| System Carousel & Detailed|![VirtualBox_Batocera_v39_22_06_2024_10_44_18](https://github.com/Siddy212/canvas-es/assets/60283021/5e9c6ff2-e5e9-4cc0-ba54-30d9aa6fe46b)|![VirtualBox_Batocera_v39_22_06_2024_10_48_44](https://github.com/Siddy212/canvas-es/assets/60283021/6481ea4a-ac52-40e2-bd24-be190264ed63)|
+|Neon| System Carousel & Detailed: Grid|![VirtualBox_Batocera_v39_22_06_2024_10_54_28](https://github.com/Siddy212/canvas-es/assets/60283021/5d836900-edaf-4a93-b1da-4f7de2387de4)|![VirtualBox_Batocera_v39_22_06_2024_10_56_07](https://github.com/Siddy212/canvas-es/assets/60283021/c047cd70-54bd-43a8-a1d5-9a790c13a7ab)|
+|Light| System Grid & GameCarousel|![VirtualBox_Batocera_v39_22_06_2024_10_57_25](https://github.com/Siddy212/canvas-es/assets/60283021/5ab2ef59-b85b-42a6-ba92-25f03789d57c)|![VirtualBox_Batocera_v39_22_06_2024_10_57_50](https://github.com/Siddy212/canvas-es/assets/60283021/3f9baa51-aecf-48e5-87a0-a5df214e2d15)|
 
-### Preview of Font Sizes 
 
-| Small | Medium |
-| :---: | :---: |
-|||
-| **Large** |
+
+
+
+
 
 ## **Theme Customizations**
 
-This theme allows customizations to artwork without the need to edit the source XML. 
+This theme allows customizations to artwork without the need to edit the source XML. This follows the default Art-Book-Next customization directions for alignment.
+Make sure the Distribution setting is set to the correct value for your current OS (e.g. Batocera/Knulli or RetroBat)
+- This value determines the folder where you will add your customizations:
+   - `Batocera/Knulli` = /userdata/theme-customizations/canvas/
+   - `Retrobat` = C:\RetroBat\emulationstation\.emulationstation\theme-customizations\canvas\
+
+Create the folders that match your distribution and then move on to the options below...
+
+### System View Art
+- Create the folder called `artwork` in the theme customization directory chosen above.
+- Create your custom artwork as a 1-1 aspect ratio square image.
+- Export your final images as webp, pngs, or jpgs.
+- They can be named:
+   - ${system.theme}.webp
+   - ${system.theme}.png
+   - ${system.theme}.jpg
+- The theme will look them them up in that order. If a given image is not found in your folder then the the images from the theme will be used as a fallback. This allows you to customize only the images you want and still have images displayed for all systems.
+- ${system.theme}.webp should be named for the system you are looking to override. For example if you wanted to override the artwork for snes you would create an image called snes.webp in the artwork folder. Once your images are in place you turn on custom images by changing the System Icon Style setting to Custom (Art).
+
+### System View Icons
+- Create the folder called `icons` in the theme customization directory chosen above.
+- Create your custom icon following the other systems location and size.
+- Export your final images as webp or pngs.
+- They can be named:
+   - ${system.theme}.webp
+   - ${system.theme}.png
+- The theme will look them them up in that order. If a given image is not found in your folder then the the images from the theme will be used as a fallback. This allows you to customize only the images you want and still have images displayed for all systems.
+- ${system.theme}.webp should be named for the system you are looking to override. For example if you wanted to override the icons for snes you would create an image called snes.webp in the icons folder. Once your images are in place you turn on custom images by changing the System Icon Style setting to Custom (Icons).
 
 ### Wallpapers
-- Use the folder called `wallpapers` in ES-DE's theme directory at: `share/themes/canvas-es`
+- Locate the folder `wallpapers` within Emulation Stations' theme directory at: `share/themes/canvas-es/wallpapers`
 - Inside are .webp images named after the color schemes.
-- Save over any of these with your new wallpaper to change that color scheme look.
+- Save over any of these with your new wallpaper (or a new jpg image) to change that color scheme look.
 - Alternate wallpapers are also stored in the "Alternate" folder as an example.
+
+- Alternatively, use the color scheme `Custom` to point to a .jpg or .webp file named `wallpaper` within `theme-customizations\canvas\` as determined by the distribution choice above.
 
 
 ## **Acknowledgments**
 
 **Artwork was designed and created by the following artists and credit is provided to them.**
+   - Code structure, file layouts, tips, and theme paths were guided by the great outlines from [Ant - ArtBookNext](https://github.com/anthonycaccese/art-book-next-es)
+     
    - A lot of the original artwork and layouts were designed and created by [fagnerpc](https://github.com/fagnerpc)
    - Light/Dark wallpaper by [Pretty In Pixel](https://prettyinpixel.wordpress.com/page/2/)
    - Retro wallpaper by [Hadair Ahmad](https://www.vecteezy.com/members/aspctstyle)
