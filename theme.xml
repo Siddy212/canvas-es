@@ -113,7 +113,7 @@ Licnese: Creative Commons CC-BY-NC-SA
       <include name="custom" displayName="Custom" />
    </subset>
    <include>./colors.xml</include>
-   <include ifSubset="color-scheme:custom">${themeCustomizationsPath}colors.xml</include>
+   <include ifSubset="color-scheme:custom">${themeCustomizationsPath}/colors.xml</include>
    <!--
    ///
    Subset: Font Size
@@ -312,8 +312,12 @@ Licnese: Creative Commons CC-BY-NC-SA
 		</helpsystem>
 		<!-- System Backgrounds -->
 		<image name="background-art" extra="true">
-			<path>${backgroundArtPath}.webp</path>
-			<path>${backgroundArtPath}.jpg</path>
+			<path ifSubset="color-scheme:light|dark|retro|neon|sony|snes|famicom|pastel">${backgroundArtPath}.jpg</path>
+			<path ifSubset="color-scheme:light|dark|retro|neon|sony|snes|famicom|pastel">${backgroundArtPath}.webp</path>
+			<path ifSubset="color-scheme:custom">${themeCustomizationsPath}/wallpapers/custom.webp</path>
+			<path ifSubset="color-scheme:custom">${themeCustomizationsPath}/wallpapers/custom.jpg</path>
+			<path ifSubset="color-scheme:custom">${themePath}/wallpapers/custom.jpg</path>
+			<path ifSubset="color-scheme:custom">${themePath}/wallpapers/custom.webp</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
 			<size>1 1</size>

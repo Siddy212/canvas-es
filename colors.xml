@@ -3,10 +3,46 @@
 
    <!--   System View: Art Default   -->
 
+  <!--   Change this sectionfor Custom Color Scheme   -->
+   <variables ifSubset="color-scheme:custom">
+         <helpTextColor>555555</helpTextColor>
+         <backgroundColor>373737</backgroundColor>
+         <systemInfoColor>555555</systemInfoColor>
+         <systemCarouselTextColor>555555</systemCarouselTextColor>
+         <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
+         <systemCarouselSelectorColor>FFFFFF</systemCarouselSelectorColor>
+         
+         <!--   Metadata/Gamelist Backgrounds:    -->
+      <!--   Change "light" to "dark","clear,"beige", or "retro" by replacing the "light" text below   -->
+         <gamelistBackgroundImage>gamelist-background-light</gamelistBackgroundImage>
+         <gamelistMetadataBackgroundImage>gamelist-metadata-background-light</gamelistMetadataBackgroundImage>
+         
+         <gamelistLogoColor>555555</gamelistLogoColor>
+         <gamelistBackgroundOpacity>0.8</gamelistBackgroundOpacity>
+         <gamelistSelectorColor>404040</gamelistSelectorColor>
+         <gamelistSelectedColor>ffffff</gamelistSelectedColor>
+         <gamelistPrimaryColor>666666</gamelistPrimaryColor>
+         <gamelistSecondaryColor>666666</gamelistSecondaryColor>
+         <gameMetadataColor>666666</gameMetadataColor>
+         <BackdropColor>ffffff</BackdropColor>
+         <backgroundArtOpacity>0.8</backgroundArtOpacity>
+         <menuBackgroundColor>ffffff</menuBackgroundColor>
+   </variables>
 
 
 
-   <variables ifSubset="color-scheme:light|custom">
+
+
+
+
+
+
+
+
+   <!--   Preset Color Schemes   -->
+
+
+   <variables ifSubset="color-scheme:light">
          <helpTextColor>555555</helpTextColor>
          <backgroundColor>373737</backgroundColor>
          <systemInfoColor>555555</systemInfoColor>
@@ -23,8 +59,7 @@
          <gamelistSecondaryColor>666666</gamelistSecondaryColor>
          <gameMetadataColor>666666</gameMetadataColor>
          <BackdropColor>ffffff</BackdropColor>
-         <backgroundArtPath ifSubset="color-scheme:light">./wallpapers/light</backgroundArtPath>
-         <backgroundArtPath ifSubset="color-scheme:custom">firstfile("${themeCustomizationsPath} + "wallpaper" + ".webp","${themeCustomizationsPath}" + "wallpaper" + ".jpg")</backgroundArtPath>
+         <backgroundArtPath>./wallpapers/light</backgroundArtPath>
          <backgroundArtOpacity>0.8</backgroundArtOpacity>
          <menuBackgroundColor>ffffff</menuBackgroundColor>
    </variables>
