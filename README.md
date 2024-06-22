@@ -133,8 +133,8 @@ Create the folders that match your distribution and then move on to the options 
 - Save over any of these with your new wallpaper (or a new jpg image) to change that color scheme look.
 - Alternate wallpapers are also stored in the "Alternate" folder as an example.
 
-- Alternatively, use the color scheme `Custom` to point to a .jpg or .webp file named `wallpaper` within `theme-customizations\canvas\` as determined by the distribution choice above.
-- Choosing `Custom` also allows a new color scheme to be created within `themes/canvas-es/colors.xml`.
+- Alternatively, use the color scheme `Custom` to point to a .jpg or .webp file named `wallpaper` within `theme-customizations\canvas\` or `themes\canvas-es\wallpapers`as determined by the distribution choice above.
+- Choosing `Custom` also allows a new color scheme to be created within  `theme-customizations\canvas\colors.xml`. If no file is made, it will default to the custom color scheme within `themes\canvas-es\colors.xml` however this will be overriden if the theme is updated. 
 
 
 ## **Acknowledgments**
