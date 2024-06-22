@@ -78,6 +78,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 		<include name="4x2" displayName="4X2"/>
 		<include name="4x3" displayName="4X3"/>
 		<include name="4x4" displayName="4X4"/>
+		<include name="5x3" displayName="5X3"/>
 		<include name="5x4" displayName="5X4"/>
 	</subset>
 		
@@ -397,10 +398,10 @@ Licnese: Creative Commons CC-BY-NC-SA
 		</image>	
 		<video name="md_video">
 			<origin>0.5 0.5</origin>
-			<delay>6</delay>
+			<delay>3</delay>
 			<roundCorners>0.005</roundCorners>
 			<showSnapshotNoVideo>false</showSnapshotNoVideo>
-			<zIndex>4</zIndex>
+			<zIndex>8</zIndex>
 		</video>
 		<datetime name="md_releasedate,md_lastplayed">
 			<origin>0 0.5</origin>
@@ -576,6 +577,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 	<!-- ~~~~~~~~~~~ -->
 	
 	<subset name="autogriddetailedsize" displayName="Automatic Grid-Detailed Size" appliesTo="grid-detailed" >
+		<include name="automatic" displayName="Automatic"/>
 		<include name="large" displayName="2 Columns"/>
 		<include name="medium" displayName="3 Columns"/>
 		<include name="small" displayName="4 Columns"/>
@@ -586,10 +588,18 @@ Licnese: Creative Commons CC-BY-NC-SA
       		<pos>0.5 0</pos>
       		<size ifHelpPrompts="true">0.5 0.95</size>
       		<size ifHelpPrompts="false">0.5 1</size>
+		</imagegrid>
+		<imagegrid name="gamegrid" ifSubset="autogriddetailedsize:automatic">
+    		<autoLayout ifSubset="aspect-ratio:16-9|16-9-auto">3 0</autoLayout>
+			<autoLayout ifSubset="aspect-ratio:16-10|16-10-auto">3 0</autoLayout>
+			<autoLayout ifSubset="aspect-ratio:1-1|1-1-auto">2 0</autoLayout>
+			<autoLayout ifSubset="aspect-ratio:4-3|4-3-auto">2 0</autoLayout>
+		</imagegrid>
+		<imagegrid name="gamegrid" ifSubset="autogriddetailedsize:small,medium,large">
 			<autoLayout ifSubset="autogriddetailedsize:large">2 0</autoLayout>
 			<autoLayout ifSubset="autogriddetailedsize:medium">3 0</autoLayout>
 			<autoLayout ifSubset="autogriddetailedsize:small">4 0</autoLayout>
-			</imagegrid>
+		</imagegrid>
 	</customView>
 	
 	<!--

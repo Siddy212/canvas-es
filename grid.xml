@@ -9,6 +9,7 @@
    ///
    -->
 	<subset name="autogridsize" displayName="Automatic Grid Size" appliesTo="grid" >
+		<include name="automatic" displayName="Automatic"/>
 		<include name="large" displayName="2 Rows"/>
 		<include name="medium" displayName="3 Rows"/>
 		<include name="small" displayName="4 Rows"/>
@@ -17,11 +18,18 @@
 	<!-- Game Grid View -->
 	<!-- ~~~~~~~~~~~ -->
 	<view name="grid">
-		
+		<imagegrid name="gamegrid" ifSubset="autogridsize:automatic">
+    		<autoLayout ifSubset="aspect-ratio:16-9|16-9-auto">0 2</autoLayout>
+			<autoLayout ifSubset="aspect-ratio:16-10|16-10-auto">0 3</autoLayout>
+			<autoLayout ifSubset="aspect-ratio:1-1|1-1-auto">0 3</autoLayout>
+			<autoLayout ifSubset="aspect-ratio:4-3|4-3-auto">0 2</autoLayout>
+		</imagegrid>
+		<imagegrid name="gamegrid" ifSubset="autogridsize:small,medium,large">
+			<autoLayout ifSubset="autogriddetailedsize:large">0 2</autoLayout>
+			<autoLayout ifSubset="autogriddetailedsize:medium">0 3</autoLayout>
+			<autoLayout ifSubset="autogriddetailedsize:small">0 4</autoLayout>
+		</imagegrid>
 		<imagegrid name="gamegrid">
-			<autoLayout ifSubset="autogridsize:large">0 2</autoLayout>
-			<autoLayout ifSubset="autogridsize:medium">0 3</autoLayout>
-			<autoLayout ifSubset="autogridsize:small">0 4</autoLayout>
 			<cellProportion>0.8</cellProportion>
 			<cellProportion if="${systemCoverSize} == '1-1'">1</cellProportion>
 			<cellProportion if="${systemCoverSize} == '1-2'">0.5</cellProportion>
