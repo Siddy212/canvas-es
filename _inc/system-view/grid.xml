@@ -34,7 +34,7 @@
     <!-- System View: Grid (Art)-->
 	<!-- ~~~~~~~~~~~ -->
 	
-        <container ifSubset="icon-scheme:art,custom-art">
+        <container ifSubset="icon-scheme:art|custom-art">
           <!--<size>1 0.8</size>-->
 		      <padding>0 0 0 0</padding>
           <scale>1</scale>
@@ -128,7 +128,7 @@
 
     <!-- System View: Grid (Icons)-->
 	<!-- ~~~~~~~~~~~ -->
-        <container ifSubset="icon-scheme:icon,custom-icon">
+        <container ifSubset="icon-scheme:icon|custom-icon">
           <scale>1</scale>
           <padding>10 10 10 10</padding>
           <storyboard event="activate">
