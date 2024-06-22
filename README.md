@@ -99,7 +99,7 @@ This is a port of the EmulationStation-DE theme Canvas-es-de located [here](http
 |Retro| System Grid & Grid|![VirtualBox_Batocera_v39_22_06_2024_10_51_59](https://github.com/Siddy212/canvas-es/assets/60283021/4c845459-2a4d-44fa-aa74-ca5d1b5f97b6)|![VirtualBox_Batocera_v39_22_06_2024_10_52_33](https://github.com/Siddy212/canvas-es/assets/60283021/3fb78fba-dc39-4c79-9865-b9f26263e0ca)|
 |Pastel| System Carousel & Detailed|![VirtualBox_Batocera_v39_22_06_2024_10_44_18](https://github.com/Siddy212/canvas-es/assets/60283021/5e9c6ff2-e5e9-4cc0-ba54-30d9aa6fe46b)|![VirtualBox_Batocera_v39_22_06_2024_10_48_44](https://github.com/Siddy212/canvas-es/assets/60283021/6481ea4a-ac52-40e2-bd24-be190264ed63)|
 |Neon| System Carousel & Detailed: Grid|![VirtualBox_Batocera_v39_22_06_2024_10_54_28](https://github.com/Siddy212/canvas-es/assets/60283021/5d836900-edaf-4a93-b1da-4f7de2387de4)|![VirtualBox_Batocera_v39_22_06_2024_10_56_07](https://github.com/Siddy212/canvas-es/assets/60283021/c047cd70-54bd-43a8-a1d5-9a790c13a7ab)|
-|Light| System Grid & GameCarousel|![VirtualBox_Batocera_v39_22_06_2024_10_57_25](https://github.com/Siddy212/canvas-es/assets/60283021/5ab2ef59-b85b-42a6-ba92-25f03789d57c)|![VirtualBox_Batocera_v39_22_06_2024_10_57_50](https://github.com/Siddy212/canvas-es/assets/60283021/3f9baa51-aecf-48e5-87a0-a5df214e2d15)|
+|Light| System Grid & GameCarousel|![VirtualBox_Batocera_v39_22_06_2024_10_57_50](https://github.com/Siddy212/canvas-es/assets/60283021/3f9baa51-aecf-48e5-87a0-a5df214e2d15)|![VirtualBox_Batocera_v39_22_06_2024_10_57_25](https://github.com/Siddy212/canvas-es/assets/60283021/5ab2ef59-b85b-42a6-ba92-25f03789d57c)|
 
 
 
