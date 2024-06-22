@@ -436,6 +436,9 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<visible ifSubset="metadata-option:playtime">true</visible>
 			<text>{game:gametime} > 0 ? formatseconds({game:gametime}) : "Never"</text>
 			<color>${gameMetadataColor}</color>
+			<autoScroll>horizontal</autoScroll>
+			<autoScrollSpeed>50</autoScrollSpeed>
+			<autoScrollDelay>500000</autoScrollDelay>
 			<zIndex>4</zIndex>
 		</text>
 		<text name="md_genre">

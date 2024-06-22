@@ -73,7 +73,7 @@
             <zIndex>2</zIndex>
             </image>
           <image name="systemBack" extra="true">
-            <path ifSubset>${themePath}/_inc/systems/carousel-icons-art/{system:theme}.webp</path>
+            <path>${themePath}/_inc/systems/carousel-icons-art/{system:theme}.webp</path>
             <path ifSubset="icon-scheme:art">${themePath}/_inc/systems/carousel-icons-art/{system:theme}.webp</path>
             <path ifSubset="icon-scheme:custom-art">${themeCustomizationsPath}/artwork/{system:theme}.webp</path>
             <path ifSubset="icon-scheme:custom-art">${themeCustomizationsPath}/artwork/{system:theme}.png</path>
