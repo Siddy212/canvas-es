@@ -175,7 +175,7 @@
             </image>
           <image name="systemBack" extra="true">
             <path>${themePath}/_inc/systems/carousel-icons-icons/{system:theme}.webp</path>
-            <path ifSubset="icon-scheme:icon">${themeCustomizationsPath}/icons/{system:theme}.webp</path>
+            <path ifSubset="icon-scheme:icon">${themePath}/icons/{system:theme}.webp</path>
             <path ifSubset="icon-scheme:custom-icon">${themeCustomizationsPath}/icons/{system:theme}.webp</path>
             <path ifSubset="icon-scheme:custom-icon">${themeCustomizationsPath}/icons/{system:theme}.png</path>
             <pos>0.5 0.45</pos>
