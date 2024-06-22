@@ -28,7 +28,7 @@ This is a port of the EmulationStation-DE theme Canvas-es-de located [here](http
    - `Theme Aspect Ratio` - sets the aspect ratio the theme will render at. If needed, this can be changed to match the aspect ratio of your screen (though it should happen automatically).
       - `16:9`
       - `4:3`
-      - `16:10` (In Process)
+      - `16:10`
       - `1:1` (In Process)
     
     - `Distribution` - sets the file path for customization files to be accessed.
