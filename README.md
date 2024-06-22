@@ -81,14 +81,16 @@ This is a port of the EmulationStation-DE theme Canvas-es-de located [here](http
       - `Miximage` - Compile a Miximage with boxart, marquee, and screenshot.
            
    - `Automatic Grid Size` - enables you to change the number of rows for the `Grid` view when `Default Grid Size` is set to `Automatic`. It will scale correctly to optimize screen space per system.
+      - `Automatic` - Will select an optimized row choice for your aspect ratio.
       - `2 Rows`
       - `3 Rows`
       - `4 Rows`
         
    - `Automatic Grid-Detailed Size` - enables you to change the number of columns for the `Grid-Detailed` view when `Default Grid Size` is set to `Automatic`. It will scale correctly to optimize screen space per system.
-      - `2 Rows`
-      - `3 Rows`
-      - `4 Rows`
+      - `Automatic` - Will select an optimized column choice for your aspect ratio.
+      - `2 Columns`
+      - `3 Columns`
+      - `4 Columns`
      
 ### **Preview of Variants and Color Schemes**
 
