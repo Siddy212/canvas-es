@@ -50,7 +50,7 @@ Licnese: Creative Commons CC-BY-NC-SA
    <variables>
       <distributionPath ifSubset="distribution:retrobat">~/.emulationstation/</distributionPath><!-- RetroBat\emulationstation\.emulationstation\ -->
       <distributionPath ifSubset="distribution:batocera">/userdata/</distributionPath><!-- /userdata -->
-      <themeCustomizationsPath>${distributionPath}theme-customizations/canvas/</themeCustomizationsPath>
+      <themeCustomizationsPath>${distributionPath}theme-customizations/canvas</themeCustomizationsPath>
    </variables>
 
    <!--

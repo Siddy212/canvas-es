@@ -73,11 +73,8 @@
             <zIndex>2</zIndex>
             </image>
           <image name="systemBack" extra="true">
-            <path>${themePath}/_inc/systems/carousel-icons-art/{system:theme}.webp</path>
-            <path ifSubset="icon-scheme:art">${themePath}/_inc/systems/carousel-icons-art/{system:theme}.webp</path>
-            <path ifSubset="icon-scheme:custom-art">${themeCustomizationsPath}/artwork/{system:theme}.webp</path>
-            <path ifSubset="icon-scheme:custom-art">${themeCustomizationsPath}/artwork/{system:theme}.png</path>
-            <path ifSubset="icon-scheme:custom-art">${themeCustomizationsPath}/artwork/{system:theme}.jpg</path>
+					<path ifSubset="icon-scheme:art">firstfile("${themePath}/_inc/systems/carousel-icons-art/" + {system:theme} + ".webp","${themePath}/_inc/systems/carousel-icons-art/_default.webp")</path>
+					<path ifSubset="icon-scheme:custom-art">firstfile("${themeCustomizationsPath}/artwork/" + {system:theme} + ".webp","${themeCustomizationsPath}/artwork/" + {system:theme} + ".png","${themePath}/_inc/systems/carousel-icons-art/" + {system:theme} + ".webp","${themePath}/_inc/systems/carousel-icons-art/_default.webp")</path>
             <pos>0.5 0.73</pos>
             <origin>0.5 1</origin>
             <maxSize>0.75 0.65</maxSize>
@@ -94,25 +91,26 @@
             </storyboard>
           </image>
 		  
-        	<text name="fallbackText" alignment="center" multiLine="true">
-					<origin>0 0.5</origin>
-					<pos>0 0.85</pos>
-					<size>1 1</size>
-					<forceUppercase>true</forceUppercase>
-					<visible>false</visible>
-					<visible ifSubset="icon-scheme:art">!exists("${themePath}/_inc/systems/logos/" + {system:theme} + ".svg")</visible>
-					<text>{system:fullName}</text>
-					<fontSize>${systemDescriptionFontSize}</fontSize>
-					<fontPath>${fontBold}</fontPath>
-          <color>${systemInfoColor}</color>
-					<scale>1</scale>
-					<zIndex>10</zIndex>
-        	</text>
+
             <image name="theLogoImage" pos="0.5 0.755" origin="0.5 0" maxSize="0.6 0.18" linearSmooth="true">
               <path>${themePath}/_inc/systems/logos/{system:theme}.svg</path>
               <zIndex>6</zIndex>
               <color>${systemInfoColor}</color>
             </image>
+            <text name="fallbackText" alignment="center" multiLine="true">
+              <origin>0 0.5</origin>
+              <pos>0 0.82</pos>
+              <size>1 1</size>
+              <forceUppercase>true</forceUppercase>
+              <visible>false</visible>
+					    <visible>!exists("${themePath}/_inc/systems/logos/" + {system:theme} + ".svg")</visible>
+              <text>{system:fullName}</text>
+              <fontSize>${systemDescriptionFontSize}</fontSize>
+              <fontPath>${fontBold}</fontPath>
+              <color>${systemInfoColor}</color>
+              <scale>1</scale>
+              <zIndex>10</zIndex>
+        	</text>
           <container padding="0">
             <opacity>0.9</opacity>
             <storyboard event="activate">
@@ -174,10 +172,8 @@
             <zIndex>2</zIndex>
             </image>
           <image name="systemBack" extra="true">
-            <path>${themePath}/_inc/systems/carousel-icons-icons/{system:theme}.webp</path>
-            <path ifSubset="icon-scheme:icon">${themePath}/_inc/systems/carousel-icons-icons/{system:theme}.webp</path>
-            <path ifSubset="icon-scheme:custom-icon">${themeCustomizationsPath}/icons/{system:theme}.webp</path>
-            <path ifSubset="icon-scheme:custom-icon">${themeCustomizationsPath}/icons/{system:theme}.png</path>
+            <path ifSubset="icon-scheme:icon">firstfile("${themePath}/_inc/systems/carousel-icons-icons/" + {system:theme} + ".webp","${themePath}/_inc/systems/carousel-icons-icons/_default.webp")</path>
+            <path ifSubset="icon-scheme:custom-icon">firstfile("${themeCustomizationsPath}/icons/" + {system:theme} + ".webp","${themeCustomizationsPath}/icons/" + {system:theme} + ".png","${themePath}/_inc/systems/carousel-icons-icons/" + {system:theme} + ".webp","${themePath}/_inc/systems/carousel-icons-icons/_default.webp")</path>
             <pos>0.5 0.45</pos>
             <origin>0.5</origin>
             <maxSize>0.8 0.9</maxSize>
@@ -206,7 +202,7 @@
 					<size>1 1</size>
 					<forceUppercase>true</forceUppercase>
 					<visible>false</visible>
-					<visible ifSubset="icon-scheme:icon">!exists("${themePath}/_inc/systems/logos/" + {system:theme} + ".svg")</visible>
+					    <visible>!exists("${themePath}/_inc/systems/logos/" + {system:theme} + ".svg")</visible>
 					<text>{system:fullName}</text>
 						<fontSize>${systemDescriptionFontSize}</fontSize>
 						<fontPath>${fontBold}</fontPath>
