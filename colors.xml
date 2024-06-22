@@ -66,7 +66,7 @@
          <gamelistPrimaryColor>777777</gamelistPrimaryColor>
          <gamelistSecondaryColor>777777</gamelistSecondaryColor>
          <gameMetadataColor>777777</gameMetadataColor>
-         <BackdropColor>000000</BackdropColor>
+         <BackdropColor>ffffff</BackdropColor>
          <backgroundArtPath>./wallpapers/retro</backgroundArtPath>
          <backgroundArtOpacity>0.9</backgroundArtOpacity>
          <menuBackgroundColor>fbf6de</menuBackgroundColor>
