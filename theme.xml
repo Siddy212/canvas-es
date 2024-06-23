@@ -320,11 +320,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<path ifSubset="color-scheme:custom">${themePath}/wallpapers/custom.webp</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
-			<size>1 1</size>
-			<size ifSubset="aspect-ratio:16-9|16-9-auto">1 1</size>
-			<size ifSubset="aspect-ratio:16-10|16-10-auto">1.1625 1</size>
-			<size ifSubset="aspect-ratio:4-3|4-3-auto">1.333333 1</size>
-			<size ifSubset="aspect-ratio:1-1|1-1-auto">1.7777 1</size>
+			<minSize>1 1</minSize>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>0</zIndex>
 		</image>
