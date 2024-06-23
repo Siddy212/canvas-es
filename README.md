@@ -115,7 +115,7 @@ Create the folders that match your distribution and then move on to the options 
    - ${system.theme}.png
    - ${system.theme}.jpg
 - The theme will look them them up in that order. If a given image is not found in your folder then the the images from the theme will be used as a fallback. This allows you to customize only the images you want and still have images displayed for all systems.
-- ${system.theme}.webp should be named for the system you are looking to override. For example if you wanted to override the artwork for snes you would create an image called snes.webp in the artwork folder. Once your images are in place you turn on custom images by changing the System Icon Style setting to Custom (Art).
+- ${system.theme}.webp should be named for the system you are looking to override. For example if you wanted to override the artwork for snes you would create an image called snes.webp in the artwork folder. Once your images are in place you turn on custom images by changing the `System Icon Style` setting to `Custom (Art)`.
 
 ### System View Icons
 - Create the folder called `icons` in the theme customization directory chosen above.
@@ -125,7 +125,7 @@ Create the folders that match your distribution and then move on to the options 
    - ${system.theme}.webp
    - ${system.theme}.png
 - The theme will look them them up in that order. If a given image is not found in your folder then the the images from the theme will be used as a fallback. This allows you to customize only the images you want and still have images displayed for all systems.
-- ${system.theme}.webp should be named for the system you are looking to override. For example if you wanted to override the icons for snes you would create an image called snes.webp in the icons folder. Once your images are in place you turn on custom images by changing the System Icon Style setting to Custom (Icons).
+- ${system.theme}.webp should be named for the system you are looking to override. For example if you wanted to override the icons for snes you would create an image called snes.webp in the icons folder. Once your images are in place you turn on custom images by changing the `System Icon Style` setting to `Custom (Icons)`.
 
 ### Wallpapers and Color Schemes
 - Locate the folder `wallpapers` within Emulation Stations' theme directory at: `share/themes/canvas-es/wallpapers`
