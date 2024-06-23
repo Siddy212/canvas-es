@@ -139,7 +139,8 @@ Create the folders that match your distribution and then move on to the options 
 
 ## **Acknowledgments**
 
-** Code structure, file layouts, tips, and theme paths** were guided by the outlines from [Ant - ArtBookNext](https://github.com/anthonycaccese/art-book-next-es)
+**Code structure, file layouts, tips, and theme paths** were guided by the outlines from [Ant - ArtBookNext](https://github.com/anthonycaccese/art-book-next-es)
+
 **Artwork was designed and created by the following artists and credit is provided to them.**
    - A lot of the original artwork and layouts were designed and created by [fagnerpc](https://github.com/fagnerpc)
    - Light/Dark wallpaper by [Pretty In Pixel](https://prettyinpixel.wordpress.com/page/2/)
