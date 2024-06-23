@@ -233,6 +233,7 @@ Licnese: Creative Commons CC-BY-NC-SA
    ///
    -->
    <view name="menu">
+   
       <menuText name="menutitle">
          <fontPath>${fontBold}</fontPath>
          <fontSize>0.03</fontSize>

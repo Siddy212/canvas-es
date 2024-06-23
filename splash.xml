@@ -1,5 +1,6 @@
 <theme>
 
+   <formatVersion>7</formatVersion>
    <!--
    ///
    Variables
@@ -10,11 +11,20 @@
       <distributionPath ifSubset="distribution:batocera">/userdata/</distributionPath><!-- /userdata -->
       <themeCustomizationsPath>${distributionPath}theme-customizations/canvas</themeCustomizationsPath>
    </variables>
-
+   <subset name="color-scheme" displayName="Color Scheme">
+      <include name="dark" displayName="Dark" />
+      <include name="light" displayName="Light" />
+      <include name="retro" displayName="Retro" />
+      <include name="neon" displayName="Neon" />
+      <include name="pastel" displayName="Pastel" />
+      <include name="sony" displayName="Sony" />
+      <include name="snes" displayName="Snes" />
+      <include name="famicom" displayName="Famicom" />
+      <include name="custom" displayName="Custom" />
+   </subset>
    <include>./colors.xml</include>
    <include ifSubset="color-scheme:custom">${themeCustomizationsPath}/colors.xml</include>
 
-   <formatVersion>7</formatVersion>
    <view name="splash">
       <splash name="splash">
          <backgroundColor>000000</backgroundColor>
@@ -22,13 +32,14 @@
       <image name="background">
          <origin>0.5 0.5</origin>
          <pos>0.5 0.5</pos>
-         <path ifSubset="color-scheme:light|dark|retro|neon|sony|snes|famicom|pastel">${backgroundArtPath}.jpg</path>
-         <path ifSubset="color-scheme:light|dark|retro|neon|sony|snes|famicom|pastel">${backgroundArtPath}.webp</path>
+         <minSize>1 1</minSize>
+			<linearSmooth>true</linearSmooth>
+         <path>${backgroundArtPath}.webp</path>
+         <path>${backgroundArtPath}.jpg</path>
          <path ifSubset="color-scheme:custom">${themePath}/wallpapers/custom.jpg</path>
          <path ifSubset="color-scheme:custom">${themePath}/wallpapers/custom.webp</path>
          <path ifSubset="color-scheme:custom">${themeCustomizationsPath}/wallpapers/custom.webp</path>
          <path ifSubset="color-scheme:custom">${themeCustomizationsPath}/wallpapers/custom.jpg</path>
-         <minSize>1 1</minSize>
       </image>
       <image name="progressbar">
          <origin>0.5 0.5</origin>
