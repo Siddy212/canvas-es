@@ -20,6 +20,7 @@
 			<autoLayout ifSubset="sysgridsize:4x2">4 2</autoLayout>
 			<autoLayout ifSubset="sysgridsize:4x3">4 3</autoLayout>
 			<autoLayout ifSubset="sysgridsize:4x4">4 4</autoLayout>
+		        <autoLayout ifSubset="sysgridsize:5x2">5 2</autoLayout>
 			<autoLayout ifSubset="sysgridsize:5x3">5 3</autoLayout>
 			<autoLayout ifSubset="sysgridsize:5x4">5 4</autoLayout>
 		<cellProportion>1</cellProportion>
