@@ -332,22 +332,40 @@ Licnese: Creative Commons CC-BY-NC-SA
 
 	<view name="system">
 		<image name="gamesicon" extra="true">
-			<origin>1 0.5</origin>
+			<origin ifSubset="system-view:grid">1 0.5</origin>
+			<origin ifSubset="system-view:carousel">0.5 0.5</origin>
 			<path>./_inc/images/gamescount.svg</path>
 			<opacity>1</opacity>
 			<color>${systemInfoColor}</color>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>3</zIndex>
+			<visible ifSubset="system-view:grid">true</visible>
+			<visible ifSubset="system-view:carousel">false</visible>
+		</image>
+		<image name="countline" extra="true">
+			<origin>0.5 0.5</origin>
+			<path>./_inc/images/countline.svg</path>
+			<opacity>1</opacity>
+			<color>${systemInfoColor}</color>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>3</zIndex>
+			<visible ifSubset="system-view:grid">false</visible>
+			<visible ifSubset="system-view:carousel">true</visible>
 		</image>
 		<text name="systemInfo">
 			<fontPath>${fontBold}</fontPath>
-			<origin>0 0.5</origin>
 			<zIndex>3</zIndex>
 			<color>${systemInfoColor}</color>
-			<alignment>left</alignment>
 			<lineSpacing>1</lineSpacing>
             <size>0 ${systemDescriptionFontSize}</size>
             <fontSize>${systemDescriptionFontSize}</fontSize>
+		</text>
+		<text name="systemInfo" ifSubset="system-view:grid">
+			<origin>0 0.5</origin>
+			<alignment>left</alignment>
+		</text>
+		<text name="systemInfo" ifSubset="system-view:carousel">
+			<origin>0.5 0.5</origin>
 		</text>
 		<text name="systemInfoGrid" extra="true">
 			<text>{system:total}</text>
