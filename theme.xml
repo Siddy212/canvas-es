@@ -78,6 +78,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 		<include name="4x2" displayName="4X2"/>
 		<include name="4x3" displayName="4X3"/>
 		<include name="4x4" displayName="4X4"/>
+		<include name="5x2" displayName="5X2"/>
 		<include name="5x3" displayName="5X3"/>
 		<include name="5x4" displayName="5X4"/>
 	</subset>
