@@ -474,7 +474,7 @@ based on 1920 x 1080
 			<visible>true</visible>
 		</image>
 		<image name="md_thumbnail">
-			<pos>0.06 0.58</pos>
+			<pos>0.04 0.58</pos>
 			<maxSize>0.16 0.18</maxSize>
 			<visible>${visiblemix}</visible>
 		</image>
@@ -697,7 +697,7 @@ based on 1920 x 1080
 			<visible>true</visible>
 		</image>
 		<image name="md_thumbnail">
-			<pos>0.06 0.58</pos>
+			<pos>0.04 0.58</pos>
 			<maxSize>0.16 0.18</maxSize>
 			<visible>${visiblemix}</visible>
 		</image>
