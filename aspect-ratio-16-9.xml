@@ -301,7 +301,7 @@ based on 1920 x 1080
 			<visible>true</visible>
 		</image>
 		<image name="md_thumbnail">
-			<pos>0.06 0.38</pos>
+			<pos>0.08 0.38</pos>
 			<maxSize>0.14 0.16</maxSize>
 			<visible>${visiblemix}</visible>
 		</image>
@@ -401,7 +401,7 @@ based on 1920 x 1080
 			<visible>true</visible>
 		</image>
 		<image name="md_thumbnail">
-			<pos>0.10 0.38</pos>
+			<pos>0.08 0.38</pos>
 			<maxSize>0.14 0.16</maxSize>
 			<visible>${visiblemix}</visible>
 		</image>
@@ -474,7 +474,7 @@ based on 1920 x 1080
 			<visible>true</visible>
 		</image>
 		<image name="md_thumbnail">
-			<pos>0.04 0.58</pos>
+			<pos>0.06 0.58</pos>
 			<maxSize>0.16 0.18</maxSize>
 			<visible>${visiblemix}</visible>
 		</image>
@@ -502,7 +502,7 @@ based on 1920 x 1080
 			<visible>true</visible>
 		</image>
 		<image name="md_thumbnail">
-			<pos>0.06 0.38</pos>
+			<pos>0.08 0.38</pos>
 			<maxSize>0.14 0.16</maxSize>
 			<visible>${visiblemix}</visible>
 		</image>
@@ -610,7 +610,7 @@ based on 1920 x 1080
 			<visible>true</visible>
 		</image>
 		<image name="md_thumbnail">
-			<pos>0.10 0.38</pos>
+			<pos>0.08 0.38</pos>
 			<maxSize>0.14 0.16</maxSize>
 			<visible>${visiblemix}</visible>
 		</image>
@@ -697,7 +697,7 @@ based on 1920 x 1080
 			<visible>true</visible>
 		</image>
 		<image name="md_thumbnail">
-			<pos>0.04 0.58</pos>
+			<pos>0.06 0.58</pos>
 			<maxSize>0.16 0.18</maxSize>
 			<visible>${visiblemix}</visible>
 		</image>
