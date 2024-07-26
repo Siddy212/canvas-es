@@ -5,12 +5,17 @@ This is a port of the EmulationStation-DE theme Canvas-es-de located [here](http
 
 ### **Preview of some of the Variants, Font Sizes, and Color Schemes**
 
+
 | Color | Variant | SystemView | GamelistView |
 | :---: | :---: | :---: | :---: |
-|Retro| System Grid & Grid|![VirtualBox_Batocera_v39_22_06_2024_10_51_59](https://github.com/Siddy212/canvas-es/assets/60283021/4c845459-2a4d-44fa-aa74-ca5d1b5f97b6)|![VirtualBox_Batocera_v39_22_06_2024_10_52_33](https://github.com/Siddy212/canvas-es/assets/60283021/3fb78fba-dc39-4c79-9865-b9f26263e0ca)|
-|Neon| System Carousel & Detailed: Grid|![VirtualBox_Batocera_v39_22_06_2024_10_54_28](https://github.com/user-attachments/assets/2d82ca39-ba59-4834-8eb2-0b5acab5c602)|![VirtualBox_Batocera_v39_22_06_2024_10_56_07](https://github.com/Siddy212/canvas-es/assets/60283021/c047cd70-54bd-43a8-a1d5-9a790c13a7ab)|
-|Pastel| System Carousel & Detailed|![VirtualBox_Batocera_v39_22_06_2024_10_44_18](https://github.com/user-attachments/assets/7d1ab40e-cda2-4bb7-bd72-23048280b4b7)|![VirtualBox_Batocera_v39_22_06_2024_10_48_44](https://github.com/Siddy212/canvas-es/assets/60283021/6481ea4a-ac52-40e2-bd24-be190264ed63)|
-|Light| System Grid & GameCarousel|![VirtualBox_Batocera_v39_22_06_2024_10_57_50](https://github.com/Siddy212/canvas-es/assets/60283021/3f9baa51-aecf-48e5-87a0-a5df214e2d15)|![VirtualBox_Batocera_v39_22_06_2024_10_57_25](https://github.com/Siddy212/canvas-es/assets/60283021/5ab2ef59-b85b-42a6-ba92-25f03789d57c)|
+|Retro| System Grid & Grid|![VirtualBox_Batocera_v39_24_06_2024_18_50_43](https://github.com/user-attachments/assets/96388198-7547-43dd-a038-e35718bec0d6)|![VirtualBox_Batocera_v39_22_06_2024_10_52_33](https://github.com/user-attachments/assets/4ad4092d-bb20-45ef-9e03-7a91197967bb)|
+|Neon| System Carousel & Detailed: Grid|![VirtualBox_Batocera_v39_22_06_2024_10_54_28](https://github.com/user-attachments/assets/5c46cb45-539a-4bb6-bf0f-92975717878c)|![VirtualBox_Batocera_v39_22_06_2024_10_56_07](https://github.com/user-attachments/assets/a53534ef-4e40-4d09-98d9-1143f71d1e7b)|
+|Pastel| System Carousel & Detailed|![VirtualBox_Batocera_v39_22_06_2024_10_44_18](https://github.com/user-attachments/assets/572074ad-a79e-41e1-b86c-a8b7fbf133e2)|![VirtualBox_Batocera_v39_22_06_2024_10_48_44](https://github.com/user-attachments/assets/4d3f056a-e3b3-4320-9df6-c332dbb6d44b)|
+|Light| System Grid & GameCarousel|![VirtualBox_Batocera_v39_22_06_2024_10_57_50](https://github.com/user-attachments/assets/44e4847e-7627-46fd-9271-c30e825ff531)|![VirtualBox_Batocera_v39_22_06_2024_10_57_25](https://github.com/user-attachments/assets/9c88fd65-f02a-4c4e-b500-a554899b2c89)|
+
+
+
+
 
 # **Configuration Options**
 
