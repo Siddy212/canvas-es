@@ -146,6 +146,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 
    <subset name="media-type" displayName="Metadata Image Type"  appliesTo="detailed,carousel,grid-detailed">
       <include name="image" displayName="Image" />
+	  <include name="boxart" displayName="Boxart" />
       <include name="miximage" displayName="Miximage" />
    </subset>
 
@@ -413,7 +414,8 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<zIndex>5</zIndex>
 		</image>
 		<image name="md_thumbnail">
-			<origin>0 0.5</origin>
+			<origin ifSubset="media-type:miximage">0 0.5</origin>
+			<origin ifSubset="media-type:boxart">0.5 0.5</origin>
 			<zIndex>6</zIndex>
 		</image>	
 		<video name="md_video">

@@ -11,6 +11,9 @@ based on 1920 x 1200
    	<variables ifSubset="media-type:image">
 		<visiblemix>false</visiblemix>
 	</variables>
+	<variables ifSubset="media-type:boxart">
+		<visiblemix>false</visiblemix>
+	</variables>
    	<variables ifSubset="media-type:miximage">
 		<visiblemix>true</visiblemix>
 	</variables>
@@ -298,11 +301,15 @@ based on 1920 x 1200
 			<maxSize ifSubset="media-type:image">0.42 0.38</maxSize>
 			<maxSize ifSubset="media-type:miximage">0.386 0.31</maxSize>
 			<visible>true</visible>
+			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
 		<image name="md_thumbnail">
 			<pos>0.06 0.38</pos>
+			<pos ifSubset="media-type:boxart">0.25 0.28</pos>
 			<maxSize>0.14 0.16</maxSize>
+			<maxSize ifSubset="media-type:boxart">0.42 0.38</maxSize>
 			<visible>${visiblemix}</visible>
+			<visible ifSubset="media-type:boxart">true</visible>
 		</image>
 		<image name="game-metadata-background-shadow-extended" extra="true">
             <pos>0.25 0.66058187797</pos>
@@ -397,11 +404,15 @@ based on 1920 x 1200
 			<maxSize ifSubset="media-type:image">0.42 0.42</maxSize>
 			<maxSize ifSubset="media-type:miximage">0.386 0.35</maxSize>
 			<visible>true</visible>
+			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
 		<image name="md_thumbnail">
 			<pos>0.06 0.38</pos>
+			<pos ifSubset="media-type:boxart">0.255 0.28</pos>
 			<maxSize>0.14 0.16</maxSize>
+			<maxSize ifSubset="media-type:boxart">0.42 0.38</maxSize>
 			<visible>${visiblemix}</visible>
+			<visible ifSubset="media-type:boxart">true</visible>
 		</image>
 
 		<image name="game-metadata-background-shadow-base" extra="true">
@@ -470,11 +481,15 @@ based on 1920 x 1200
 			<maxSize ifSubset="media-type:image">0.42 0.42</maxSize>
 			<maxSize ifSubset="media-type:miximage">0.386 0.35</maxSize>
 			<visible>true</visible>
+			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
 		<image name="md_thumbnail">
 			<pos>0.04 0.58</pos>
+			<pos ifSubset="media-type:boxart">0.255 0.48</pos>
 			<maxSize>0.16 0.18</maxSize>
+			<maxSize ifSubset="media-type:boxart">0.42 0.42</maxSize>
 			<visible>${visiblemix}</visible>
+			<visible ifSubset="media-type:boxart">true</visible>
 		</image>
 	</view>
 	
@@ -498,11 +513,15 @@ based on 1920 x 1200
 			<maxSize ifSubset="media-type:image">0.42 0.38</maxSize>
 			<maxSize ifSubset="media-type:miximage">0.386 0.31</maxSize>
 			<visible>true</visible>
+			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
 		<image name="md_thumbnail">
 			<pos>0.06 0.38</pos>
+			<pos ifSubset="media-type:boxart">0.25 0.28</pos>
 			<maxSize>0.14 0.16</maxSize>
+			<maxSize ifSubset="media-type:boxart">0.42 0.38</maxSize>
 			<visible>${visiblemix}</visible>
+			<visible ifSubset="media-type:boxart">true</visible>
 		</image>
 		<image name="game-metadata-background-shadow-extended" extra="true">
             <pos>0.25 0.66058187797</pos>
@@ -600,11 +619,15 @@ based on 1920 x 1200
 			<maxSize ifSubset="media-type:image">0.42 0.42</maxSize>
 			<maxSize ifSubset="media-type:miximage">0.386 0.35</maxSize>
 			<visible>true</visible>
+			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
 		<image name="md_thumbnail">
 			<pos>0.06 0.38</pos>
+			<pos ifSubset="media-type:boxart">0.255 0.28</pos>
 			<maxSize>0.14 0.16</maxSize>
+			<maxSize ifSubset="media-type:boxart">0.42 0.42</maxSize>
 			<visible>${visiblemix}</visible>
+			<visible ifSubset="media-type:boxart">true</visible>
 		</image>
 
 		<image name="game-metadata-background-shadow-base" extra="true">
@@ -682,11 +705,15 @@ based on 1920 x 1200
 			<maxSize ifSubset="media-type:image">0.42 0.42</maxSize>
 			<maxSize ifSubset="media-type:miximage">0.386 0.35</maxSize>
 			<visible>true</visible>
+			<visible ifSubset="media-type:boxart">false</visible>
 		</image>
 		<image name="md_thumbnail">
 			<pos>0.04 0.58</pos>
+			<pos ifSubset="media-type:boxart">0.255 0.48</pos>
 			<maxSize>0.16 0.18</maxSize>
+			<maxSize ifSubset="media-type:boxart">0.42 0.42</maxSize>
 			<visible>${visiblemix}</visible>
+			<visible ifSubset="media-type:boxart">true</visible>
 		</image>
 	</customView>
 
