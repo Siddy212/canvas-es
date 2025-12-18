@@ -391,14 +391,10 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<color>${systemInfoColor}</color>
 			<visible>true</visible>
 			<opacity>0.8</opacity>
-<<<<<<< Updated upstream
-		</image>	
-=======
 		</image>
 		<text name="gamecarouselLogoText">
             <color>${helpTextColor}</color>
         </text>
->>>>>>> Stashed changes
 	</view>
 	<!-- Gamelist: Full Metadata Call-->
 	<!-- ~~~~~~~~~~~~~ -->
