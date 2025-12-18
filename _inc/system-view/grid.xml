@@ -2,8 +2,8 @@
 
 <theme defaultTransition="instant">
 	<formatVersion>7</formatVersion>
-	
-	
+
+
 	<!-- System View: Grid-->
 	<!-- ~~~~~~~~~~~ -->
 	<view name="system">
@@ -13,6 +13,7 @@
 			<size>0.975 0.9</size>
 			<autoLayout ifSubset="sysgridsize:automatic">3 2</autoLayout>
 			<autoLayout ifSubset="sysgridsize:automatic,aspect-ratio:16-9|16-9-auto|16-10|16-10-auto">4 2</autoLayout>
+			<autoLayout ifSubset="sysgridsize:automatic,aspect-ratio:3-2|3-2-auto">4 2</autoLayout>
 			<autoLayout ifSubset="sysgridsize:automatic,aspect-ratio:1-1|1-1-auto">3 3</autoLayout>
 			<autoLayout ifSubset="sysgridsize:3x1">3 1</autoLayout>
 			<autoLayout ifSubset="sysgridsize:3x2">3 2</autoLayout>
@@ -34,7 +35,7 @@
 
     <!-- System View: Grid (Art)-->
 	<!-- ~~~~~~~~~~~ -->
-	
+
         <container ifSubset="icon-scheme:art|custom-art">
           <!--<size>1 0.8</size>-->
 		      <padding>0 0 0 0</padding>
@@ -70,7 +71,7 @@
               <pos>0.5 0.77</pos>
               <origin>0.5 1</origin>
               <maxSize>0.84 0.74</maxSize>
-			        <roundCorners>${CornersSmall}</roundCorners>			  
+			        <roundCorners>${CornersSmall}</roundCorners>
             <zIndex>2</zIndex>
             </image>
           <image name="systemBack" extra="true">
@@ -91,7 +92,7 @@
               <animation property="opacity" to=".90" duration="250" mode="easeOut"/>
             </storyboard>
           </image>
-		  
+
 
             <image name="theLogoImage" pos="0.5 0.755" origin="0.5 0" maxSize="0.6 0.18" linearSmooth="true">
               <path>${themePath}/_inc/systems/logos/{system:theme}.svg</path>
@@ -229,5 +230,5 @@
 		</text>
 	</view>
 
- 
+
 </theme>
