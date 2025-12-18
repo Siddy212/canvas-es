@@ -397,6 +397,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 		</image>
 		<text name="gamecarouselLogoText">
             <color>${helpTextColor}</color>
+			<fontSize>${metaDatafontSize}</fontSize>
         </text>
 	</view>
 	<!-- Gamelist: Full Metadata Call-->
