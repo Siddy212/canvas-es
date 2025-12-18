@@ -76,6 +76,46 @@
       <itemsize>0.4 0.5</itemsize>
    </variables>
 
+   <variables ifSubset="aspect-ratio:3-2|3-2-auto,font-size:small">
+      <gridItemSize>0.1700 0.2833</gridItemSize>
+      <gridItemPos>0.5525</gridItemPos>
+      <gridHeight>0.85</gridHeight>
+      <itemcount>3</itemcount>
+      <itemsize>0.34 0.42</itemsize>
+      <systemDescriptionFontSize>0.030</systemDescriptionFontSize>
+      <helpFontSize>0.022</helpFontSize>
+      <helpFontSizeSmall>0.017</helpFontSizeSmall>
+      <helpPos>0.04</helpPos>
+      <helpPosSmall>0.04</helpPosSmall>
+      <gamescountpos>0.95</gamescountpos>
+   </variables>
+   <variables ifSubset="aspect-ratio:3-2|3-2-auto,font-size:medium">
+      <gridItemSize>0.2125 0.4250</gridItemSize>
+      <gridItemPos>0.555</gridItemPos>
+      <gridHeight>0.85</gridHeight>
+      <itemcount>3</itemcount>
+      <itemsize>0.34 0.42</itemsize>
+      <systemDescriptionFontSize>0.035</systemDescriptionFontSize>
+      <helpFontSize>0.024</helpFontSize>
+      <helpFontSizeSmall>0.018</helpFontSizeSmall>
+      <helpPos>0.04</helpPos>
+      <helpPosSmall>0.035</helpPosSmall>
+      <gamescountpos>0.95</gamescountpos>
+   </variables>
+   <variables ifSubset="aspect-ratio:3-2|3-2-auto,font-size:x-large|large" >
+      <gridItemSize>0.2125 0.4250</gridItemSize>
+      <gridItemPos>0.555</gridItemPos>
+      <gridHeight>0.85</gridHeight>
+      <itemcount>2.5</itemcount>
+      <itemsize>0.38 0.47</itemsize>
+      <systemDescriptionFontSize>0.038</systemDescriptionFontSize>
+      <helpFontSize>0.026</helpFontSize>
+      <helpFontSizeSmall>0.018</helpFontSizeSmall>
+      <helpPos>0.04</helpPos>
+      <helpPosSmall>0.035</helpPosSmall>
+      <gamescountpos>0.95</gamescountpos>
+   </variables>
+
 
    <variables ifSubset="aspect-ratio:1-1|1-1-auto,font-size:small">
       <gridItemSize>0.2267 0.2833</gridItemSize>

@@ -8,13 +8,13 @@ Licnese: Creative Commons CC-BY-NC-SA
 
 <theme defaultTransition="instant">
 	<formatVersion>7</formatVersion>
-	
+
 	<!-- Includes -->
 	<!-- ~~~~~~~~ -->
 	<include>./fonts.xml</include>
 	<include>./file_paths.xml</include>
 	<include>./_inc/systems/metadata/${system.theme}.xml</include>
-	
+
 	<!--
    ///
    Aspect Ratios
@@ -26,9 +26,11 @@ Licnese: Creative Commons CC-BY-NC-SA
 		<include if="{screen.ratio} == '16/9'" name="16-9-auto" displayName="Automatic" />
 		<include if="{screen.ratio} == '16/10'" name="16-10-auto" displayName="Automatic" />
 		<include if="{screen.ratio} == '4/3'" name="4-3-auto" displayName="Automatic" />
+		<include if="{screen.ratio} == '3/2'" name="3-2-auto" displayName="Automatic" />
 		<include name="16-9" displayName="16:9" />
 		<include name="16-10" displayName="16:10" />
 		<include name="4-3" displayName="4:3" />
+		<include name="3-2" displayName="3:2" />
 		<include name="1-1" displayName="1:1" />
 	</subset>
 
@@ -69,7 +71,7 @@ Licnese: Creative Commons CC-BY-NC-SA
    Subset: System Grid Sizes
    ///
    -->
-		
+
 	<subset name="sysgridsize" ifSubset="system-view:grid" displayName="System Grid Size">
 		<include name="automatic" displayName="Automatic"/>
 		<include name="3x1" displayName="3X1"/>
@@ -82,7 +84,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 		<include name="5x3" displayName="5X3"/>
 		<include name="5x4" displayName="5X4"/>
 	</subset>
-		
+
    <!--
    ///
    Subset: Icon Scheme
@@ -126,7 +128,7 @@ Licnese: Creative Commons CC-BY-NC-SA
       <include name="small" displayName="Small" />
       <include name="large" displayName="Large" />
    </subset>
-  
+
    <!--
    ///
    Subset: Game Metadata
@@ -163,18 +165,19 @@ Licnese: Creative Commons CC-BY-NC-SA
 	<!--
    ///
    Aspect Ratios Variables
-   /// 
+   ///
    -->
 
    <include ifSubset="aspect-ratio:16-9|16-9-auto">./_inc/variables/aspect-ratio-16-9-variables.xml</include>
    <include ifSubset="aspect-ratio:16-10|16-10-auto">./_inc/variables/aspect-ratio-16-10-variables.xml</include>
    <include ifSubset="aspect-ratio:4-3|4-3-auto">./_inc/variables/aspect-ratio-4-3-variables.xml</include>
+   <include ifSubset="aspect-ratio:3-2|3-2-auto">./_inc/variables/aspect-ratio-3-2-variables.xml</include>
    <include ifSubset="aspect-ratio:1-1|1-1-auto">./_inc/variables/aspect-ratio-1-1-variables.xml</include>
- 
+
 
 	<!-- SystemView Include -->
 	<!-- ~~~~~~~~~~~~~ -->
-		
+
 	<include ifSubset="system-view:grid">./_inc/system-view/grid.xml</include>
 	<include ifSubset="system-view:carousel">./_inc/system-view/carousel.xml</include>
 
@@ -227,7 +230,7 @@ Licnese: Creative Commons CC-BY-NC-SA
          </clock>
       </stackpanel>
    </view>
-	
+
 
    <!--
    ///
@@ -235,7 +238,7 @@ Licnese: Creative Commons CC-BY-NC-SA
    ///
    -->
    <view name="menu">
-   
+
       <menuText name="menutitle">
          <fontPath>${fontBold}</fontPath>
          <fontSize>0.03</fontSize>
@@ -391,7 +394,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<color>${systemInfoColor}</color>
 			<visible>true</visible>
 			<opacity>0.8</opacity>
-		</image>	
+		</image>
 	</view>
 	<!-- Gamelist: Full Metadata Call-->
 	<!-- ~~~~~~~~~~~~~ -->
@@ -417,7 +420,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<origin ifSubset="media-type:miximage">0 0.5</origin>
 			<origin ifSubset="media-type:boxart">0.5 0.5</origin>
 			<zIndex>6</zIndex>
-		</image>	
+		</image>
 		<video name="md_video">
 			<origin>0.5 0.5</origin>
 			<delay>3</delay>
@@ -512,7 +515,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<linearSmooth>true</linearSmooth>
 		</image>
 	</view>
-	
+
 
 	<!-- Medium/Large Metadata Backgrounds -->
 	<!-- ~~~~~~~~~~~~~ -->
@@ -548,7 +551,7 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<visible>false</visible>
 		</text>
 	</view>
-	
+
 
 	<!-- Game Grid View -->
 	<!-- ~~~~~~~~~~~ -->
@@ -579,35 +582,35 @@ Licnese: Creative Commons CC-BY-NC-SA
 		<image name="playtime-logo">
 			<visible>false</visible>
 		</image>
-	</view>	
+	</view>
 
 
 	<!-- Carousel Detailed View -->
 	<!-- ~~~~~~~~~~~ -->
 	<view name="gamecarousel">
 		<gamecarousel name="gamecarousel">
-			<zIndex>3</zIndex>	      
+			<zIndex>3</zIndex>
 			<type>vertical_wheel</type>
 			<size>1 1</size>
 			<logoScale>1.2</logoScale>
 			<color>00000000</color>
 			<logoRotation>-7</logoRotation>
 			<logoRotationOrigin>5 0.5</logoRotationOrigin>
-			<logoAlignment>center</logoAlignment>   
+			<logoAlignment>center</logoAlignment>
 			<imageSource>marquee</imageSource>
             <lineSpacing>1.2</lineSpacing>
-		</gamecarousel> 
+		</gamecarousel>
 	</view>
    		<!-- Detailed Game Grid View -->
 	<!-- ~~~~~~~~~~~ -->
-	
+
 	<subset name="autogriddetailedsize" displayName="Automatic Grid-Detailed Size" appliesTo="grid-detailed" >
 		<include name="automatic" displayName="Automatic"/>
 		<include name="large" displayName="2 Columns"/>
 		<include name="medium" displayName="3 Columns"/>
 		<include name="small" displayName="4 Columns"/>
 	</subset>
-	
+
 	<customView name="grid-detailed" inherits="grid" displayName="Grid (Detailed)">
 		<imagegrid name="gamegrid">
       		<pos>0.5 0</pos>
@@ -626,17 +629,18 @@ Licnese: Creative Commons CC-BY-NC-SA
 			<autoLayout ifSubset="autogriddetailedsize:small">4 0</autoLayout>
 		</imagegrid>
 	</customView>
-	
+
 	<!--
    ///
    Aspect Ratios
-   /// 
+   ///
    -->
 
    <include ifSubset="aspect-ratio:16-9|16-9-auto">./aspect-ratio-16-9.xml</include>
    <include ifSubset="aspect-ratio:16-10|16-10-auto">./aspect-ratio-16-10.xml</include>
    <include ifSubset="aspect-ratio:4-3|4-3-auto">./aspect-ratio-4-3.xml</include>
+   <include ifSubset="aspect-ratio:3-2|3-2-auto">./aspect-ratio-3-2.xml</include>
    <include ifSubset="aspect-ratio:1-1|1-1-auto">./aspect-ratio-1-1.xml</include>
- 
+
 
 </theme>
