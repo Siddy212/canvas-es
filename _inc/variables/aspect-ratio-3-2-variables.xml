@@ -1,0 +1,97 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+<!--
+3:2 aspect ratio variables
+based on 720x480 (RG34XX and similar handhelds)
+-->
+
+	<!-- Variables -->
+	<!-- ~~~~~~~~~~~ -->
+
+	<variables ifSubset="font-size:small">
+            <systemDescriptionFontSize>0.017</systemDescriptionFontSize>
+            <systemYearFontSize>0.022</systemYearFontSize>
+            <systemInfoFontSize>0.04</systemInfoFontSize>
+            <indicatorFontSize>0.035</indicatorFontSize>
+			<itemcount>3.5</itemcount>
+            <itemsize>0.293 0.36</itemsize>
+			<logospacing>1.2</logospacing>
+            <helpFontSize>0.022</helpFontSize>
+            <helpFontSizeSmall>0.015</helpFontSizeSmall>
+            <helpPos>0.97</helpPos>
+            <helpPosSmall>0.03</helpPosSmall>
+            <gamelistBackgroundImageCalculated>./_inc/images/gamelist/${gamelistBackgroundImage}-small.webp</gamelistBackgroundImageCalculated>
+            <gamelistFontSize>0.024</gamelistFontSize>
+            <gamelistSelectorHeight>0.041</gamelistSelectorHeight>
+            <gamelistPos>0.557291666666667 0.117666666666667</gamelistPos>
+            <gamelistSize>0.38375 0.786</gamelistSize>
+            <itemSizeCarousel>0.22 0.27</itemSizeCarousel>
+            <metaDatafontSize>0.021</metaDatafontSize>
+            <descriptionPos>0.69</descriptionPos>
+            <descriptionHeight>0.135</descriptionHeight>
+            <descriptionFontSize>0.024</descriptionFontSize>
+            <descriptionLineSpacing>1.35</descriptionLineSpacing>
+            <linecount>16</linecount>
+   </variables>
+   <variables ifSubset="font-size:medium">
+            <systemDescriptionFontSize>0.022</systemDescriptionFontSize>
+            <systemYearFontSize>0.027</systemYearFontSize>
+            <systemInfoFontSize>0.04</systemInfoFontSize>
+            <indicatorFontSize>0.035</indicatorFontSize>
+			<itemcount>3</itemcount>
+            <itemsize>0.34 0.46</itemsize>
+			<logospacing>0.2</logospacing>
+            <helpFontSize>0.024</helpFontSize>
+            <helpFontSizeSmall>0.015</helpFontSizeSmall>
+            <helpPos>0.97</helpPos>
+            <helpPosSmall>0.03</helpPosSmall>
+            <gamelistBackgroundImageCalculated>./_inc/images/gamelist/${gamelistBackgroundImage}-medium.webp</gamelistBackgroundImageCalculated>
+            <gamelistFontSize>0.030333333333333</gamelistFontSize>
+            <gamelistSelectorHeight>0.051388888888889</gamelistSelectorHeight>
+            <gamelistPos>0.559591666666667 0.133666666666667</gamelistPos>
+            <gamelistSize>0.38275 0.7515</gamelistSize>
+            <itemSizeCarousel>0.22 0.27</itemSizeCarousel>
+            <metaDatafontSize>0.029</metaDatafontSize>
+            <descriptionPos>0.656</descriptionPos>
+            <descriptionHeight>0.155</descriptionHeight>
+            <descriptionFontSize>0.029</descriptionFontSize>
+            <descriptionLineSpacing>1.5</descriptionLineSpacing>
+            <linecount>12</linecount>
+   </variables>
+   <variables ifSubset="font-size:large">
+            <systemDescriptionFontSize>0.022</systemDescriptionFontSize>
+            <systemYearFontSize>0.040</systemYearFontSize>
+            <systemInfoFontSize>0.04</systemInfoFontSize>
+            <indicatorFontSize>0.035</indicatorFontSize>
+            <itemcount>1.5</itemcount>
+            <itemsize>0.44 0.54</itemsize>
+			<logospacing>-0.75</logospacing>
+            <helpFontSize>0.024</helpFontSize>
+            <helpFontSizeSmall>0.015</helpFontSizeSmall>
+            <helpPos>0.97</helpPos>
+            <helpPosSmall>0.03</helpPosSmall>
+            <gamelistBackgroundImageCalculated>./_inc/images/gamelist/${gamelistBackgroundImage}-large.webp</gamelistBackgroundImageCalculated>
+            <gamelistFontSize>0.038</gamelistFontSize>
+            <gamelistSelectorHeight>0.066</gamelistSelectorHeight>
+            <gamelistPos>0.559591666666667 0.129166666666667</gamelistPos>
+            <gamelistSize>0.38275 0.763</gamelistSize>
+            <itemSizeCarousel>0.22 0.27</itemSizeCarousel>
+            <metaDatafontSize>0.034</metaDatafontSize>
+            <descriptionPos>0.656</descriptionPos>
+            <descriptionHeight>0.155</descriptionHeight>
+            <descriptionFontSize>0.034</descriptionFontSize>
+            <descriptionLineSpacing>1.6</descriptionLineSpacing>
+            <linecount>10</linecount>
+   </variables>
+
+	<variables>
+		<CornersGrid>7</CornersGrid>
+		<CornersSmall>14</CornersSmall>
+		<CornersMedium>25</CornersMedium>
+		<CornersLarge>45</CornersLarge>
+	</variables>
+
+
+
+</theme>
